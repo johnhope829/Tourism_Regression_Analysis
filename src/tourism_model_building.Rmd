@@ -1,0 +1,10 @@
+# Tourism Dataset Regression Model Building
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+
+```{r, message=FALSE, warning=FALSE}
+tourism_df <- read.csv("../data/tourism_metrics.csv")
+```
