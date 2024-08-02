@@ -147,6 +147,27 @@ correlation_matrix <- round(cor(tourism_df[,-c(1,2,62)],  use = "pairwise.comple
 correlation_matrix
 ```
 
+# Research Question 2
+What is the influence of overnight, day visitors, cruise ship, etc on income? 
+
+```{r}
+income_df <- read.csv("../data/processed/full_tourism_dataset.csv", na.strings=c("","NA"))
+income_df
+```
+```{r}
+income_df <- select(income_df, world_region, year, total_inbound_tourism_expenditure, total_overnights, hotel_guests, hotel_overnights, overnight_visitors, same_day_visitors, same_day_cruise_passengers, visitors_personal, visitors_business_professional, total_arrivals_transport, arrivals_by_air, arrivals_by_water, arrivals_by_land, total_domestic_trip_visitors, domestic_trip_overnight_visitors, domestic_trip_same_day_visitors, total_guests_domestic, total_overnights_domestic, hotel_guests_domestic, hotel_overnights_domestic, gdp_per_capita, gdp, exchange_rate, cpi, hdi_code, hdi)
+income_df
+```
+```{r}
+library(ggplot2)
+ggplot(income_df, aes(x=hotel_guests, y=total_inbound_tourism_expenditure, color = world_region)) + geom_point()
+```
+```{r}
+ggplot(income_df, aes(x=visitors_personal, y=total_inbound_tourism_expenditure, color = world_region)) + geom_point()
+```
+```{r}
+ggplot(income_df, aes(x=visitors_business_professional, y=total_inbound_tourism_expenditure, color = world_region)) + geom_point()
+```
 # Appendix
 
 ## Hotel Guests Over Time
@@ -174,3 +195,14 @@ ggplot(tourism_df, aes(x = year, y = hotel_guests*1000)) +
   
   theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
 ```
+
+
+
+
+
+
+
+
+
+
+
