@@ -1,0 +1,6403 @@
+country,hdi_code,year,hdi
+Afghanistan,Low,1990,0.284
+Albania,High,1990,0.649
+Algeria,High,1990,0.593
+Andorra,Very High,1990,
+Angola,Medium,1990,
+Antigua and Barbuda,Very High,1990,
+Argentina,Very High,1990,0.724
+Armenia,High,1990,0.658
+Australia,Very High,1990,0.864
+Austria,Very High,1990,0.823
+Azerbaijan,High,1990,
+Bahamas,Very High,1990,0.76
+Bahrain,Very High,1990,0.733
+Bangladesh,Medium,1990,0.399
+Barbados,Very High,1990,0.728
+Belarus,Very High,1990,
+Belgium,Very High,1990,0.814
+Belize,High,1990,0.609
+Benin,Low,1990,0.35
+Bhutan,Medium,1990,
+Bolivia (Plurinational State of),Medium,1990,0.546
+Bosnia and Herzegovina,High,1990,
+Botswana,High,1990,0.587
+Brazil,High,1990,0.62
+Brunei Darussalam,Very High,1990,0.779
+Bulgaria,High,1990,0.698
+Burkina Faso,Low,1990,
+Burundi,Low,1990,0.285
+Cabo Verde,Medium,1990,
+Cambodia,Medium,1990,0.379
+Cameroon,Medium,1990,0.44
+Canada,Very High,1990,0.861
+Central African Republic,Low,1990,0.333
+Chad,Low,1990,
+Chile,Very High,1990,0.705
+China,High,1990,0.482
+Colombia,High,1990,0.614
+Comoros,Medium,1990,
+Congo,Medium,1990,0.541
+Congo (Democratic Republic of the),Low,1990,0.377
+Costa Rica,Very High,1990,0.659
+Côte d'Ivoire,Low,1990,0.425
+Croatia,Very High,1990,
+Cuba,High,1990,0.684
+Cyprus,Very High,1990,0.733
+Czechia,Very High,1990,0.748
+Denmark,Very High,1990,0.839
+Djibouti,Low,1990,
+Dominica,High,1990,
+Dominican Republic,High,1990,0.579
+Ecuador,High,1990,0.645
+Egypt,High,1990,0.567
+El Salvador,Medium,1990,0.519
+Equatorial Guinea,Medium,1990,
+Eritrea,Low,1990,
+Estonia,Very High,1990,0.741
+Eswatini (Kingdom of),Medium,1990,0.546
+Ethiopia,Low,1990,
+Fiji,High,1990,0.63
+Finland,Very High,1990,0.811
+France,Very High,1990,0.79
+Gabon,Medium,1990,0.599
+Gambia,Low,1990,0.323
+Georgia,Very High,1990,
+Germany,Very High,1990,0.828
+Ghana,Medium,1990,0.445
+Greece,Very High,1990,0.762
+Grenada,High,1990,
+Guatemala,Medium,1990,0.49
+Guinea,Low,1990,0.27
+Guinea-Bissau,Low,1990,
+Guyana,High,1990,0.496
+Haiti,Medium,1990,0.441
+Honduras,Medium,1990,0.513
+"Hong Kong, China (SAR)",Very High,1990,0.739
+Hungary,Very High,1990,0.721
+Iceland,Very High,1990,0.834
+India,Medium,1990,0.434
+Indonesia,High,1990,0.526
+Iran (Islamic Republic of),High,1990,0.613
+Iraq,Medium,1990,0.497
+Ireland,Very High,1990,0.743
+Israel,Very High,1990,0.781
+Italy,Very High,1990,0.78
+Jamaica,High,1990,0.664
+Japan,Very High,1990,0.846
+Jordan,High,1990,0.622
+Kazakhstan,Very High,1990,0.672
+Kenya,Medium,1990,0.48
+Kiribati,Medium,1990,
+Korea (Democratic People's Rep. of),,1990,
+Korea (Republic of),Very High,1990,0.731
+Kuwait,Very High,1990,0.698
+Kyrgyzstan,High,1990,0.637
+Lao People's Democratic Republic,Medium,1990,0.408
+Latvia,Very High,1990,0.732
+Lebanon,High,1990,
+Lesotho,Low,1990,0.479
+Liberia,Low,1990,
+Libya,High,1990,0.724
+Liechtenstein,Very High,1990,
+Lithuania,Very High,1990,0.74
+Luxembourg,Very High,1990,0.793
+Madagascar,Low,1990,
+Malawi,Low,1990,0.299
+Malaysia,Very High,1990,0.649
+Maldives,High,1990,
+Mali,Low,1990,0.236
+Malta,Very High,1990,0.726
+Marshall Islands,High,1990,
+Mauritania,Low,1990,0.397
+Mauritius,High,1990,0.62
+Mexico,High,1990,0.666
+Micronesia (Federated States of),Medium,1990,
+Moldova (Republic of),High,1990,0.688
+Monaco,,1990,
+Mongolia,High,1990,0.579
+Montenegro,Very High,1990,
+Morocco,Medium,1990,0.448
+Mozambique,Low,1990,0.239
+Myanmar,Medium,1990,0.333
+Namibia,Medium,1990,0.595
+Nauru,Medium,1990,
+Nepal,Medium,1990,0.395
+Netherlands,Very High,1990,0.847
+New Zealand,Very High,1990,0.812
+Nicaragua,Medium,1990,0.487
+Niger,Low,1990,0.212
+Nigeria,Low,1990,
+North Macedonia,High,1990,
+Norway,Very High,1990,0.845
+Oman,Very High,1990,
+Pakistan,Low,1990,0.394
+Palau,High,1990,
+"Palestine, State of",High,1990,
+Panama,Very High,1990,0.672
+Papua New Guinea,Medium,1990,0.394
+Paraguay,High,1990,0.604
+Peru,High,1990,0.62
+Philippines,High,1990,0.598
+Poland,Very High,1990,0.715
+Portugal,Very High,1990,0.703
+Qatar,Very High,1990,0.764
+Romania,Very High,1990,0.709
+Russian Federation,Very High,1990,0.741
+Rwanda,Low,1990,
+Saint Kitts and Nevis,Very High,1990,
+Saint Lucia,High,1990,0.666
+Saint Vincent and the Grenadines,High,1990,
+Samoa,High,1990,
+San Marino,Very High,1990,0.841
+Sao Tome and Principe,Medium,1990,0.48
+Saudi Arabia,Very High,1990,0.699
+Senegal,Low,1990,0.371
+Serbia,Very High,1990,
+Seychelles,Very High,1990,
+Sierra Leone,Low,1990,0.314
+Singapore,Very High,1990,0.78
+Slovakia,Very High,1990,
+Slovenia,Very High,1990,
+Solomon Islands,Medium,1990,
+Somalia,Low,1990,
+South Africa,High,1990,0.635
+South Sudan,Low,1990,
+Spain,Very High,1990,0.762
+Sri Lanka,High,1990,0.641
+Sudan,Low,1990,0.322
+Suriname,Medium,1990,
+Sweden,Very High,1990,0.808
+Switzerland,Very High,1990,0.85
+Syrian Arab Republic,Medium,1990,0.563
+Tajikistan,Medium,1990,0.616
+Tanzania (United Republic of),Low,1990,0.366
+Thailand,Very High,1990,0.581
+Timor-Leste,Medium,1990,
+Togo,Low,1990,0.399
+Tonga,High,1990,0.64
+Trinidad and Tobago,Very High,1990,0.656
+Tunisia,High,1990,0.566
+Turkmenistan,High,1990,
+Tuvalu,Medium,1990,0.564
+Uganda,Medium,1990,0.329
+Ukraine,High,1990,0.731
+United Arab Emirates,Very High,1990,0.717
+United Kingdom,Very High,1990,0.804
+United States,Very High,1990,0.875
+Uruguay,Very High,1990,0.702
+Uzbekistan,High,1990,
+Vanuatu,Medium,1990,
+Venezuela (Bolivarian Republic of),Medium,1990,0.657
+Viet Nam,High,1990,0.492
+Yemen,Low,1990,0.357
+Zambia,Medium,1990,0.417
+Zimbabwe,Medium,1990,0.479
+Afghanistan,Low,1991,0.292
+Albania,High,1991,0.632
+Algeria,High,1991,0.596
+Andorra,Very High,1991,
+Angola,Medium,1991,
+Antigua and Barbuda,Very High,1991,
+Argentina,Very High,1991,0.731
+Armenia,High,1991,0.646
+Australia,Very High,1991,0.866
+Austria,Very High,1991,0.826
+Azerbaijan,High,1991,
+Bahamas,Very High,1991,0.757
+Bahrain,Very High,1991,0.727
+Bangladesh,Medium,1991,0.397
+Barbados,Very High,1991,0.729
+Belarus,Very High,1991,
+Belgium,Very High,1991,0.818
+Belize,High,1991,0.616
+Benin,Low,1991,0.355
+Bhutan,Medium,1991,
+Bolivia (Plurinational State of),Medium,1991,0.556
+Bosnia and Herzegovina,High,1991,
+Botswana,High,1991,0.588
+Brazil,High,1991,0.624
+Brunei Darussalam,Very High,1991,0.779
+Bulgaria,High,1991,0.698
+Burkina Faso,Low,1991,
+Burundi,Low,1991,0.287
+Cabo Verde,Medium,1991,
+Cambodia,Medium,1991,0.384
+Cameroon,Medium,1991,0.436
+Canada,Very High,1991,0.865
+Central African Republic,Low,1991,0.327
+Chad,Low,1991,
+Chile,Very High,1991,0.714
+China,High,1991,0.489
+Colombia,High,1991,0.622
+Comoros,Medium,1991,
+Congo,Medium,1991,0.538
+Congo (Democratic Republic of the),Low,1991,0.377
+Costa Rica,Very High,1991,0.662
+Côte d'Ivoire,Low,1991,0.426
+Croatia,Very High,1991,
+Cuba,High,1991,0.678
+Cyprus,Very High,1991,0.737
+Czechia,Very High,1991,0.746
+Denmark,Very High,1991,0.843
+Djibouti,Low,1991,
+Dominica,High,1991,
+Dominican Republic,High,1991,0.585
+Ecuador,High,1991,0.647
+Egypt,High,1991,0.574
+El Salvador,Medium,1991,0.528
+Equatorial Guinea,Medium,1991,
+Eritrea,Low,1991,
+Estonia,Very High,1991,0.736
+Eswatini (Kingdom of),Medium,1991,0.543
+Ethiopia,Low,1991,
+Fiji,High,1991,0.633
+Finland,Very High,1991,0.815
+France,Very High,1991,0.799
+Gabon,Medium,1991,0.604
+Gambia,Low,1991,0.331
+Georgia,Very High,1991,
+Germany,Very High,1991,0.835
+Ghana,Medium,1991,0.452
+Greece,Very High,1991,0.773
+Grenada,High,1991,
+Guatemala,Medium,1991,0.494
+Guinea,Low,1991,0.274
+Guinea-Bissau,Low,1991,
+Guyana,High,1991,0.493
+Haiti,Medium,1991,0.445
+Honduras,Medium,1991,0.514
+"Hong Kong, China (SAR)",Very High,1991,0.748
+Hungary,Very High,1991,0.715
+Iceland,Very High,1991,0.845
+India,Medium,1991,0.437
+Indonesia,High,1991,0.533
+Iran (Islamic Republic of),High,1991,0.631
+Iraq,Medium,1991,0.471
+Ireland,Very High,1991,0.749
+Israel,Very High,1991,0.786
+Italy,Very High,1991,0.785
+Jamaica,High,1991,0.664
+Japan,Very High,1991,0.85
+Jordan,High,1991,0.629
+Kazakhstan,Very High,1991,0.666
+Kenya,Medium,1991,0.48
+Kiribati,Medium,1991,
+Korea (Democratic People's Rep. of),,1991,
+Korea (Republic of),Very High,1991,0.742
+Kuwait,Very High,1991,0.687
+Kyrgyzstan,High,1991,0.631
+Lao People's Democratic Republic,Medium,1991,0.414
+Latvia,Very High,1991,0.73
+Lebanon,High,1991,
+Lesotho,Low,1991,0.478
+Liberia,Low,1991,
+Libya,High,1991,0.733
+Liechtenstein,Very High,1991,
+Lithuania,Very High,1991,0.735
+Luxembourg,Very High,1991,0.802
+Madagascar,Low,1991,
+Malawi,Low,1991,0.303
+Malaysia,Very High,1991,0.657
+Maldives,High,1991,
+Mali,Low,1991,0.244
+Malta,Very High,1991,0.73
+Marshall Islands,High,1991,
+Mauritania,Low,1991,0.401
+Mauritius,High,1991,0.627
+Mexico,High,1991,0.668
+Micronesia (Federated States of),Medium,1991,
+Moldova (Republic of),High,1991,0.677
+Monaco,,1991,
+Mongolia,High,1991,0.575
+Montenegro,Very High,1991,
+Morocco,Medium,1991,0.454
+Mozambique,Low,1991,0.242
+Myanmar,Medium,1991,0.344
+Namibia,Medium,1991,0.6
+Nauru,Medium,1991,
+Nepal,Medium,1991,0.403
+Netherlands,Very High,1991,0.852
+New Zealand,Very High,1991,0.815
+Nicaragua,Medium,1991,0.497
+Niger,Low,1991,0.214
+Nigeria,Low,1991,
+North Macedonia,High,1991,
+Norway,Very High,1991,0.853
+Oman,Very High,1991,
+Pakistan,Low,1991,0.399
+Palau,High,1991,
+"Palestine, State of",High,1991,
+Panama,Very High,1991,0.675
+Papua New Guinea,Medium,1991,0.402
+Paraguay,High,1991,0.609
+Peru,High,1991,0.624
+Philippines,High,1991,0.6
+Poland,Very High,1991,0.711
+Portugal,Very High,1991,0.714
+Qatar,Very High,1991,0.761
+Romania,Very High,1991,0.694
+Russian Federation,Very High,1991,0.738
+Rwanda,Low,1991,
+Saint Kitts and Nevis,Very High,1991,
+Saint Lucia,High,1991,0.668
+Saint Vincent and the Grenadines,High,1991,
+Samoa,High,1991,
+San Marino,Very High,1991,0.844
+Sao Tome and Principe,Medium,1991,0.48
+Saudi Arabia,Very High,1991,0.707
+Senegal,Low,1991,0.372
+Serbia,Very High,1991,
+Seychelles,Very High,1991,
+Sierra Leone,Low,1991,0.304
+Singapore,Very High,1991,0.788
+Slovakia,Very High,1991,
+Slovenia,Very High,1991,
+Solomon Islands,Medium,1991,
+Somalia,Low,1991,
+South Africa,High,1991,0.643
+South Sudan,Low,1991,
+Spain,Very High,1991,0.769
+Sri Lanka,High,1991,0.645
+Sudan,Low,1991,0.328
+Suriname,Medium,1991,
+Sweden,Very High,1991,0.811
+Switzerland,Very High,1991,0.852
+Syrian Arab Republic,Medium,1991,0.568
+Tajikistan,Medium,1991,0.61
+Tanzania (United Republic of),Low,1991,0.366
+Thailand,Very High,1991,0.591
+Timor-Leste,Medium,1991,
+Togo,Low,1991,0.403
+Tonga,High,1991,0.647
+Trinidad and Tobago,Very High,1991,0.661
+Tunisia,High,1991,0.572
+Turkmenistan,High,1991,
+Tuvalu,Medium,1991,0.567
+Uganda,Medium,1991,0.331
+Ukraine,High,1991,0.724
+United Arab Emirates,Very High,1991,0.729
+United Kingdom,Very High,1991,0.809
+United States,Very High,1991,0.875
+Uruguay,Very High,1991,0.706
+Uzbekistan,High,1991,
+Vanuatu,Medium,1991,
+Venezuela (Bolivarian Republic of),Medium,1991,0.668
+Viet Nam,High,1991,0.503
+Yemen,Low,1991,0.361
+Zambia,Medium,1991,0.411
+Zimbabwe,Medium,1991,0.481
+Afghanistan,Low,1992,0.299
+Albania,High,1992,0.616
+Algeria,High,1992,0.601
+Andorra,Very High,1992,
+Angola,Medium,1992,
+Antigua and Barbuda,Very High,1992,
+Argentina,Very High,1992,0.736
+Armenia,High,1992,0.611
+Australia,Very High,1992,0.868
+Austria,Very High,1992,0.832
+Azerbaijan,High,1992,
+Bahamas,Very High,1992,0.762
+Bahrain,Very High,1992,0.727
+Bangladesh,Medium,1992,0.416
+Barbados,Very High,1992,0.729
+Belarus,Very High,1992,
+Belgium,Very High,1992,0.835
+Belize,High,1992,0.624
+Benin,Low,1992,0.36
+Bhutan,Medium,1992,
+Bolivia (Plurinational State of),Medium,1992,0.563
+Bosnia and Herzegovina,High,1992,
+Botswana,High,1992,0.585
+Brazil,High,1992,0.627
+Brunei Darussalam,Very High,1992,0.78
+Bulgaria,High,1992,0.7
+Burkina Faso,Low,1992,
+Burundi,Low,1992,0.284
+Cabo Verde,Medium,1992,
+Cambodia,Medium,1992,0.388
+Cameroon,Medium,1992,0.433
+Canada,Very High,1992,0.869
+Central African Republic,Low,1992,0.312
+Chad,Low,1992,
+Chile,Very High,1992,0.722
+China,High,1992,0.501
+Colombia,High,1992,0.631
+Comoros,Medium,1992,
+Congo,Medium,1992,0.536
+Congo (Democratic Republic of the),Low,1992,0.375
+Costa Rica,Very High,1992,0.673
+Côte d'Ivoire,Low,1992,0.428
+Croatia,Very High,1992,
+Cuba,High,1992,0.671
+Cyprus,Very High,1992,0.746
+Czechia,Very High,1992,0.747
+Denmark,Very High,1992,0.845
+Djibouti,Low,1992,
+Dominica,High,1992,
+Dominican Republic,High,1992,0.595
+Ecuador,High,1992,0.652
+Egypt,High,1992,0.58
+El Salvador,Medium,1992,0.538
+Equatorial Guinea,Medium,1992,
+Eritrea,Low,1992,
+Estonia,Very High,1992,0.726
+Eswatini (Kingdom of),Medium,1992,0.537
+Ethiopia,Low,1992,
+Fiji,High,1992,0.639
+Finland,Very High,1992,0.821
+France,Very High,1992,0.806
+Gabon,Medium,1992,0.605
+Gambia,Low,1992,0.34
+Georgia,Very High,1992,
+Germany,Very High,1992,0.842
+Ghana,Medium,1992,0.457
+Greece,Very High,1992,0.774
+Grenada,High,1992,
+Guatemala,Medium,1992,0.497
+Guinea,Low,1992,0.281
+Guinea-Bissau,Low,1992,
+Guyana,High,1992,0.509
+Haiti,Medium,1992,0.447
+Honduras,Medium,1992,0.518
+"Hong Kong, China (SAR)",Very High,1992,0.758
+Hungary,Very High,1992,0.714
+Iceland,Very High,1992,0.852
+India,Medium,1992,0.442
+Indonesia,High,1992,0.541
+Iran (Islamic Republic of),High,1992,0.638
+Iraq,Medium,1992,0.502
+Ireland,Very High,1992,0.757
+Israel,Very High,1992,0.791
+Italy,Very High,1992,0.793
+Jamaica,High,1992,0.665
+Japan,Very High,1992,0.852
+Jordan,High,1992,0.643
+Kazakhstan,Very High,1992,0.663
+Kenya,Medium,1992,0.479
+Kiribati,Medium,1992,
+Korea (Democratic People's Rep. of),,1992,
+Korea (Republic of),Very High,1992,0.751
+Kuwait,Very High,1992,0.697
+Kyrgyzstan,High,1992,0.62
+Lao People's Democratic Republic,Medium,1992,0.42
+Latvia,Very High,1992,0.707
+Lebanon,High,1992,
+Lesotho,Low,1992,0.476
+Liberia,Low,1992,
+Libya,High,1992,0.735
+Liechtenstein,Very High,1992,
+Lithuania,Very High,1992,0.72
+Luxembourg,Very High,1992,0.806
+Madagascar,Low,1992,
+Malawi,Low,1992,0.31
+Malaysia,Very High,1992,0.665
+Maldives,High,1992,
+Mali,Low,1992,0.248
+Malta,Very High,1992,0.734
+Marshall Islands,High,1992,
+Mauritania,Low,1992,0.41
+Mauritius,High,1992,0.633
+Mexico,High,1992,0.67
+Micronesia (Federated States of),Medium,1992,
+Moldova (Republic of),High,1992,0.662
+Monaco,,1992,
+Mongolia,High,1992,0.564
+Montenegro,Very High,1992,
+Morocco,Medium,1992,0.459
+Mozambique,Low,1992,0.237
+Myanmar,Medium,1992,0.356
+Namibia,Medium,1992,0.603
+Nauru,Medium,1992,
+Nepal,Medium,1992,0.411
+Netherlands,Very High,1992,0.853
+New Zealand,Very High,1992,0.823
+Nicaragua,Medium,1992,0.502
+Niger,Low,1992,0.218
+Nigeria,Low,1992,
+North Macedonia,High,1992,
+Norway,Very High,1992,0.859
+Oman,Very High,1992,
+Pakistan,Low,1992,0.403
+Palau,High,1992,
+"Palestine, State of",High,1992,
+Panama,Very High,1992,0.681
+Papua New Guinea,Medium,1992,0.412
+Paraguay,High,1992,0.614
+Peru,High,1992,0.624
+Philippines,High,1992,0.604
+Poland,Very High,1992,0.716
+Portugal,Very High,1992,0.731
+Qatar,Very High,1992,0.766
+Romania,Very High,1992,0.683
+Russian Federation,Very High,1992,0.726
+Rwanda,Low,1992,
+Saint Kitts and Nevis,Very High,1992,
+Saint Lucia,High,1992,0.674
+Saint Vincent and the Grenadines,High,1992,
+Samoa,High,1992,
+San Marino,Very High,1992,0.845
+Sao Tome and Principe,Medium,1992,0.481
+Saudi Arabia,Very High,1992,0.713
+Senegal,Low,1992,0.373
+Serbia,Very High,1992,
+Seychelles,Very High,1992,
+Sierra Leone,Low,1992,0.305
+Singapore,Very High,1992,0.796
+Slovakia,Very High,1992,
+Slovenia,Very High,1992,
+Solomon Islands,Medium,1992,
+Somalia,Low,1992,
+South Africa,High,1992,0.648
+South Sudan,Low,1992,
+Spain,Very High,1992,0.776
+Sri Lanka,High,1992,0.654
+Sudan,Low,1992,0.318
+Suriname,Medium,1992,
+Sweden,Very High,1992,0.818
+Switzerland,Very High,1992,0.855
+Syrian Arab Republic,Medium,1992,0.573
+Tajikistan,Medium,1992,0.558
+Tanzania (United Republic of),Low,1992,0.365
+Thailand,Very High,1992,0.601
+Timor-Leste,Medium,1992,
+Togo,Low,1992,0.395
+Tonga,High,1992,0.651
+Trinidad and Tobago,Very High,1992,0.659
+Tunisia,High,1992,0.578
+Turkmenistan,High,1992,
+Tuvalu,Medium,1992,0.562
+Uganda,Medium,1992,0.325
+Ukraine,High,1992,0.715
+United Arab Emirates,Very High,1992,0.734
+United Kingdom,Very High,1992,0.815
+United States,Very High,1992,0.88
+Uruguay,Very High,1992,0.709
+Uzbekistan,High,1992,
+Vanuatu,Medium,1992,
+Venezuela (Bolivarian Republic of),Medium,1992,0.675
+Viet Nam,High,1992,0.514
+Yemen,Low,1992,0.368
+Zambia,Medium,1992,0.408
+Zimbabwe,Medium,1992,0.465
+Afghanistan,Low,1993,0.307
+Albania,High,1993,0.618
+Algeria,High,1993,0.602
+Andorra,Very High,1993,
+Angola,Medium,1993,
+Antigua and Barbuda,Very High,1993,
+Argentina,Very High,1993,0.74
+Armenia,High,1993,0.613
+Australia,Very High,1993,0.873
+Austria,Very High,1993,0.836
+Azerbaijan,High,1993,
+Bahamas,Very High,1993,0.762
+Bahrain,Very High,1993,0.732
+Bangladesh,Medium,1993,0.423
+Barbados,Very High,1993,0.733
+Belarus,Very High,1993,
+Belgium,Very High,1993,0.849
+Belize,High,1993,0.63
+Benin,Low,1993,0.367
+Bhutan,Medium,1993,
+Bolivia (Plurinational State of),Medium,1993,0.573
+Bosnia and Herzegovina,High,1993,
+Botswana,High,1993,0.586
+Brazil,High,1993,0.633
+Brunei Darussalam,Very High,1993,0.78
+Bulgaria,High,1993,0.702
+Burkina Faso,Low,1993,
+Burundi,Low,1993,0.257
+Cabo Verde,Medium,1993,
+Cambodia,Medium,1993,0.39
+Cameroon,Medium,1993,0.426
+Canada,Very High,1993,0.867
+Central African Republic,Low,1993,0.311
+Chad,Low,1993,
+Chile,Very High,1993,0.716
+China,High,1993,0.512
+Colombia,High,1993,0.637
+Comoros,Medium,1993,
+Congo,Medium,1993,0.53
+Congo (Democratic Republic of the),Low,1993,0.372
+Costa Rica,Very High,1993,0.681
+Côte d'Ivoire,Low,1993,0.431
+Croatia,Very High,1993,
+Cuba,High,1993,0.662
+Cyprus,Very High,1993,0.752
+Czechia,Very High,1993,0.755
+Denmark,Very High,1993,0.848
+Djibouti,Low,1993,
+Dominica,High,1993,
+Dominican Republic,High,1993,0.602
+Ecuador,High,1993,0.656
+Egypt,High,1993,0.587
+El Salvador,Medium,1993,0.546
+Equatorial Guinea,Medium,1993,
+Eritrea,Low,1993,
+Estonia,Very High,1993,0.718
+Eswatini (Kingdom of),Medium,1993,0.529
+Ethiopia,Low,1993,
+Fiji,High,1993,0.643
+Finland,Very High,1993,0.826
+France,Very High,1993,0.809
+Gabon,Medium,1993,0.609
+Gambia,Low,1993,0.348
+Georgia,Very High,1993,
+Germany,Very High,1993,0.852
+Ghana,Medium,1993,0.463
+Greece,Very High,1993,0.776
+Grenada,High,1993,
+Guatemala,Medium,1993,0.502
+Guinea,Low,1993,0.288
+Guinea-Bissau,Low,1993,
+Guyana,High,1993,0.524
+Haiti,Medium,1993,0.449
+Honduras,Medium,1993,0.523
+"Hong Kong, China (SAR)",Very High,1993,0.77
+Hungary,Very High,1993,0.721
+Iceland,Very High,1993,0.853
+India,Medium,1993,0.446
+Indonesia,High,1993,0.549
+Iran (Islamic Republic of),High,1993,0.644
+Iraq,Medium,1993,0.524
+Ireland,Very High,1993,0.767
+Israel,Very High,1993,0.797
+Italy,Very High,1993,0.799
+Jamaica,High,1993,0.665
+Japan,Very High,1993,0.858
+Jordan,High,1993,0.648
+Kazakhstan,Very High,1993,0.659
+Kenya,Medium,1993,0.477
+Kiribati,Medium,1993,
+Korea (Democratic People's Rep. of),,1993,
+Korea (Republic of),Very High,1993,0.761
+Kuwait,Very High,1993,0.703
+Kyrgyzstan,High,1993,0.607
+Lao People's Democratic Republic,Medium,1993,0.426
+Latvia,Very High,1993,0.691
+Lebanon,High,1993,
+Lesotho,Low,1993,0.472
+Liberia,Low,1993,
+Libya,High,1993,0.735
+Liechtenstein,Very High,1993,
+Lithuania,Very High,1993,0.702
+Luxembourg,Very High,1993,0.815
+Madagascar,Low,1993,
+Malawi,Low,1993,0.316
+Malaysia,Very High,1993,0.671
+Maldives,High,1993,
+Mali,Low,1993,0.255
+Malta,Very High,1993,0.745
+Marshall Islands,High,1993,
+Mauritania,Low,1993,0.421
+Mauritius,High,1993,0.636
+Mexico,High,1993,0.673
+Micronesia (Federated States of),Medium,1993,
+Moldova (Republic of),High,1993,0.662
+Monaco,,1993,
+Mongolia,High,1993,0.55
+Montenegro,Very High,1993,
+Morocco,Medium,1993,0.465
+Mozambique,Low,1993,0.243
+Myanmar,Medium,1993,0.363
+Namibia,Medium,1993,0.601
+Nauru,Medium,1993,
+Nepal,Medium,1993,0.416
+Netherlands,Very High,1993,0.855
+New Zealand,Very High,1993,0.839
+Nicaragua,Medium,1993,0.505
+Niger,Low,1993,0.223
+Nigeria,Low,1993,
+North Macedonia,High,1993,
+Norway,Very High,1993,0.867
+Oman,Very High,1993,
+Pakistan,Low,1993,0.405
+Palau,High,1993,
+"Palestine, State of",High,1993,
+Panama,Very High,1993,0.687
+Papua New Guinea,Medium,1993,0.425
+Paraguay,High,1993,0.621
+Peru,High,1993,0.628
+Philippines,High,1993,0.606
+Poland,Very High,1993,0.73
+Portugal,Very High,1993,0.747
+Qatar,Very High,1993,0.772
+Romania,Very High,1993,0.683
+Russian Federation,Very High,1993,0.708
+Rwanda,Low,1993,
+Saint Kitts and Nevis,Very High,1993,
+Saint Lucia,High,1993,0.676
+Saint Vincent and the Grenadines,High,1993,
+Samoa,High,1993,
+San Marino,Very High,1993,0.85
+Sao Tome and Principe,Medium,1993,0.481
+Saudi Arabia,Very High,1993,0.717
+Senegal,Low,1993,0.373
+Serbia,Very High,1993,
+Seychelles,Very High,1993,
+Sierra Leone,Low,1993,0.312
+Singapore,Very High,1993,0.805
+Slovakia,Very High,1993,
+Slovenia,Very High,1993,
+Solomon Islands,Medium,1993,
+Somalia,Low,1993,
+South Africa,High,1993,0.652
+South Sudan,Low,1993,
+Spain,Very High,1993,0.784
+Sri Lanka,High,1993,0.662
+Sudan,Low,1993,0.328
+Suriname,Medium,1993,
+Sweden,Very High,1993,0.84
+Switzerland,Very High,1993,0.859
+Syrian Arab Republic,Medium,1993,0.574
+Tajikistan,Medium,1993,0.531
+Tanzania (United Republic of),Low,1993,0.367
+Thailand,Very High,1993,0.611
+Timor-Leste,Medium,1993,
+Togo,Low,1993,0.392
+Tonga,High,1993,0.657
+Trinidad and Tobago,Very High,1993,0.663
+Tunisia,High,1993,0.585
+Turkmenistan,High,1993,
+Tuvalu,Medium,1993,0.575
+Uganda,Medium,1993,0.333
+Ukraine,High,1993,0.702
+United Arab Emirates,Very High,1993,0.743
+United Kingdom,Very High,1993,0.819
+United States,Very High,1993,0.882
+Uruguay,Very High,1993,0.712
+Uzbekistan,High,1993,
+Vanuatu,Medium,1993,
+Venezuela (Bolivarian Republic of),Medium,1993,0.678
+Viet Nam,High,1993,0.526
+Yemen,Low,1993,0.374
+Zambia,Medium,1993,0.412
+Zimbabwe,Medium,1993,0.46
+Afghanistan,Low,1994,0.3
+Albania,High,1994,0.623
+Algeria,High,1994,0.603
+Andorra,Very High,1994,
+Angola,Medium,1994,
+Antigua and Barbuda,Very High,1994,
+Argentina,Very High,1994,0.746
+Armenia,High,1994,0.617
+Australia,Very High,1994,0.873
+Austria,Very High,1994,0.841
+Azerbaijan,High,1994,
+Bahamas,Very High,1994,0.765
+Bahrain,Very High,1994,0.732
+Bangladesh,Medium,1994,0.431
+Barbados,Very High,1994,0.738
+Belarus,Very High,1994,
+Belgium,Very High,1994,0.857
+Belize,High,1994,0.634
+Benin,Low,1994,0.372
+Bhutan,Medium,1994,
+Bolivia (Plurinational State of),Medium,1994,0.582
+Bosnia and Herzegovina,High,1994,
+Botswana,High,1994,0.576
+Brazil,High,1994,0.638
+Brunei Darussalam,Very High,1994,0.78
+Bulgaria,High,1994,0.704
+Burkina Faso,Low,1994,
+Burundi,Low,1994,0.288
+Cabo Verde,Medium,1994,
+Cambodia,Medium,1994,0.392
+Cameroon,Medium,1994,0.423
+Canada,Very High,1994,0.873
+Central African Republic,Low,1994,0.313
+Chad,Low,1994,
+Chile,Very High,1994,0.722
+China,High,1994,0.522
+Colombia,High,1994,0.643
+Comoros,Medium,1994,
+Congo,Medium,1994,0.525
+Congo (Democratic Republic of the),Low,1994,0.369
+Costa Rica,Very High,1994,0.684
+Côte d'Ivoire,Low,1994,0.434
+Croatia,Very High,1994,
+Cuba,High,1994,0.659
+Cyprus,Very High,1994,0.758
+Czechia,Very High,1994,0.766
+Denmark,Very High,1994,0.854
+Djibouti,Low,1994,
+Dominica,High,1994,
+Dominican Republic,High,1994,0.608
+Ecuador,High,1994,0.662
+Egypt,High,1994,0.594
+El Salvador,Medium,1994,0.557
+Equatorial Guinea,Medium,1994,
+Eritrea,Low,1994,
+Estonia,Very High,1994,0.72
+Eswatini (Kingdom of),Medium,1994,0.52
+Ethiopia,Low,1994,
+Fiji,High,1994,0.649
+Finland,Very High,1994,0.838
+France,Very High,1994,0.824
+Gabon,Medium,1994,0.613
+Gambia,Low,1994,0.356
+Georgia,Very High,1994,
+Germany,Very High,1994,0.858
+Ghana,Medium,1994,0.465
+Greece,Very High,1994,0.782
+Grenada,High,1994,
+Guatemala,Medium,1994,0.506
+Guinea,Low,1994,0.294
+Guinea-Bissau,Low,1994,
+Guyana,High,1994,0.535
+Haiti,Medium,1994,0.447
+Honduras,Medium,1994,0.526
+"Hong Kong, China (SAR)",Very High,1994,0.78
+Hungary,Very High,1994,0.73
+Iceland,Very High,1994,0.86
+India,Medium,1994,0.452
+Indonesia,High,1994,0.56
+Iran (Islamic Republic of),High,1994,0.649
+Iraq,Medium,1994,0.524
+Ireland,Very High,1994,0.779
+Israel,Very High,1994,0.803
+Italy,Very High,1994,0.809
+Jamaica,High,1994,0.665
+Japan,Very High,1994,0.865
+Jordan,High,1994,0.652
+Kazakhstan,Very High,1994,0.652
+Kenya,Medium,1994,0.48
+Kiribati,Medium,1994,
+Korea (Democratic People's Rep. of),,1994,
+Korea (Republic of),Very High,1994,0.77
+Kuwait,Very High,1994,0.732
+Kyrgyzstan,High,1994,0.59
+Lao People's Democratic Republic,Medium,1994,0.434
+Latvia,Very High,1994,0.687
+Lebanon,High,1994,
+Lesotho,Low,1994,0.477
+Liberia,Low,1994,
+Libya,High,1994,0.738
+Liechtenstein,Very High,1994,
+Lithuania,Very High,1994,0.697
+Luxembourg,Very High,1994,0.824
+Madagascar,Low,1994,
+Malawi,Low,1994,0.317
+Malaysia,Very High,1994,0.679
+Maldives,High,1994,
+Mali,Low,1994,0.262
+Malta,Very High,1994,0.748
+Marshall Islands,High,1994,
+Mauritania,Low,1994,0.432
+Mauritius,High,1994,0.64
+Mexico,High,1994,0.678
+Micronesia (Federated States of),Medium,1994,
+Moldova (Republic of),High,1994,0.639
+Monaco,,1994,
+Mongolia,High,1994,0.553
+Montenegro,Very High,1994,
+Morocco,Medium,1994,0.477
+Mozambique,Low,1994,0.245
+Myanmar,Medium,1994,0.369
+Namibia,Medium,1994,0.6
+Nauru,Medium,1994,
+Nepal,Medium,1994,0.423
+Netherlands,Very High,1994,0.88
+New Zealand,Very High,1994,0.852
+Nicaragua,Medium,1994,0.511
+Niger,Low,1994,0.229
+Nigeria,Low,1994,
+North Macedonia,High,1994,
+Norway,Very High,1994,0.883
+Oman,Very High,1994,
+Pakistan,Low,1994,0.409
+Palau,High,1994,
+"Palestine, State of",High,1994,
+Panama,Very High,1994,0.689
+Papua New Guinea,Medium,1994,0.438
+Paraguay,High,1994,0.626
+Peru,High,1994,0.637
+Philippines,High,1994,0.611
+Poland,Very High,1994,0.74
+Portugal,Very High,1994,0.76
+Qatar,Very High,1994,0.778
+Romania,Very High,1994,0.686
+Russian Federation,Very High,1994,0.696
+Rwanda,Low,1994,
+Saint Kitts and Nevis,Very High,1994,
+Saint Lucia,High,1994,0.677
+Saint Vincent and the Grenadines,High,1994,
+Samoa,High,1994,
+San Marino,Very High,1994,0.855
+Sao Tome and Principe,Medium,1994,0.483
+Saudi Arabia,Very High,1994,0.72
+Senegal,Low,1994,0.373
+Serbia,Very High,1994,
+Seychelles,Very High,1994,
+Sierra Leone,Low,1994,0.312
+Singapore,Very High,1994,0.814
+Slovakia,Very High,1994,
+Slovenia,Very High,1994,
+Solomon Islands,Medium,1994,
+Somalia,Low,1994,
+South Africa,High,1994,0.657
+South Sudan,Low,1994,
+Spain,Very High,1994,0.792
+Sri Lanka,High,1994,0.667
+Sudan,Low,1994,0.371
+Suriname,Medium,1994,
+Sweden,Very High,1994,0.852
+Switzerland,Very High,1994,0.861
+Syrian Arab Republic,Medium,1994,0.578
+Tajikistan,Medium,1994,0.522
+Tanzania (United Republic of),Low,1994,0.365
+Thailand,Very High,1994,0.619
+Timor-Leste,Medium,1994,
+Togo,Low,1994,0.402
+Tonga,High,1994,0.666
+Trinidad and Tobago,Very High,1994,0.666
+Tunisia,High,1994,0.596
+Turkmenistan,High,1994,
+Tuvalu,Medium,1994,0.582
+Uganda,Medium,1994,0.336
+Ukraine,High,1994,0.689
+United Arab Emirates,Very High,1994,0.75
+United Kingdom,Very High,1994,0.827
+United States,Very High,1994,0.885
+Uruguay,Very High,1994,0.718
+Uzbekistan,High,1994,
+Vanuatu,Medium,1994,
+Venezuela (Bolivarian Republic of),Medium,1994,0.679
+Viet Nam,High,1994,0.536
+Yemen,Low,1994,0.378
+Zambia,Medium,1994,0.407
+Zimbabwe,Medium,1994,0.457
+Afghanistan,Low,1995,0.318
+Albania,High,1995,0.632
+Algeria,High,1995,0.607
+Andorra,Very High,1995,
+Angola,Medium,1995,
+Antigua and Barbuda,Very High,1995,
+Argentina,Very High,1995,0.747
+Armenia,High,1995,0.623
+Australia,Very High,1995,0.882
+Austria,Very High,1995,0.847
+Azerbaijan,High,1995,0.6
+Bahamas,Very High,1995,0.773
+Bahrain,Very High,1995,0.737
+Bangladesh,Medium,1995,0.44
+Barbados,Very High,1995,0.742
+Belarus,Very High,1995,0.674
+Belgium,Very High,1995,0.864
+Belize,High,1995,0.636
+Benin,Low,1995,0.379
+Bhutan,Medium,1995,
+Bolivia (Plurinational State of),Medium,1995,0.592
+Bosnia and Herzegovina,High,1995,
+Botswana,High,1995,0.58
+Brazil,High,1995,0.645
+Brunei Darussalam,Very High,1995,0.782
+Bulgaria,High,1995,0.7
+Burkina Faso,Low,1995,
+Burundi,Low,1995,0.284
+Cabo Verde,Medium,1995,
+Cambodia,Medium,1995,0.399
+Cameroon,Medium,1995,0.421
+Canada,Very High,1995,0.877
+Central African Republic,Low,1995,0.315
+Chad,Low,1995,
+Chile,Very High,1995,0.728
+China,High,1995,0.532
+Colombia,High,1995,0.647
+Comoros,Medium,1995,
+Congo,Medium,1995,0.515
+Congo (Democratic Republic of the),Low,1995,0.372
+Costa Rica,Very High,1995,0.69
+Côte d'Ivoire,Low,1995,0.44
+Croatia,Very High,1995,0.709
+Cuba,High,1995,0.661
+Cyprus,Very High,1995,0.765
+Czechia,Very High,1995,0.775
+Denmark,Very High,1995,0.857
+Djibouti,Low,1995,0.32
+Dominica,High,1995,
+Dominican Republic,High,1995,0.614
+Ecuador,High,1995,0.667
+Egypt,High,1995,0.601
+El Salvador,Medium,1995,0.567
+Equatorial Guinea,Medium,1995,
+Eritrea,Low,1995,
+Estonia,Very High,1995,0.733
+Eswatini (Kingdom of),Medium,1995,0.515
+Ethiopia,Low,1995,
+Fiji,High,1995,0.654
+Finland,Very High,1995,0.844
+France,Very High,1995,0.829
+Gabon,Medium,1995,0.617
+Gambia,Low,1995,0.364
+Georgia,Very High,1995,
+Germany,Very High,1995,0.863
+Ghana,Medium,1995,0.472
+Greece,Very High,1995,0.784
+Grenada,High,1995,
+Guatemala,Medium,1995,0.511
+Guinea,Low,1995,0.302
+Guinea-Bissau,Low,1995,
+Guyana,High,1995,0.54
+Haiti,Medium,1995,0.457
+Honduras,Medium,1995,0.532
+"Hong Kong, China (SAR)",Very High,1995,0.79
+Hungary,Very High,1995,0.736
+Iceland,Very High,1995,0.857
+India,Medium,1995,0.458
+Indonesia,High,1995,0.571
+Iran (Islamic Republic of),High,1995,0.656
+Iraq,Medium,1995,0.516
+Ireland,Very High,1995,0.786
+Israel,Very High,1995,0.807
+Italy,Very High,1995,0.815
+Jamaica,High,1995,0.665
+Japan,Very High,1995,0.867
+Jordan,High,1995,0.658
+Kazakhstan,Very High,1995,0.652
+Kenya,Medium,1995,0.481
+Kiribati,Medium,1995,
+Korea (Democratic People's Rep. of),,1995,
+Korea (Republic of),Very High,1995,0.78
+Kuwait,Very High,1995,0.762
+Kyrgyzstan,High,1995,0.584
+Lao People's Democratic Republic,Medium,1995,0.437
+Latvia,Very High,1995,0.696
+Lebanon,High,1995,
+Lesotho,Low,1995,0.473
+Liberia,Low,1995,
+Libya,High,1995,0.74
+Liechtenstein,Very High,1995,
+Lithuania,Very High,1995,0.704
+Luxembourg,Very High,1995,0.828
+Madagascar,Low,1995,
+Malawi,Low,1995,0.362
+Malaysia,Very High,1995,0.686
+Maldives,High,1995,0.588
+Mali,Low,1995,0.268
+Malta,Very High,1995,0.755
+Marshall Islands,High,1995,
+Mauritania,Low,1995,0.438
+Mauritius,High,1995,0.644
+Mexico,High,1995,0.678
+Micronesia (Federated States of),Medium,1995,
+Moldova (Republic of),High,1995,0.642
+Monaco,,1995,
+Mongolia,High,1995,0.558
+Montenegro,Very High,1995,
+Morocco,Medium,1995,0.481
+Mozambique,Low,1995,0.248
+Myanmar,Medium,1995,0.373
+Namibia,Medium,1995,0.593
+Nauru,Medium,1995,
+Nepal,Medium,1995,0.428
+Netherlands,Very High,1995,0.878
+New Zealand,Very High,1995,0.859
+Nicaragua,Medium,1995,0.52
+Niger,Low,1995,0.235
+Nigeria,Low,1995,
+North Macedonia,High,1995,0.644
+Norway,Very High,1995,0.88
+Oman,Very High,1995,
+Pakistan,Low,1995,0.411
+Palau,High,1995,
+"Palestine, State of",High,1995,
+Panama,Very High,1995,0.692
+Papua New Guinea,Medium,1995,0.44
+Paraguay,High,1995,0.631
+Peru,High,1995,0.646
+Philippines,High,1995,0.614
+Poland,Very High,1995,0.747
+Portugal,Very High,1995,0.768
+Qatar,Very High,1995,0.779
+Romania,Very High,1995,0.692
+Russian Federation,Very High,1995,0.696
+Rwanda,Low,1995,0.279
+Saint Kitts and Nevis,Very High,1995,
+Saint Lucia,High,1995,0.679
+Saint Vincent and the Grenadines,High,1995,
+Samoa,High,1995,0.651
+San Marino,Very High,1995,0.861
+Sao Tome and Principe,Medium,1995,0.484
+Saudi Arabia,Very High,1995,0.724
+Senegal,Low,1995,0.375
+Serbia,Very High,1995,0.675
+Seychelles,Very High,1995,
+Sierra Leone,Low,1995,0.314
+Singapore,Very High,1995,0.821
+Slovakia,Very High,1995,0.716
+Slovenia,Very High,1995,0.761
+Solomon Islands,Medium,1995,
+Somalia,Low,1995,
+South Africa,High,1995,0.66
+South Sudan,Low,1995,
+Spain,Very High,1995,0.799
+Sri Lanka,High,1995,0.669
+Sudan,Low,1995,0.361
+Suriname,Medium,1995,
+Sweden,Very High,1995,0.859
+Switzerland,Very High,1995,0.863
+Syrian Arab Republic,Medium,1995,0.58
+Tajikistan,Medium,1995,0.533
+Tanzania (United Republic of),Low,1995,0.366
+Thailand,Very High,1995,0.625
+Timor-Leste,Medium,1995,
+Togo,Low,1995,0.414
+Tonga,High,1995,0.67
+Trinidad and Tobago,Very High,1995,0.674
+Tunisia,High,1995,0.603
+Turkmenistan,High,1995,
+Tuvalu,Medium,1995,0.581
+Uganda,Medium,1995,0.342
+Ukraine,High,1995,0.683
+United Arab Emirates,Very High,1995,0.756
+United Kingdom,Very High,1995,0.83
+United States,Very High,1995,0.886
+Uruguay,Very High,1995,0.72
+Uzbekistan,High,1995,
+Vanuatu,Medium,1995,
+Venezuela (Bolivarian Republic of),Medium,1995,0.685
+Viet Nam,High,1995,0.55
+Yemen,Low,1995,0.389
+Zambia,Medium,1995,0.407
+Zimbabwe,Medium,1995,0.449
+Afghanistan,Low,1996,0.326
+Albania,High,1996,0.644
+Algeria,High,1996,0.618
+Andorra,Very High,1996,
+Angola,Medium,1996,
+Antigua and Barbuda,Very High,1996,
+Argentina,Very High,1996,0.752
+Armenia,High,1996,0.627
+Australia,Very High,1996,0.884
+Austria,Very High,1996,0.852
+Azerbaijan,High,1996,0.603
+Bahamas,Very High,1996,0.778
+Bahrain,Very High,1996,0.742
+Bangladesh,Medium,1996,0.446
+Barbados,Very High,1996,0.746
+Belarus,Very High,1996,0.681
+Belgium,Very High,1996,0.87
+Belize,High,1996,0.639
+Benin,Low,1996,0.385
+Bhutan,Medium,1996,
+Bolivia (Plurinational State of),Medium,1996,0.603
+Bosnia and Herzegovina,High,1996,
+Botswana,High,1996,0.58
+Brazil,High,1996,0.65
+Brunei Darussalam,Very High,1996,0.783
+Bulgaria,High,1996,0.709
+Burkina Faso,Low,1996,
+Burundi,Low,1996,0.282
+Cabo Verde,Medium,1996,
+Cambodia,Medium,1996,0.403
+Cameroon,Medium,1996,0.42
+Canada,Very High,1996,0.88
+Central African Republic,Low,1996,0.311
+Chad,Low,1996,
+Chile,Very High,1996,0.735
+China,High,1996,0.543
+Colombia,High,1996,0.654
+Comoros,Medium,1996,
+Congo,Medium,1996,0.514
+Congo (Democratic Republic of the),Low,1996,0.372
+Costa Rica,Very High,1996,0.692
+Côte d'Ivoire,Low,1996,0.446
+Croatia,Very High,1996,0.722
+Cuba,High,1996,0.672
+Cyprus,Very High,1996,0.771
+Czechia,Very High,1996,0.786
+Denmark,Very High,1996,0.864
+Djibouti,Low,1996,0.321
+Dominica,High,1996,
+Dominican Republic,High,1996,0.621
+Ecuador,High,1996,0.67
+Egypt,High,1996,0.61
+El Salvador,Medium,1996,0.576
+Equatorial Guinea,Medium,1996,
+Eritrea,Low,1996,
+Estonia,Very High,1996,0.749
+Eswatini (Kingdom of),Medium,1996,0.506
+Ethiopia,Low,1996,
+Fiji,High,1996,0.658
+Finland,Very High,1996,0.852
+France,Very High,1996,0.834
+Gabon,Medium,1996,0.62
+Gambia,Low,1996,0.371
+Georgia,Very High,1996,
+Germany,Very High,1996,0.868
+Ghana,Medium,1996,0.477
+Greece,Very High,1996,0.789
+Grenada,High,1996,
+Guatemala,Medium,1996,0.519
+Guinea,Low,1996,0.31
+Guinea-Bissau,Low,1996,
+Guyana,High,1996,0.55
+Haiti,Medium,1996,0.463
+Honduras,Medium,1996,0.536
+"Hong Kong, China (SAR)",Very High,1996,0.799
+Hungary,Very High,1996,0.744
+Iceland,Very High,1996,0.864
+India,Medium,1996,0.465
+Indonesia,High,1996,0.58
+Iran (Islamic Republic of),High,1996,0.664
+Iraq,Medium,1996,0.539
+Ireland,Very High,1996,0.795
+Israel,Very High,1996,0.814
+Italy,Very High,1996,0.821
+Jamaica,High,1996,0.665
+Japan,Very High,1996,0.874
+Jordan,High,1996,0.662
+Kazakhstan,Very High,1996,0.656
+Kenya,Medium,1996,0.483
+Kiribati,Medium,1996,
+Korea (Democratic People's Rep. of),,1996,
+Korea (Republic of),Very High,1996,0.791
+Kuwait,Very High,1996,0.768
+Kyrgyzstan,High,1996,0.591
+Lao People's Democratic Republic,Medium,1996,0.449
+Latvia,Very High,1996,0.711
+Lebanon,High,1996,
+Lesotho,Low,1996,0.469
+Liberia,Low,1996,
+Libya,High,1996,0.743
+Liechtenstein,Very High,1996,
+Lithuania,Very High,1996,0.717
+Luxembourg,Very High,1996,0.834
+Madagascar,Low,1996,
+Malawi,Low,1996,0.365
+Malaysia,Very High,1996,0.696
+Maldives,High,1996,0.599
+Mali,Low,1996,0.275
+Malta,Very High,1996,0.754
+Marshall Islands,High,1996,
+Mauritania,Low,1996,0.447
+Mauritius,High,1996,0.648
+Mexico,High,1996,0.685
+Micronesia (Federated States of),Medium,1996,
+Moldova (Republic of),High,1996,0.639
+Monaco,,1996,
+Mongolia,High,1996,0.561
+Montenegro,Very High,1996,
+Morocco,Medium,1996,0.493
+Mozambique,Low,1996,0.26
+Myanmar,Medium,1996,0.38
+Namibia,Medium,1996,0.581
+Nauru,Medium,1996,
+Nepal,Medium,1996,0.437
+Netherlands,Very High,1996,0.882
+New Zealand,Very High,1996,0.863
+Nicaragua,Medium,1996,0.53
+Niger,Low,1996,0.24
+Nigeria,Low,1996,
+North Macedonia,High,1996,0.65
+Norway,Very High,1996,0.887
+Oman,Very High,1996,
+Pakistan,Low,1996,0.417
+Palau,High,1996,
+"Palestine, State of",High,1996,
+Panama,Very High,1996,0.697
+Papua New Guinea,Medium,1996,0.445
+Paraguay,High,1996,0.64
+Peru,High,1996,0.65
+Philippines,High,1996,0.622
+Poland,Very High,1996,0.756
+Portugal,Very High,1996,0.777
+Qatar,Very High,1996,0.783
+Romania,Very High,1996,0.698
+Russian Federation,Very High,1996,0.706
+Rwanda,Low,1996,0.28
+Saint Kitts and Nevis,Very High,1996,
+Saint Lucia,High,1996,0.683
+Saint Vincent and the Grenadines,High,1996,
+Samoa,High,1996,0.659
+San Marino,Very High,1996,0.862
+Sao Tome and Principe,Medium,1996,0.487
+Saudi Arabia,Very High,1996,0.728
+Senegal,Low,1996,0.376
+Serbia,Very High,1996,0.679
+Seychelles,Very High,1996,
+Sierra Leone,Low,1996,0.312
+Singapore,Very High,1996,0.829
+Slovakia,Very High,1996,0.728
+Slovenia,Very High,1996,0.771
+Solomon Islands,Medium,1996,
+Somalia,Low,1996,
+South Africa,High,1996,0.655
+South Sudan,Low,1996,
+Spain,Very High,1996,0.805
+Sri Lanka,High,1996,0.674
+Sudan,Low,1996,0.369
+Suriname,Medium,1996,
+Sweden,Very High,1996,0.867
+Switzerland,Very High,1996,0.867
+Syrian Arab Republic,Medium,1996,0.583
+Tajikistan,Medium,1996,0.516
+Tanzania (United Republic of),Low,1996,0.368
+Thailand,Very High,1996,0.634
+Timor-Leste,Medium,1996,
+Togo,Low,1996,0.422
+Tonga,High,1996,0.672
+Trinidad and Tobago,Very High,1996,0.68
+Tunisia,High,1996,0.613
+Turkmenistan,High,1996,
+Tuvalu,Medium,1996,0.579
+Uganda,Medium,1996,0.353
+Ukraine,High,1996,0.683
+United Arab Emirates,Very High,1996,0.762
+United Kingdom,Very High,1996,0.836
+United States,Very High,1996,0.887
+Uruguay,Very High,1996,0.726
+Uzbekistan,High,1996,
+Vanuatu,Medium,1996,
+Venezuela (Bolivarian Republic of),Medium,1996,0.687
+Viet Nam,High,1996,0.56
+Yemen,Low,1996,0.4
+Zambia,Medium,1996,0.409
+Zimbabwe,Medium,1996,0.448
+Afghanistan,Low,1997,0.33
+Albania,High,1997,0.641
+Algeria,High,1997,0.626
+Andorra,Very High,1997,
+Angola,Medium,1997,
+Antigua and Barbuda,Very High,1997,
+Argentina,Very High,1997,0.758
+Armenia,High,1997,0.635
+Australia,Very High,1997,0.887
+Austria,Very High,1997,0.856
+Azerbaijan,High,1997,0.609
+Bahamas,Very High,1997,0.775
+Bahrain,Very High,1997,0.747
+Bangladesh,Medium,1997,0.458
+Barbados,Very High,1997,0.75
+Belarus,Very High,1997,0.687
+Belgium,Very High,1997,0.874
+Belize,High,1997,0.641
+Benin,Low,1997,0.393
+Bhutan,Medium,1997,
+Bolivia (Plurinational State of),Medium,1997,0.615
+Bosnia and Herzegovina,High,1997,
+Botswana,High,1997,0.582
+Brazil,High,1997,0.656
+Brunei Darussalam,Very High,1997,0.782
+Bulgaria,High,1997,0.704
+Burkina Faso,Low,1997,
+Burundi,Low,1997,0.288
+Cabo Verde,Medium,1997,
+Cambodia,Medium,1997,0.408
+Cameroon,Medium,1997,0.42
+Canada,Very High,1997,0.88
+Central African Republic,Low,1997,0.313
+Chad,Low,1997,
+Chile,Very High,1997,0.744
+China,High,1997,0.554
+Colombia,High,1997,0.661
+Comoros,Medium,1997,
+Congo,Medium,1997,0.483
+Congo (Democratic Republic of the),Low,1997,0.374
+Costa Rica,Very High,1997,0.699
+Côte d'Ivoire,Low,1997,0.454
+Croatia,Very High,1997,0.731
+Cuba,High,1997,0.676
+Cyprus,Very High,1997,0.777
+Czechia,Very High,1997,0.791
+Denmark,Very High,1997,0.871
+Djibouti,Low,1997,0.325
+Dominica,High,1997,
+Dominican Republic,High,1997,0.628
+Ecuador,High,1997,0.676
+Egypt,High,1997,0.615
+El Salvador,Medium,1997,0.586
+Equatorial Guinea,Medium,1997,
+Eritrea,Low,1997,
+Estonia,Very High,1997,0.764
+Eswatini (Kingdom of),Medium,1997,0.496
+Ethiopia,Low,1997,
+Fiji,High,1997,0.658
+Finland,Very High,1997,0.86
+France,Very High,1997,0.839
+Gabon,Medium,1997,0.624
+Gambia,Low,1997,0.374
+Georgia,Very High,1997,
+Germany,Very High,1997,0.874
+Ghana,Medium,1997,0.483
+Greece,Very High,1997,0.796
+Grenada,High,1997,
+Guatemala,Medium,1997,0.527
+Guinea,Low,1997,0.32
+Guinea-Bissau,Low,1997,
+Guyana,High,1997,0.556
+Haiti,Medium,1997,0.468
+Honduras,Medium,1997,0.541
+"Hong Kong, China (SAR)",Very High,1997,0.808
+Hungary,Very High,1997,0.75
+Iceland,Very High,1997,0.874
+India,Medium,1997,0.471
+Indonesia,High,1997,0.59
+Iran (Islamic Republic of),High,1997,0.671
+Iraq,Medium,1997,0.549
+Ireland,Very High,1997,0.803
+Israel,Very High,1997,0.82
+Italy,Very High,1997,0.828
+Jamaica,High,1997,0.662
+Japan,Very High,1997,0.877
+Jordan,High,1997,0.667
+Kazakhstan,Very High,1997,0.662
+Kenya,Medium,1997,0.484
+Kiribati,Medium,1997,
+Korea (Democratic People's Rep. of),,1997,
+Korea (Republic of),Very High,1997,0.804
+Kuwait,Very High,1997,0.766
+Kyrgyzstan,High,1997,0.6
+Lao People's Democratic Republic,Medium,1997,0.455
+Latvia,Very High,1997,0.725
+Lebanon,High,1997,
+Lesotho,Low,1997,0.465
+Liberia,Low,1997,
+Libya,High,1997,0.745
+Liechtenstein,Very High,1997,
+Lithuania,Very High,1997,0.732
+Luxembourg,Very High,1997,0.84
+Madagascar,Low,1997,
+Malawi,Low,1997,0.367
+Malaysia,Very High,1997,0.707
+Maldives,High,1997,0.606
+Mali,Low,1997,0.286
+Malta,Very High,1997,0.763
+Marshall Islands,High,1997,
+Mauritania,Low,1997,0.448
+Mauritius,High,1997,0.654
+Mexico,High,1997,0.692
+Micronesia (Federated States of),Medium,1997,
+Moldova (Republic of),High,1997,0.646
+Monaco,,1997,
+Mongolia,High,1997,0.569
+Montenegro,Very High,1997,
+Morocco,Medium,1997,0.497
+Mozambique,Low,1997,0.272
+Myanmar,Medium,1997,0.383
+Namibia,Medium,1997,0.572
+Nauru,Medium,1997,
+Nepal,Medium,1997,0.444
+Netherlands,Very High,1997,0.883
+New Zealand,Very High,1997,0.871
+Nicaragua,Medium,1997,0.539
+Niger,Low,1997,0.245
+Nigeria,Low,1997,
+North Macedonia,High,1997,0.654
+Norway,Very High,1997,0.893
+Oman,Very High,1997,
+Pakistan,Low,1997,0.419
+Palau,High,1997,
+"Palestine, State of",High,1997,
+Panama,Very High,1997,0.703
+Papua New Guinea,Medium,1997,0.445
+Paraguay,High,1997,0.646
+Peru,High,1997,0.655
+Philippines,High,1997,0.627
+Poland,Very High,1997,0.767
+Portugal,Very High,1997,0.784
+Qatar,Very High,1997,0.794
+Romania,Very High,1997,0.701
+Russian Federation,Very High,1997,0.715
+Rwanda,Low,1997,0.281
+Saint Kitts and Nevis,Very High,1997,
+Saint Lucia,High,1997,0.683
+Saint Vincent and the Grenadines,High,1997,
+Samoa,High,1997,0.661
+San Marino,Very High,1997,0.867
+Sao Tome and Principe,Medium,1997,0.488
+Saudi Arabia,Very High,1997,0.732
+Senegal,Low,1997,0.377
+Serbia,Very High,1997,0.685
+Seychelles,Very High,1997,
+Sierra Leone,Low,1997,0.307
+Singapore,Very High,1997,0.841
+Slovakia,Very High,1997,0.735
+Slovenia,Very High,1997,0.782
+Solomon Islands,Medium,1997,
+Somalia,Low,1997,
+South Africa,High,1997,0.65
+South Sudan,Low,1997,
+Spain,Very High,1997,0.811
+Sri Lanka,High,1997,0.68
+Sudan,Low,1997,0.382
+Suriname,Medium,1997,
+Sweden,Very High,1997,0.878
+Switzerland,Very High,1997,0.872
+Syrian Arab Republic,Medium,1997,0.586
+Tajikistan,Medium,1997,0.524
+Tanzania (United Republic of),Low,1997,0.371
+Thailand,Very High,1997,0.639
+Timor-Leste,Medium,1997,
+Togo,Low,1997,0.43
+Tonga,High,1997,0.674
+Trinidad and Tobago,Very High,1997,0.686
+Tunisia,High,1997,0.621
+Turkmenistan,High,1997,
+Tuvalu,Medium,1997,0.585
+Uganda,Medium,1997,0.363
+Ukraine,High,1997,0.688
+United Arab Emirates,Very High,1997,0.768
+United Kingdom,Very High,1997,0.843
+United States,Very High,1997,0.889
+Uruguay,Very High,1997,0.738
+Uzbekistan,High,1997,
+Vanuatu,Medium,1997,
+Venezuela (Bolivarian Republic of),Medium,1997,0.694
+Viet Nam,High,1997,0.571
+Yemen,Low,1997,0.408
+Zambia,Medium,1997,0.41
+Zimbabwe,Medium,1997,0.445
+Afghanistan,Low,1998,0.329
+Albania,High,1998,0.656
+Algeria,High,1998,0.635
+Andorra,Very High,1998,
+Angola,Medium,1998,
+Antigua and Barbuda,Very High,1998,
+Argentina,Very High,1998,0.764
+Armenia,High,1998,0.647
+Australia,Very High,1998,0.891
+Austria,Very High,1998,0.861
+Azerbaijan,High,1998,0.618
+Bahamas,Very High,1998,0.776
+Bahrain,Very High,1998,0.753
+Bangladesh,Medium,1998,0.473
+Barbados,Very High,1998,0.751
+Belarus,Very High,1998,0.693
+Belgium,Very High,1998,0.876
+Belize,High,1998,0.642
+Benin,Low,1998,0.398
+Bhutan,Medium,1998,
+Bolivia (Plurinational State of),Medium,1998,0.626
+Bosnia and Herzegovina,High,1998,
+Botswana,High,1998,0.581
+Brazil,High,1998,0.66
+Brunei Darussalam,Very High,1998,0.782
+Bulgaria,High,1998,0.714
+Burkina Faso,Low,1998,
+Burundi,Low,1998,0.294
+Cabo Verde,Medium,1998,
+Cambodia,Medium,1998,0.412
+Cameroon,Medium,1998,0.42
+Canada,Very High,1998,0.88
+Central African Republic,Low,1998,0.315
+Chad,Low,1998,
+Chile,Very High,1998,0.749
+China,High,1998,0.565
+Colombia,High,1998,0.666
+Comoros,Medium,1998,
+Congo,Medium,1998,0.508
+Congo (Democratic Republic of the),Low,1998,0.371
+Costa Rica,Very High,1998,0.705
+Côte d'Ivoire,Low,1998,0.459
+Croatia,Very High,1998,0.74
+Cuba,High,1998,0.68
+Cyprus,Very High,1998,0.789
+Czechia,Very High,1998,0.794
+Denmark,Very High,1998,0.878
+Djibouti,Low,1998,0.326
+Dominica,High,1998,
+Dominican Republic,High,1998,0.634
+Ecuador,High,1998,0.681
+Egypt,High,1998,0.62
+El Salvador,Medium,1998,0.595
+Equatorial Guinea,Medium,1998,
+Eritrea,Low,1998,
+Estonia,Very High,1998,0.772
+Eswatini (Kingdom of),Medium,1998,0.485
+Ethiopia,Low,1998,
+Fiji,High,1998,0.661
+Finland,Very High,1998,0.868
+France,Very High,1998,0.843
+Gabon,Medium,1998,0.63
+Gambia,Low,1998,0.38
+Georgia,Very High,1998,
+Germany,Very High,1998,0.879
+Ghana,Medium,1998,0.488
+Greece,Very High,1998,0.806
+Grenada,High,1998,
+Guatemala,Medium,1998,0.535
+Guinea,Low,1998,0.33
+Guinea-Bissau,Low,1998,
+Guyana,High,1998,0.561
+Haiti,Medium,1998,0.474
+Honduras,Medium,1998,0.524
+"Hong Kong, China (SAR)",Very High,1998,0.813
+Hungary,Very High,1998,0.755
+Iceland,Very High,1998,0.885
+India,Medium,1998,0.477
+Indonesia,High,1998,0.587
+Iran (Islamic Republic of),High,1998,0.677
+Iraq,Medium,1998,0.564
+Ireland,Very High,1998,0.837
+Israel,Very High,1998,0.828
+Italy,Very High,1998,0.832
+Jamaica,High,1998,0.661
+Japan,Very High,1998,0.877
+Jordan,High,1998,0.671
+Kazakhstan,Very High,1998,0.666
+Kenya,Medium,1998,0.486
+Kiribati,Medium,1998,
+Korea (Democratic People's Rep. of),,1998,
+Korea (Republic of),Very High,1998,0.802
+Kuwait,Very High,1998,0.772
+Kyrgyzstan,High,1998,0.606
+Lao People's Democratic Republic,Medium,1998,0.462
+Latvia,Very High,1998,0.736
+Lebanon,High,1998,
+Lesotho,Low,1998,0.464
+Liberia,Low,1998,
+Libya,High,1998,0.745
+Liechtenstein,Very High,1998,
+Lithuania,Very High,1998,0.744
+Luxembourg,Very High,1998,0.847
+Madagascar,Low,1998,
+Malawi,Low,1998,0.369
+Malaysia,Very High,1998,0.71
+Maldives,High,1998,0.611
+Mali,Low,1998,0.297
+Malta,Very High,1998,0.772
+Marshall Islands,High,1998,
+Mauritania,Low,1998,0.456
+Mauritius,High,1998,0.662
+Mexico,High,1998,0.699
+Micronesia (Federated States of),Medium,1998,
+Moldova (Republic of),High,1998,0.646
+Monaco,,1998,
+Mongolia,High,1998,0.579
+Montenegro,Very High,1998,
+Morocco,Medium,1998,0.505
+Mozambique,Low,1998,0.283
+Myanmar,Medium,1998,0.39
+Namibia,Medium,1998,0.564
+Nauru,Medium,1998,
+Nepal,Medium,1998,0.449
+Netherlands,Very High,1998,0.884
+New Zealand,Very High,1998,0.88
+Nicaragua,Medium,1998,0.541
+Niger,Low,1998,0.253
+Nigeria,Low,1998,
+North Macedonia,High,1998,0.661
+Norway,Very High,1998,0.903
+Oman,Very High,1998,
+Pakistan,Low,1998,0.423
+Palau,High,1998,
+"Palestine, State of",High,1998,
+Panama,Very High,1998,0.71
+Papua New Guinea,Medium,1998,0.447
+Paraguay,High,1998,0.652
+Peru,High,1998,0.663
+Philippines,High,1998,0.632
+Poland,Very High,1998,0.777
+Portugal,Very High,1998,0.791
+Qatar,Very High,1998,0.796
+Romania,Very High,1998,0.706
+Russian Federation,Very High,1998,0.719
+Rwanda,Low,1998,0.289
+Saint Kitts and Nevis,Very High,1998,
+Saint Lucia,High,1998,0.687
+Saint Vincent and the Grenadines,High,1998,
+Samoa,High,1998,0.664
+San Marino,Very High,1998,0.872
+Sao Tome and Principe,Medium,1998,0.49
+Saudi Arabia,Very High,1998,0.738
+Senegal,Low,1998,0.379
+Serbia,Very High,1998,0.686
+Seychelles,Very High,1998,
+Sierra Leone,Low,1998,0.304
+Singapore,Very High,1998,0.846
+Slovakia,Very High,1998,0.746
+Slovenia,Very High,1998,0.794
+Solomon Islands,Medium,1998,
+Somalia,Low,1998,
+South Africa,High,1998,0.643
+South Sudan,Low,1998,
+Spain,Very High,1998,0.815
+Sri Lanka,High,1998,0.685
+Sudan,Low,1998,0.371
+Suriname,Medium,1998,
+Sweden,Very High,1998,0.891
+Switzerland,Very High,1998,0.878
+Syrian Arab Republic,Medium,1998,0.587
+Tajikistan,Medium,1998,0.532
+Tanzania (United Republic of),Low,1998,0.378
+Thailand,Very High,1998,0.643
+Timor-Leste,Medium,1998,
+Togo,Low,1998,0.43
+Tonga,High,1998,0.678
+Trinidad and Tobago,Very High,1998,0.696
+Tunisia,High,1998,0.633
+Turkmenistan,High,1998,
+Tuvalu,Medium,1998,0.595
+Uganda,Medium,1998,0.372
+Ukraine,High,1998,0.694
+United Arab Emirates,Very High,1998,0.774
+United Kingdom,Very High,1998,0.848
+United States,Very High,1998,0.891
+Uruguay,Very High,1998,0.747
+Uzbekistan,High,1998,
+Vanuatu,Medium,1998,
+Venezuela (Bolivarian Republic of),Medium,1998,0.697
+Viet Nam,High,1998,0.58
+Yemen,Low,1998,0.417
+Zambia,Medium,1998,0.409
+Zimbabwe,Medium,1998,0.439
+Afghanistan,Low,1999,0.337
+Albania,High,1999,0.668
+Algeria,High,1999,0.644
+Andorra,Very High,1999,
+Angola,Medium,1999,0.369
+Antigua and Barbuda,Very High,1999,
+Argentina,Very High,1999,0.774
+Armenia,High,1999,0.651
+Australia,Very High,1999,0.894
+Austria,Very High,1999,0.865
+Azerbaijan,High,1999,0.628
+Bahamas,Very High,1999,0.784
+Bahrain,Very High,1999,0.761
+Bangladesh,Medium,1999,0.487
+Barbados,Very High,1999,0.753
+Belarus,Very High,1999,0.698
+Belgium,Very High,1999,0.879
+Belize,High,1999,0.65
+Benin,Low,1999,0.405
+Bhutan,Medium,1999,
+Bolivia (Plurinational State of),Medium,1999,0.625
+Bosnia and Herzegovina,High,1999,
+Botswana,High,1999,0.583
+Brazil,High,1999,0.663
+Brunei Darussalam,Very High,1999,0.787
+Bulgaria,High,1999,0.718
+Burkina Faso,Low,1999,0.294
+Burundi,Low,1999,0.297
+Cabo Verde,Medium,1999,
+Cambodia,Medium,1999,0.421
+Cameroon,Medium,1999,0.421
+Canada,Very High,1999,0.884
+Central African Republic,Low,1999,0.319
+Chad,Low,1999,
+Chile,Very High,1999,0.756
+China,High,1999,0.575
+Colombia,High,1999,0.665
+Comoros,Medium,1999,
+Congo,Medium,1999,0.509
+Congo (Democratic Republic of the),Low,1999,0.368
+Costa Rica,Very High,1999,0.707
+Côte d'Ivoire,Low,1999,0.456
+Croatia,Very High,1999,0.748
+Cuba,High,1999,0.687
+Cyprus,Very High,1999,0.791
+Czechia,Very High,1999,0.799
+Denmark,Very High,1999,0.888
+Djibouti,Low,1999,0.33
+Dominica,High,1999,
+Dominican Republic,High,1999,0.64
+Ecuador,High,1999,0.681
+Egypt,High,1999,0.625
+El Salvador,Medium,1999,0.6
+Equatorial Guinea,Medium,1999,
+Eritrea,Low,1999,
+Estonia,Very High,1999,0.781
+Eswatini (Kingdom of),Medium,1999,0.477
+Ethiopia,Low,1999,
+Fiji,High,1999,0.667
+Finland,Very High,1999,0.877
+France,Very High,1999,0.847
+Gabon,Medium,1999,0.627
+Gambia,Low,1999,0.387
+Georgia,Very High,1999,
+Germany,Very High,1999,0.884
+Ghana,Medium,1999,0.494
+Greece,Very High,1999,0.809
+Grenada,High,1999,
+Guatemala,Medium,1999,0.544
+Guinea,Low,1999,0.338
+Guinea-Bissau,Low,1999,
+Guyana,High,1999,0.566
+Haiti,Medium,1999,0.481
+Honduras,Medium,1999,0.548
+"Hong Kong, China (SAR)",Very High,1999,0.821
+Hungary,Very High,1999,0.762
+Iceland,Very High,1999,0.886
+India,Medium,1999,0.485
+Indonesia,High,1999,0.592
+Iran (Islamic Republic of),High,1999,0.685
+Iraq,Medium,1999,0.577
+Ireland,Very High,1999,0.841
+Israel,Very High,1999,0.835
+Italy,Very High,1999,0.837
+Jamaica,High,1999,0.661
+Japan,Very High,1999,0.878
+Jordan,High,1999,0.676
+Kazakhstan,Very High,1999,0.672
+Kenya,Medium,1999,0.487
+Kiribati,Medium,1999,
+Korea (Democratic People's Rep. of),,1999,
+Korea (Republic of),Very High,1999,0.814
+Kuwait,Very High,1999,0.774
+Kyrgyzstan,High,1999,0.613
+Lao People's Democratic Republic,Medium,1999,0.469
+Latvia,Very High,1999,0.75
+Lebanon,High,1999,
+Lesotho,Low,1999,0.456
+Liberia,Low,1999,0.392
+Libya,High,1999,0.746
+Liechtenstein,Very High,1999,
+Lithuania,Very High,1999,0.753
+Luxembourg,Very High,1999,0.861
+Madagascar,Low,1999,0.431
+Malawi,Low,1999,0.376
+Malaysia,Very High,1999,0.715
+Maldives,High,1999,0.625
+Mali,Low,1999,0.308
+Malta,Very High,1999,0.776
+Marshall Islands,High,1999,
+Mauritania,Low,1999,0.462
+Mauritius,High,1999,0.67
+Mexico,High,1999,0.704
+Micronesia (Federated States of),Medium,1999,
+Moldova (Republic of),High,1999,0.647
+Monaco,,1999,
+Mongolia,High,1999,0.587
+Montenegro,Very High,1999,
+Morocco,Medium,1999,0.515
+Mozambique,Low,1999,0.296
+Myanmar,Medium,1999,0.398
+Namibia,Medium,1999,0.553
+Nauru,Medium,1999,
+Nepal,Medium,1999,0.455
+Netherlands,Very High,1999,0.886
+New Zealand,Very High,1999,0.885
+Nicaragua,Medium,1999,0.556
+Niger,Low,1999,0.256
+Nigeria,Low,1999,
+North Macedonia,High,1999,0.669
+Norway,Very High,1999,0.907
+Oman,Very High,1999,
+Pakistan,Low,1999,0.429
+Palau,High,1999,
+"Palestine, State of",High,1999,
+Panama,Very High,1999,0.716
+Papua New Guinea,Medium,1999,0.454
+Paraguay,High,1999,0.656
+Peru,High,1999,0.672
+Philippines,High,1999,0.635
+Poland,Very High,1999,0.784
+Portugal,Very High,1999,0.788
+Qatar,Very High,1999,0.795
+Romania,Very High,1999,0.714
+Russian Federation,Very High,1999,0.722
+Rwanda,Low,1999,0.303
+Saint Kitts and Nevis,Very High,1999,
+Saint Lucia,High,1999,0.691
+Saint Vincent and the Grenadines,High,1999,
+Samoa,High,1999,0.668
+San Marino,Very High,1999,0.875
+Sao Tome and Principe,Medium,1999,0.495
+Saudi Arabia,Very High,1999,0.74
+Senegal,Low,1999,0.382
+Serbia,Very High,1999,0.677
+Seychelles,Very High,1999,
+Sierra Leone,Low,1999,0.301
+Singapore,Very High,1999,0.854
+Slovakia,Very High,1999,0.752
+Slovenia,Very High,1999,0.812
+Solomon Islands,Medium,1999,0.501
+Somalia,Low,1999,
+South Africa,High,1999,0.638
+South Sudan,Low,1999,
+Spain,Very High,1999,0.819
+Sri Lanka,High,1999,0.693
+Sudan,Low,1999,0.409
+Suriname,Medium,1999,
+Sweden,Very High,1999,0.897
+Switzerland,Very High,1999,0.881
+Syrian Arab Republic,Medium,1999,0.586
+Tajikistan,Medium,1999,0.539
+Tanzania (United Republic of),Low,1999,0.388
+Thailand,Very High,1999,0.653
+Timor-Leste,Medium,1999,
+Togo,Low,1999,0.434
+Tonga,High,1999,0.681
+Trinidad and Tobago,Very High,1999,0.699
+Tunisia,High,1999,0.644
+Turkmenistan,High,1999,
+Tuvalu,Medium,1999,0.596
+Uganda,Medium,1999,0.383
+Ukraine,High,1999,0.696
+United Arab Emirates,Very High,1999,0.781
+United Kingdom,Very High,1999,0.855
+United States,Very High,1999,0.891
+Uruguay,Very High,1999,0.751
+Uzbekistan,High,1999,
+Vanuatu,Medium,1999,
+Venezuela (Bolivarian Republic of),Medium,1999,0.695
+Viet Nam,High,1999,0.589
+Yemen,Low,1999,0.424
+Zambia,Medium,1999,0.412
+Zimbabwe,Medium,1999,0.431
+Afghanistan,Low,2000,0.34
+Albania,High,2000,0.678
+Algeria,High,2000,0.652
+Andorra,Very High,2000,0.815
+Angola,Medium,2000,0.38
+Antigua and Barbuda,Very High,2000,
+Argentina,Very High,2000,0.78
+Armenia,High,2000,0.656
+Australia,Very High,2000,0.896
+Austria,Very High,2000,0.87
+Azerbaijan,High,2000,0.635
+Bahamas,Very High,2000,0.788
+Bahrain,Very High,2000,0.775
+Bangladesh,Medium,2000,0.491
+Barbados,Very High,2000,0.76
+Belarus,Very High,2000,0.708
+Belgium,Very High,2000,0.884
+Belize,High,2000,0.657
+Benin,Low,2000,0.412
+Bhutan,Medium,2000,
+Bolivia (Plurinational State of),Medium,2000,0.625
+Bosnia and Herzegovina,High,2000,0.656
+Botswana,High,2000,0.581
+Brazil,High,2000,0.668
+Brunei Darussalam,Very High,2000,0.789
+Bulgaria,High,2000,0.723
+Burkina Faso,Low,2000,0.296
+Burundi,Low,2000,0.298
+Cabo Verde,Medium,2000,0.59
+Cambodia,Medium,2000,0.431
+Cameroon,Medium,2000,0.426
+Canada,Very High,2000,0.89
+Central African Republic,Low,2000,0.319
+Chad,Low,2000,0.292
+Chile,Very High,2000,0.763
+China,High,2000,0.586
+Colombia,High,2000,0.672
+Comoros,Medium,2000,0.458
+Congo,Medium,2000,0.509
+Congo (Democratic Republic of the),Low,2000,0.376
+Costa Rica,Very High,2000,0.709
+Côte d'Ivoire,Low,2000,0.454
+Croatia,Very High,2000,0.764
+Cuba,High,2000,0.694
+Cyprus,Very High,2000,0.797
+Czechia,Very High,2000,0.81
+Denmark,Very High,2000,0.89
+Djibouti,Low,2000,0.33
+Dominica,High,2000,0.721
+Dominican Republic,High,2000,0.646
+Ecuador,High,2000,0.684
+Egypt,High,2000,0.629
+El Salvador,Medium,2000,0.609
+Equatorial Guinea,Medium,2000,0.511
+Eritrea,Low,2000,
+Estonia,Very High,2000,0.798
+Eswatini (Kingdom of),Medium,2000,0.465
+Ethiopia,Low,2000,0.286
+Fiji,High,2000,0.669
+Finland,Very High,2000,0.887
+France,Very High,2000,0.844
+Gabon,Medium,2000,0.626
+Gambia,Low,2000,0.392
+Georgia,Very High,2000,0.694
+Germany,Very High,2000,0.89
+Ghana,Medium,2000,0.5
+Greece,Very High,2000,0.818
+Grenada,High,2000,
+Guatemala,Medium,2000,0.551
+Guinea,Low,2000,0.345
+Guinea-Bissau,Low,2000,
+Guyana,High,2000,0.57
+Haiti,Medium,2000,0.485
+Honduras,Medium,2000,0.553
+"Hong Kong, China (SAR)",Very High,2000,0.831
+Hungary,Very High,2000,0.773
+Iceland,Very High,2000,0.895
+India,Medium,2000,0.49
+Indonesia,High,2000,0.597
+Iran (Islamic Republic of),High,2000,0.692
+Iraq,Medium,2000,0.583
+Ireland,Very High,2000,0.851
+Israel,Very High,2000,0.835
+Italy,Very High,2000,0.842
+Jamaica,High,2000,0.657
+Japan,Very High,2000,0.883
+Jordan,High,2000,0.681
+Kazakhstan,Very High,2000,0.68
+Kenya,Medium,2000,0.487
+Kiribati,Medium,2000,0.547
+Korea (Democratic People's Rep. of),,2000,
+Korea (Republic of),Very High,2000,0.824
+Kuwait,Very High,2000,0.78
+Kyrgyzstan,High,2000,0.617
+Lao People's Democratic Republic,Medium,2000,0.473
+Latvia,Very High,2000,0.761
+Lebanon,High,2000,
+Lesotho,Low,2000,0.456
+Liberia,Low,2000,0.434
+Libya,High,2000,0.746
+Liechtenstein,Very High,2000,0.871
+Lithuania,Very High,2000,0.769
+Luxembourg,Very High,2000,0.864
+Madagascar,Low,2000,0.438
+Malawi,Low,2000,0.378
+Malaysia,Very High,2000,0.726
+Maldives,High,2000,0.635
+Mali,Low,2000,0.315
+Malta,Very High,2000,0.779
+Marshall Islands,High,2000,
+Mauritania,Low,2000,0.461
+Mauritius,High,2000,0.682
+Mexico,High,2000,0.709
+Micronesia (Federated States of),Medium,2000,0.637
+Moldova (Republic of),High,2000,0.655
+Monaco,,2000,
+Mongolia,High,2000,0.595
+Montenegro,Very High,2000,
+Morocco,Medium,2000,0.525
+Mozambique,Low,2000,0.303
+Myanmar,Medium,2000,0.407
+Namibia,Medium,2000,0.549
+Nauru,Medium,2000,
+Nepal,Medium,2000,0.461
+Netherlands,Very High,2000,0.892
+New Zealand,Very High,2000,0.894
+Nicaragua,Medium,2000,0.563
+Niger,Low,2000,0.26
+Nigeria,Low,2000,
+North Macedonia,High,2000,0.676
+Norway,Very High,2000,0.914
+Oman,Very High,2000,0.702
+Pakistan,Low,2000,0.434
+Palau,High,2000,0.747
+"Palestine, State of",High,2000,
+Panama,Very High,2000,0.722
+Papua New Guinea,Medium,2000,0.456
+Paraguay,High,2000,0.656
+Peru,High,2000,0.675
+Philippines,High,2000,0.635
+Poland,Very High,2000,0.794
+Portugal,Very High,2000,0.793
+Qatar,Very High,2000,0.793
+Romania,Very High,2000,0.721
+Russian Federation,Very High,2000,0.733
+Rwanda,Low,2000,0.328
+Saint Kitts and Nevis,Very High,2000,
+Saint Lucia,High,2000,0.692
+Saint Vincent and the Grenadines,High,2000,0.691
+Samoa,High,2000,0.672
+San Marino,Very High,2000,0.875
+Sao Tome and Principe,Medium,2000,0.498
+Saudi Arabia,Very High,2000,0.746
+Senegal,Low,2000,0.388
+Serbia,Very High,2000,0.689
+Seychelles,Very High,2000,0.755
+Sierra Leone,Low,2000,0.319
+Singapore,Very High,2000,0.863
+Slovakia,Very High,2000,0.761
+Slovenia,Very High,2000,0.823
+Solomon Islands,Medium,2000,0.488
+Somalia,Low,2000,
+South Africa,High,2000,0.633
+South Sudan,Low,2000,
+Spain,Very High,2000,0.828
+Sri Lanka,High,2000,0.689
+Sudan,Low,2000,0.42
+Suriname,Medium,2000,
+Sweden,Very High,2000,0.903
+Switzerland,Very High,2000,0.885
+Syrian Arab Republic,Medium,2000,0.587
+Tajikistan,Medium,2000,0.548
+Tanzania (United Republic of),Low,2000,0.396
+Thailand,Very High,2000,0.663
+Timor-Leste,Medium,2000,0.495
+Togo,Low,2000,0.436
+Tonga,High,2000,0.679
+Trinidad and Tobago,Very High,2000,0.708
+Tunisia,High,2000,0.651
+Turkmenistan,High,2000,
+Tuvalu,Medium,2000,0.599
+Uganda,Medium,2000,0.392
+Ukraine,High,2000,0.698
+United Arab Emirates,Very High,2000,0.79
+United Kingdom,Very High,2000,0.863
+United States,Very High,2000,0.894
+Uruguay,Very High,2000,0.754
+Uzbekistan,High,2000,0.603
+Vanuatu,Medium,2000,
+Venezuela (Bolivarian Republic of),Medium,2000,0.699
+Viet Nam,High,2000,0.599
+Yemen,Low,2000,0.434
+Zambia,Medium,2000,0.418
+Zimbabwe,Medium,2000,0.426
+Afghanistan,Low,2001,0.344
+Albania,High,2001,0.687
+Algeria,High,2001,0.659
+Andorra,Very High,2001,0.823
+Angola,Medium,2001,0.39
+Antigua and Barbuda,Very High,2001,
+Argentina,Very High,2001,0.785
+Armenia,High,2001,0.661
+Australia,Very High,2001,0.9
+Austria,Very High,2001,0.874
+Azerbaijan,High,2001,0.644
+Bahamas,Very High,2001,0.79
+Bahrain,Very High,2001,0.786
+Bangladesh,Medium,2001,0.498
+Barbados,Very High,2001,0.761
+Belarus,Very High,2001,0.713
+Belgium,Very High,2001,0.889
+Belize,High,2001,0.661
+Benin,Low,2001,0.423
+Bhutan,Medium,2001,
+Bolivia (Plurinational State of),Medium,2001,0.625
+Bosnia and Herzegovina,High,2001,0.661
+Botswana,High,2001,0.581
+Brazil,High,2001,0.673
+Brunei Darussalam,Very High,2001,0.792
+Bulgaria,High,2001,0.732
+Burkina Faso,Low,2001,0.299
+Burundi,Low,2001,0.301
+Cabo Verde,Medium,2001,0.598
+Cambodia,Medium,2001,0.447
+Cameroon,Medium,2001,0.445
+Canada,Very High,2001,0.893
+Central African Republic,Low,2001,0.321
+Chad,Low,2001,0.302
+Chile,Very High,2001,0.767
+China,High,2001,0.597
+Colombia,High,2001,0.674
+Comoros,Medium,2001,0.466
+Congo,Medium,2001,0.515
+Congo (Democratic Republic of the),Low,2001,0.373
+Costa Rica,Very High,2001,0.714
+Côte d'Ivoire,Low,2001,0.453
+Croatia,Very High,2001,0.779
+Cuba,High,2001,0.701
+Cyprus,Very High,2001,0.804
+Czechia,Very High,2001,0.82
+Denmark,Very High,2001,0.897
+Djibouti,Low,2001,0.34
+Dominica,High,2001,0.718
+Dominican Republic,High,2001,0.651
+Ecuador,High,2001,0.691
+Egypt,High,2001,0.633
+El Salvador,Medium,2001,0.612
+Equatorial Guinea,Medium,2001,0.524
+Eritrea,Low,2001,
+Estonia,Very High,2001,0.807
+Eswatini (Kingdom of),Medium,2001,0.456
+Ethiopia,Low,2001,0.299
+Fiji,High,2001,0.67
+Finland,Very High,2001,0.897
+France,Very High,2001,0.847
+Gabon,Medium,2001,0.632
+Gambia,Low,2001,0.398
+Georgia,Very High,2001,0.7
+Germany,Very High,2001,0.897
+Ghana,Medium,2001,0.499
+Greece,Very High,2001,0.827
+Grenada,High,2001,
+Guatemala,Medium,2001,0.556
+Guinea,Low,2001,0.352
+Guinea-Bissau,Low,2001,
+Guyana,High,2001,0.578
+Haiti,Medium,2001,0.487
+Honduras,Medium,2001,0.557
+"Hong Kong, China (SAR)",Very High,2001,0.839
+Hungary,Very High,2001,0.782
+Iceland,Very High,2001,0.902
+India,Medium,2001,0.495
+Indonesia,High,2001,0.605
+Iran (Islamic Republic of),High,2001,0.7
+Iraq,Medium,2001,0.588
+Ireland,Very High,2001,0.859
+Israel,Very High,2001,0.838
+Italy,Very High,2001,0.849
+Jamaica,High,2001,0.666
+Japan,Very High,2001,0.885
+Jordan,High,2001,0.687
+Kazakhstan,Very High,2001,0.695
+Kenya,Medium,2001,0.49
+Kiribati,Medium,2001,0.587
+Korea (Democratic People's Rep. of),,2001,
+Korea (Republic of),Very High,2001,0.832
+Kuwait,Very High,2001,0.779
+Kyrgyzstan,High,2001,0.626
+Lao People's Democratic Republic,Medium,2001,0.48
+Latvia,Very High,2001,0.772
+Lebanon,High,2001,
+Lesotho,Low,2001,0.452
+Liberia,Low,2001,0.44
+Libya,High,2001,0.748
+Liechtenstein,Very High,2001,0.887
+Lithuania,Very High,2001,0.779
+Luxembourg,Very High,2001,0.867
+Madagascar,Low,2001,0.445
+Malawi,Low,2001,0.386
+Malaysia,Very High,2001,0.726
+Maldives,High,2001,0.639
+Mali,Low,2001,0.327
+Malta,Very High,2001,0.793
+Marshall Islands,High,2001,
+Mauritania,Low,2001,0.462
+Mauritius,High,2001,0.692
+Mexico,High,2001,0.712
+Micronesia (Federated States of),Medium,2001,0.641
+Moldova (Republic of),High,2001,0.662
+Monaco,,2001,
+Mongolia,High,2001,0.606
+Montenegro,Very High,2001,
+Morocco,Medium,2001,0.536
+Mozambique,Low,2001,0.317
+Myanmar,Medium,2001,0.415
+Namibia,Medium,2001,0.544
+Nauru,Medium,2001,
+Nepal,Medium,2001,0.462
+Netherlands,Very High,2001,0.893
+New Zealand,Very High,2001,0.9
+Nicaragua,Medium,2001,0.568
+Niger,Low,2001,0.266
+Nigeria,Low,2001,
+North Macedonia,High,2001,0.681
+Norway,Very High,2001,0.913
+Oman,Very High,2001,0.714
+Pakistan,Low,2001,0.441
+Palau,High,2001,0.754
+"Palestine, State of",High,2001,
+Panama,Very High,2001,0.727
+Papua New Guinea,Medium,2001,0.459
+Paraguay,High,2001,0.662
+Peru,High,2001,0.683
+Philippines,High,2001,0.64
+Poland,Very High,2001,0.802
+Portugal,Very High,2001,0.797
+Qatar,Very High,2001,0.794
+Romania,Very High,2001,0.727
+Russian Federation,Very High,2001,0.743
+Rwanda,Low,2001,0.346
+Saint Kitts and Nevis,Very High,2001,
+Saint Lucia,High,2001,0.693
+Saint Vincent and the Grenadines,High,2001,0.697
+Samoa,High,2001,0.679
+San Marino,Very High,2001,0.879
+Sao Tome and Principe,Medium,2001,0.504
+Saudi Arabia,Very High,2001,0.752
+Senegal,Low,2001,0.395
+Serbia,Very High,2001,0.699
+Seychelles,Very High,2001,0.749
+Sierra Leone,Low,2001,0.33
+Singapore,Very High,2001,0.867
+Slovakia,Very High,2001,0.768
+Slovenia,Very High,2001,0.838
+Solomon Islands,Medium,2001,0.492
+Somalia,Low,2001,
+South Africa,High,2001,0.629
+South Sudan,Low,2001,
+Spain,Very High,2001,0.833
+Sri Lanka,High,2001,0.691
+Sudan,Low,2001,0.428
+Suriname,Medium,2001,
+Sweden,Very High,2001,0.906
+Switzerland,Very High,2001,0.888
+Syrian Arab Republic,Medium,2001,0.595
+Tajikistan,Medium,2001,0.558
+Tanzania (United Republic of),Low,2001,0.404
+Thailand,Very High,2001,0.677
+Timor-Leste,Medium,2001,0.509
+Togo,Low,2001,0.439
+Tonga,High,2001,0.682
+Trinidad and Tobago,Very High,2001,0.716
+Tunisia,High,2001,0.658
+Turkmenistan,High,2001,
+Tuvalu,Medium,2001,0.61
+Uganda,Medium,2001,0.402
+Ukraine,High,2001,0.713
+United Arab Emirates,Very High,2001,0.794
+United Kingdom,Very High,2001,0.869
+United States,Very High,2001,0.895
+Uruguay,Very High,2001,0.761
+Uzbekistan,High,2001,0.61
+Vanuatu,Medium,2001,
+Venezuela (Bolivarian Republic of),Medium,2001,0.704
+Viet Nam,High,2001,0.609
+Yemen,Low,2001,0.444
+Zambia,Medium,2001,0.426
+Zimbabwe,Medium,2001,0.416
+Afghanistan,Low,2002,0.368
+Albania,High,2002,0.692
+Algeria,High,2002,0.668
+Andorra,Very High,2002,0.828
+Angola,Medium,2002,0.406
+Antigua and Barbuda,Very High,2002,
+Argentina,Very High,2002,0.785
+Armenia,High,2002,0.67
+Australia,Very High,2002,0.902
+Austria,Very High,2002,0.878
+Azerbaijan,High,2002,0.654
+Bahamas,Very High,2002,0.792
+Bahrain,Very High,2002,0.792
+Bangladesh,Medium,2002,0.505
+Barbados,Very High,2002,0.765
+Belarus,Very High,2002,0.718
+Belgium,Very High,2002,0.891
+Belize,High,2002,0.67
+Benin,Low,2002,0.431
+Bhutan,Medium,2002,
+Bolivia (Plurinational State of),Medium,2002,0.622
+Bosnia and Herzegovina,High,2002,0.663
+Botswana,High,2002,0.579
+Brazil,High,2002,0.678
+Brunei Darussalam,Very High,2002,0.796
+Bulgaria,High,2002,0.743
+Burkina Faso,Low,2002,0.302
+Burundi,Low,2002,0.314
+Cabo Verde,Medium,2002,0.606
+Cambodia,Medium,2002,0.469
+Cameroon,Medium,2002,0.445
+Canada,Very High,2002,0.895
+Central African Republic,Low,2002,0.322
+Chad,Low,2002,0.309
+Chile,Very High,2002,0.775
+China,High,2002,0.608
+Colombia,High,2002,0.676
+Comoros,Medium,2002,0.472
+Congo,Medium,2002,0.518
+Congo (Democratic Republic of the),Low,2002,0.376
+Costa Rica,Very High,2002,0.721
+Côte d'Ivoire,Low,2002,0.451
+Croatia,Very High,2002,0.785
+Cuba,High,2002,0.706
+Cyprus,Very High,2002,0.816
+Czechia,Very High,2002,0.826
+Denmark,Very High,2002,0.896
+Djibouti,Low,2002,0.346
+Dominica,High,2002,0.718
+Dominican Republic,High,2002,0.657
+Ecuador,High,2002,0.697
+Egypt,High,2002,0.634
+El Salvador,Medium,2002,0.621
+Equatorial Guinea,Medium,2002,0.539
+Eritrea,Low,2002,
+Estonia,Very High,2002,0.818
+Eswatini (Kingdom of),Medium,2002,0.444
+Ethiopia,Low,2002,0.305
+Fiji,High,2002,0.671
+Finland,Very High,2002,0.901
+France,Very High,2002,0.85
+Gabon,Medium,2002,0.635
+Gambia,Low,2002,0.402
+Georgia,Very High,2002,0.709
+Germany,Very High,2002,0.902
+Ghana,Medium,2002,0.506
+Greece,Very High,2002,0.838
+Grenada,High,2002,0.756
+Guatemala,Medium,2002,0.561
+Guinea,Low,2002,0.363
+Guinea-Bissau,Low,2002,
+Guyana,High,2002,0.584
+Haiti,Medium,2002,0.491
+Honduras,Medium,2002,0.561
+"Hong Kong, China (SAR)",Very High,2002,0.846
+Hungary,Very High,2002,0.791
+Iceland,Very High,2002,0.909
+India,Medium,2002,0.501
+Indonesia,High,2002,0.614
+Iran (Islamic Republic of),High,2002,0.708
+Iraq,Medium,2002,0.588
+Ireland,Very High,2002,0.868
+Israel,Very High,2002,0.843
+Italy,Very High,2002,0.854
+Jamaica,High,2002,0.669
+Japan,Very High,2002,0.888
+Jordan,High,2002,0.691
+Kazakhstan,Very High,2002,0.706
+Kenya,Medium,2002,0.49
+Kiribati,Medium,2002,0.584
+Korea (Democratic People's Rep. of),,2002,
+Korea (Republic of),Very High,2002,0.841
+Kuwait,Very High,2002,0.785
+Kyrgyzstan,High,2002,0.627
+Lao People's Democratic Republic,Medium,2002,0.489
+Latvia,Very High,2002,0.784
+Lebanon,High,2002,
+Lesotho,Low,2002,0.449
+Liberia,Low,2002,0.446
+Libya,High,2002,0.75
+Liechtenstein,Very High,2002,0.891
+Lithuania,Very High,2002,0.791
+Luxembourg,Very High,2002,0.872
+Madagascar,Low,2002,0.442
+Malawi,Low,2002,0.394
+Malaysia,Very High,2002,0.725
+Maldives,High,2002,0.642
+Mali,Low,2002,0.336
+Malta,Very High,2002,0.798
+Marshall Islands,High,2002,
+Mauritania,Low,2002,0.465
+Mauritius,High,2002,0.696
+Mexico,High,2002,0.719
+Micronesia (Federated States of),Medium,2002,0.636
+Moldova (Republic of),High,2002,0.671
+Monaco,,2002,
+Mongolia,High,2002,0.615
+Montenegro,Very High,2002,
+Morocco,Medium,2002,0.547
+Mozambique,Low,2002,0.325
+Myanmar,Medium,2002,0.425
+Namibia,Medium,2002,0.544
+Nauru,Medium,2002,
+Nepal,Medium,2002,0.469
+Netherlands,Very High,2002,0.89
+New Zealand,Very High,2002,0.904
+Nicaragua,Medium,2002,0.573
+Niger,Low,2002,0.271
+Nigeria,Low,2002,
+North Macedonia,High,2002,0.684
+Norway,Very High,2002,0.915
+Oman,Very High,2002,0.722
+Pakistan,Low,2002,0.447
+Palau,High,2002,0.76
+"Palestine, State of",High,2002,
+Panama,Very High,2002,0.734
+Papua New Guinea,Medium,2002,0.462
+Paraguay,High,2002,0.669
+Peru,High,2002,0.684
+Philippines,High,2002,0.646
+Poland,Very High,2002,0.809
+Portugal,Very High,2002,0.8
+Qatar,Very High,2002,0.796
+Romania,Very High,2002,0.734
+Russian Federation,Very High,2002,0.749
+Rwanda,Low,2002,0.367
+Saint Kitts and Nevis,Very High,2002,
+Saint Lucia,High,2002,0.697
+Saint Vincent and the Grenadines,High,2002,0.704
+Samoa,High,2002,0.678
+San Marino,Very High,2002,0.882
+Sao Tome and Principe,Medium,2002,0.508
+Saudi Arabia,Very High,2002,0.756
+Senegal,Low,2002,0.399
+Serbia,Very High,2002,0.701
+Seychelles,Very High,2002,0.749
+Sierra Leone,Low,2002,0.346
+Singapore,Very High,2002,0.872
+Slovakia,Very High,2002,0.777
+Slovenia,Very High,2002,0.849
+Solomon Islands,Medium,2002,0.497
+Somalia,Low,2002,
+South Africa,High,2002,0.633
+South Sudan,Low,2002,
+Spain,Very High,2002,0.838
+Sri Lanka,High,2002,0.695
+Sudan,Low,2002,0.434
+Suriname,Medium,2002,
+Sweden,Very High,2002,0.909
+Switzerland,Very High,2002,0.888
+Syrian Arab Republic,Medium,2002,0.602
+Tajikistan,Medium,2002,0.569
+Tanzania (United Republic of),Low,2002,0.414
+Thailand,Very High,2002,0.688
+Timor-Leste,Medium,2002,0.522
+Togo,Low,2002,0.443
+Tonga,High,2002,0.686
+Trinidad and Tobago,Very High,2002,0.727
+Tunisia,High,2002,0.663
+Turkmenistan,High,2002,
+Tuvalu,Medium,2002,0.622
+Uganda,Medium,2002,0.414
+Ukraine,High,2002,0.721
+United Arab Emirates,Very High,2002,0.798
+United Kingdom,Very High,2002,0.874
+United States,Very High,2002,0.896
+Uruguay,Very High,2002,0.765
+Uzbekistan,High,2002,0.617
+Vanuatu,Medium,2002,
+Venezuela (Bolivarian Republic of),Medium,2002,0.711
+Viet Nam,High,2002,0.619
+Yemen,Low,2002,0.453
+Zambia,Medium,2002,0.434
+Zimbabwe,Medium,2002,0.427
+Afghanistan,Low,2003,0.379
+Albania,High,2003,0.701
+Algeria,High,2003,0.675
+Andorra,Very High,2003,0.836
+Angola,Medium,2003,0.424
+Antigua and Barbuda,Very High,2003,
+Argentina,Very High,2003,0.793
+Armenia,High,2003,0.681
+Australia,Very High,2003,0.906
+Austria,Very High,2003,0.88
+Azerbaijan,High,2003,0.663
+Bahamas,Very High,2003,0.793
+Bahrain,Very High,2003,0.799
+Bangladesh,Medium,2003,0.511
+Barbados,Very High,2003,0.769
+Belarus,Very High,2003,0.728
+Belgium,Very High,2003,0.893
+Belize,High,2003,0.679
+Benin,Low,2003,0.438
+Bhutan,Medium,2003,
+Bolivia (Plurinational State of),Medium,2003,0.619
+Bosnia and Herzegovina,High,2003,0.671
+Botswana,High,2003,0.585
+Brazil,High,2003,0.682
+Brunei Darussalam,Very High,2003,0.802
+Bulgaria,High,2003,0.753
+Burkina Faso,Low,2003,0.308
+Burundi,Low,2003,0.322
+Cabo Verde,Medium,2003,0.612
+Cambodia,Medium,2003,0.484
+Cameroon,Medium,2003,0.452
+Canada,Very High,2003,0.897
+Central African Republic,Low,2003,0.322
+Chad,Low,2003,0.309
+Chile,Very High,2003,0.78
+China,High,2003,0.619
+Colombia,High,2003,0.683
+Comoros,Medium,2003,0.478
+Congo,Medium,2003,0.52
+Congo (Democratic Republic of the),Low,2003,0.382
+Costa Rica,Very High,2003,0.726
+Côte d'Ivoire,Low,2003,0.45
+Croatia,Very High,2003,0.79
+Cuba,High,2003,0.714
+Cyprus,Very High,2003,0.825
+Czechia,Very High,2003,0.833
+Denmark,Very High,2003,0.901
+Djibouti,Low,2003,0.357
+Dominica,High,2003,0.718
+Dominican Republic,High,2003,0.66
+Ecuador,High,2003,0.701
+Egypt,High,2003,0.632
+El Salvador,Medium,2003,0.627
+Equatorial Guinea,Medium,2003,0.545
+Eritrea,Low,2003,
+Estonia,Very High,2003,0.826
+Eswatini (Kingdom of),Medium,2003,0.438
+Ethiopia,Low,2003,0.31
+Fiji,High,2003,0.675
+Finland,Very High,2003,0.905
+France,Very High,2003,0.853
+Gabon,Medium,2003,0.638
+Gambia,Low,2003,0.408
+Georgia,Very High,2003,0.719
+Germany,Very High,2003,0.906
+Ghana,Medium,2003,0.51
+Greece,Very High,2003,0.844
+Grenada,High,2003,0.762
+Guatemala,Medium,2003,0.566
+Guinea,Low,2003,0.37
+Guinea-Bissau,Low,2003,
+Guyana,High,2003,0.591
+Haiti,Medium,2003,0.497
+Honduras,Medium,2003,0.565
+"Hong Kong, China (SAR)",Very High,2003,0.854
+Hungary,Very High,2003,0.798
+Iceland,Very High,2003,0.916
+India,Medium,2003,0.514
+Indonesia,High,2003,0.622
+Iran (Islamic Republic of),High,2003,0.713
+Iraq,Medium,2003,0.566
+Ireland,Very High,2003,0.877
+Israel,Very High,2003,0.843
+Italy,Very High,2003,0.858
+Jamaica,High,2003,0.665
+Japan,Very High,2003,0.889
+Jordan,High,2003,0.697
+Kazakhstan,Very High,2003,0.717
+Kenya,Medium,2003,0.501
+Kiribati,Medium,2003,0.588
+Korea (Democratic People's Rep. of),,2003,
+Korea (Republic of),Very High,2003,0.845
+Kuwait,Very High,2003,0.796
+Kyrgyzstan,High,2003,0.635
+Lao People's Democratic Republic,Medium,2003,0.498
+Latvia,Very High,2003,0.795
+Lebanon,High,2003,
+Lesotho,Low,2003,0.45
+Liberia,Low,2003,0.422
+Libya,High,2003,0.755
+Liechtenstein,Very High,2003,0.896
+Lithuania,Very High,2003,0.805
+Luxembourg,Very High,2003,0.873
+Madagascar,Low,2003,0.451
+Malawi,Low,2003,0.402
+Malaysia,Very High,2003,0.73
+Maldives,High,2003,0.655
+Mali,Low,2003,0.348
+Malta,Very High,2003,0.812
+Marshall Islands,High,2003,
+Mauritania,Low,2003,0.47
+Mauritius,High,2003,0.704
+Mexico,High,2003,0.725
+Micronesia (Federated States of),Medium,2003,0.643
+Moldova (Republic of),High,2003,0.681
+Monaco,,2003,
+Mongolia,High,2003,0.629
+Montenegro,Very High,2003,0.749
+Morocco,Medium,2003,0.557
+Mozambique,Low,2003,0.339
+Myanmar,Medium,2003,0.435
+Namibia,Medium,2003,0.547
+Nauru,Medium,2003,
+Nepal,Medium,2003,0.476
+Netherlands,Very High,2003,0.893
+New Zealand,Very High,2003,0.908
+Nicaragua,Medium,2003,0.575
+Niger,Low,2003,0.276
+Nigeria,Low,2003,0.449
+North Macedonia,High,2003,0.69
+Norway,Very High,2003,0.923
+Oman,Very High,2003,0.732
+Pakistan,Low,2003,0.455
+Palau,High,2003,0.765
+"Palestine, State of",High,2003,
+Panama,Very High,2003,0.738
+Papua New Guinea,Medium,2003,0.467
+Paraguay,High,2003,0.663
+Peru,High,2003,0.683
+Philippines,High,2003,0.652
+Poland,Very High,2003,0.814
+Portugal,Very High,2003,0.803
+Qatar,Very High,2003,0.801
+Romania,Very High,2003,0.733
+Russian Federation,Very High,2003,0.757
+Rwanda,Low,2003,0.385
+Saint Kitts and Nevis,Very High,2003,
+Saint Lucia,High,2003,0.701
+Saint Vincent and the Grenadines,High,2003,0.712
+Samoa,High,2003,0.683
+San Marino,Very High,2003,0.883
+Sao Tome and Principe,Medium,2003,0.516
+Saudi Arabia,Very High,2003,0.765
+Senegal,Low,2003,0.407
+Serbia,Very High,2003,0.71
+Seychelles,Very High,2003,0.749
+Sierra Leone,Low,2003,0.355
+Singapore,Very High,2003,0.878
+Slovakia,Very High,2003,0.783
+Slovenia,Very High,2003,0.858
+Solomon Islands,Medium,2003,0.503
+Somalia,Low,2003,
+South Africa,High,2003,0.629
+South Sudan,Low,2003,
+Spain,Very High,2003,0.84
+Sri Lanka,High,2003,0.7
+Sudan,Low,2003,0.438
+Suriname,Medium,2003,
+Sweden,Very High,2003,0.914
+Switzerland,Very High,2003,0.893
+Syrian Arab Republic,Medium,2003,0.613
+Tajikistan,Medium,2003,0.581
+Tanzania (United Republic of),Low,2003,0.425
+Thailand,Very High,2003,0.698
+Timor-Leste,Medium,2003,0.522
+Togo,Low,2003,0.449
+Tonga,High,2003,0.693
+Trinidad and Tobago,Very High,2003,0.733
+Tunisia,High,2003,0.669
+Turkmenistan,High,2003,
+Tuvalu,Medium,2003,0.608
+Uganda,Medium,2003,0.427
+Ukraine,High,2003,0.73
+United Arab Emirates,Very High,2003,0.807
+United Kingdom,Very High,2003,0.879
+United States,Very High,2003,0.898
+Uruguay,Very High,2003,0.771
+Uzbekistan,High,2003,0.624
+Vanuatu,Medium,2003,
+Venezuela (Bolivarian Republic of),Medium,2003,0.702
+Viet Nam,High,2003,0.628
+Yemen,Low,2003,0.462
+Zambia,Medium,2003,0.448
+Zimbabwe,Medium,2003,0.414
+Afghanistan,Low,2004,0.395
+Albania,High,2004,0.707
+Algeria,High,2004,0.683
+Andorra,Very High,2004,0.828
+Angola,Medium,2004,0.437
+Antigua and Barbuda,Very High,2004,
+Argentina,Very High,2004,0.798
+Armenia,High,2004,0.689
+Australia,Very High,2004,0.908
+Austria,Very High,2004,0.886
+Azerbaijan,High,2004,0.67
+Bahamas,Very High,2004,0.795
+Bahrain,Very High,2004,0.795
+Bangladesh,Medium,2004,0.518
+Barbados,Very High,2004,0.774
+Belarus,Very High,2004,0.74
+Belgium,Very High,2004,0.899
+Belize,High,2004,0.685
+Benin,Low,2004,0.444
+Bhutan,Medium,2004,
+Bolivia (Plurinational State of),Medium,2004,0.626
+Bosnia and Herzegovina,High,2004,0.678
+Botswana,High,2004,0.591
+Brazil,High,2004,0.689
+Brunei Darussalam,Very High,2004,0.807
+Bulgaria,High,2004,0.76
+Burkina Faso,Low,2004,0.317
+Burundi,Low,2004,0.333
+Cabo Verde,Medium,2004,0.615
+Cambodia,Medium,2004,0.499
+Cameroon,Medium,2004,0.458
+Canada,Very High,2004,0.901
+Central African Republic,Low,2004,0.326
+Chad,Low,2004,0.327
+Chile,Very High,2004,0.787
+China,High,2004,0.631
+Colombia,High,2004,0.689
+Comoros,Medium,2004,0.484
+Congo,Medium,2004,0.525
+Congo (Democratic Republic of the),Low,2004,0.388
+Costa Rica,Very High,2004,0.731
+Côte d'Ivoire,Low,2004,0.451
+Croatia,Very High,2004,0.801
+Cuba,High,2004,0.728
+Cyprus,Very High,2004,0.83
+Czechia,Very High,2004,0.838
+Denmark,Very High,2004,0.906
+Djibouti,Low,2004,0.365
+Dominica,High,2004,0.723
+Dominican Republic,High,2004,0.663
+Ecuador,High,2004,0.708
+Egypt,High,2004,0.635
+El Salvador,Medium,2004,0.633
+Equatorial Guinea,Medium,2004,0.556
+Eritrea,Low,2004,
+Estonia,Very High,2004,0.836
+Eswatini (Kingdom of),Medium,2004,0.436
+Ethiopia,Low,2004,0.323
+Fiji,High,2004,0.682
+Finland,Very High,2004,0.901
+France,Very High,2004,0.861
+Gabon,Medium,2004,0.638
+Gambia,Low,2004,0.419
+Georgia,Very High,2004,0.727
+Germany,Very High,2004,0.915
+Ghana,Medium,2004,0.517
+Greece,Very High,2004,0.852
+Grenada,High,2004,0.754
+Guatemala,Medium,2004,0.57
+Guinea,Low,2004,0.377
+Guinea-Bissau,Low,2004,
+Guyana,High,2004,0.604
+Haiti,Medium,2004,0.494
+Honduras,Medium,2004,0.57
+"Hong Kong, China (SAR)",Very High,2004,0.863
+Hungary,Very High,2004,0.802
+Iceland,Very High,2004,0.92
+India,Medium,2004,0.523
+Indonesia,High,2004,0.621
+Iran (Islamic Republic of),High,2004,0.722
+Iraq,Medium,2004,0.588
+Ireland,Very High,2004,0.888
+Israel,Very High,2004,0.847
+Italy,Very High,2004,0.866
+Jamaica,High,2004,0.68
+Japan,Very High,2004,0.893
+Jordan,High,2004,0.707
+Kazakhstan,Very High,2004,0.729
+Kenya,Medium,2004,0.513
+Kiribati,Medium,2004,0.585
+Korea (Democratic People's Rep. of),,2004,
+Korea (Republic of),Very High,2004,0.853
+Kuwait,Very High,2004,0.8
+Kyrgyzstan,High,2004,0.638
+Lao People's Democratic Republic,Medium,2004,0.506
+Latvia,Very High,2004,0.805
+Lebanon,High,2004,
+Lesotho,Low,2004,0.448
+Liberia,Low,2004,0.435
+Libya,High,2004,0.758
+Liechtenstein,Very High,2004,0.91
+Lithuania,Very High,2004,0.813
+Luxembourg,Very High,2004,0.881
+Madagascar,Low,2004,0.459
+Malawi,Low,2004,0.41
+Malaysia,Very High,2004,0.731
+Maldives,High,2004,0.656
+Mali,Low,2004,0.355
+Malta,Very High,2004,0.826
+Marshall Islands,High,2004,
+Mauritania,Low,2004,0.48
+Mauritius,High,2004,0.711
+Mexico,High,2004,0.729
+Micronesia (Federated States of),Medium,2004,0.641
+Moldova (Republic of),High,2004,0.691
+Monaco,,2004,
+Mongolia,High,2004,0.646
+Montenegro,Very High,2004,0.758
+Morocco,Medium,2004,0.564
+Mozambique,Low,2004,0.349
+Myanmar,Medium,2004,0.445
+Namibia,Medium,2004,0.551
+Nauru,Medium,2004,
+Nepal,Medium,2004,0.484
+Netherlands,Very High,2004,0.896
+New Zealand,Very High,2004,0.912
+Nicaragua,Medium,2004,0.58
+Niger,Low,2004,0.286
+Nigeria,Low,2004,0.461
+North Macedonia,High,2004,0.697
+Norway,Very High,2004,0.929
+Oman,Very High,2004,0.74
+Pakistan,Low,2004,0.468
+Palau,High,2004,0.768
+"Palestine, State of",High,2004,0.652
+Panama,Very High,2004,0.744
+Papua New Guinea,Medium,2004,0.465
+Paraguay,High,2004,0.671
+Peru,High,2004,0.69
+Philippines,High,2004,0.658
+Poland,Very High,2004,0.812
+Portugal,Very High,2004,0.811
+Qatar,Very High,2004,0.804
+Romania,Very High,2004,0.74
+Russian Federation,Very High,2004,0.764
+Rwanda,Low,2004,0.403
+Saint Kitts and Nevis,Very High,2004,
+Saint Lucia,High,2004,0.706
+Saint Vincent and the Grenadines,High,2004,0.719
+Samoa,High,2004,0.688
+San Marino,Very High,2004,0.885
+Sao Tome and Principe,Medium,2004,0.522
+Saudi Arabia,Very High,2004,0.775
+Senegal,Low,2004,0.414
+Serbia,Very High,2004,0.721
+Seychelles,Very High,2004,0.748
+Sierra Leone,Low,2004,0.363
+Singapore,Very High,2004,0.886
+Slovakia,Very High,2004,0.793
+Slovenia,Very High,2004,0.864
+Solomon Islands,Medium,2004,0.51
+Somalia,Low,2004,
+South Africa,High,2004,0.63
+South Sudan,Low,2004,
+Spain,Very High,2004,0.846
+Sri Lanka,High,2004,0.683
+Sudan,Low,2004,0.441
+Suriname,Medium,2004,0.667
+Sweden,Very High,2004,0.901
+Switzerland,Very High,2004,0.898
+Syrian Arab Republic,Medium,2004,0.626
+Tajikistan,Medium,2004,0.591
+Tanzania (United Republic of),Low,2004,0.435
+Thailand,Very High,2004,0.707
+Timor-Leste,Medium,2004,0.536
+Togo,Low,2004,0.448
+Tonga,High,2004,0.694
+Trinidad and Tobago,Very High,2004,0.747
+Tunisia,High,2004,0.679
+Turkmenistan,High,2004,
+Tuvalu,Medium,2004,0.614
+Uganda,Medium,2004,0.441
+Ukraine,High,2004,0.739
+United Arab Emirates,Very High,2004,0.811
+United Kingdom,Very High,2004,0.889
+United States,Very High,2004,0.902
+Uruguay,Very High,2004,0.77
+Uzbekistan,High,2004,0.631
+Vanuatu,Medium,2004,
+Venezuela (Bolivarian Republic of),Medium,2004,0.713
+Viet Nam,High,2004,0.637
+Yemen,Low,2004,0.47
+Zambia,Medium,2004,0.459
+Zimbabwe,Medium,2004,0.419
+Afghanistan,Low,2005,0.402
+Albania,High,2005,0.72
+Algeria,High,2005,0.69
+Andorra,Very High,2005,0.828
+Angola,Medium,2005,0.451
+Antigua and Barbuda,Very High,2005,
+Argentina,Very High,2005,0.802
+Armenia,High,2005,0.701
+Australia,Very High,2005,0.911
+Austria,Very High,2005,0.889
+Azerbaijan,High,2005,0.682
+Bahamas,Very High,2005,0.798
+Bahrain,Very High,2005,0.791
+Bangladesh,Medium,2005,0.525
+Barbados,Very High,2005,0.779
+Belarus,Very High,2005,0.749
+Belgium,Very High,2005,0.901
+Belize,High,2005,0.682
+Benin,Low,2005,0.45
+Bhutan,Medium,2005,
+Bolivia (Plurinational State of),Medium,2005,0.634
+Bosnia and Herzegovina,High,2005,0.679
+Botswana,High,2005,0.601
+Brazil,High,2005,0.696
+Brunei Darussalam,Very High,2005,0.811
+Bulgaria,High,2005,0.765
+Burkina Faso,Low,2005,0.327
+Burundi,Low,2005,0.342
+Cabo Verde,Medium,2005,0.622
+Cambodia,Medium,2005,0.51
+Cameroon,Medium,2005,0.459
+Canada,Very High,2005,0.903
+Central African Republic,Low,2005,0.33
+Chad,Low,2005,0.329
+Chile,Very High,2005,0.795
+China,High,2005,0.643
+Colombia,High,2005,0.701
+Comoros,Medium,2005,0.491
+Congo,Medium,2005,0.539
+Congo (Democratic Republic of the),Low,2005,0.392
+Costa Rica,Very High,2005,0.739
+Côte d'Ivoire,Low,2005,0.453
+Croatia,Very High,2005,0.806
+Cuba,High,2005,0.741
+Cyprus,Very High,2005,0.833
+Czechia,Very High,2005,0.847
+Denmark,Very High,2005,0.911
+Djibouti,Low,2005,0.374
+Dominica,High,2005,0.724
+Dominican Republic,High,2005,0.674
+Ecuador,High,2005,0.714
+Egypt,High,2005,0.637
+El Salvador,Medium,2005,0.64
+Equatorial Guinea,Medium,2005,0.57
+Eritrea,Low,2005,0.466
+Estonia,Very High,2005,0.848
+Eswatini (Kingdom of),Medium,2005,0.439
+Ethiopia,Low,2005,0.343
+Fiji,High,2005,0.684
+Finland,Very High,2005,0.904
+France,Very High,2005,0.869
+Gabon,Medium,2005,0.643
+Gambia,Low,2005,0.422
+Georgia,Very High,2005,0.738
+Germany,Very High,2005,0.916
+Ghana,Medium,2005,0.529
+Greece,Very High,2005,0.864
+Grenada,High,2005,0.773
+Guatemala,Medium,2005,0.574
+Guinea,Low,2005,0.387
+Guinea-Bissau,Low,2005,0.402
+Guyana,High,2005,0.615
+Haiti,Medium,2005,0.506
+Honduras,Medium,2005,0.575
+"Hong Kong, China (SAR)",Very High,2005,0.871
+Hungary,Very High,2005,0.807
+Iceland,Very High,2005,0.926
+India,Medium,2005,0.532
+Indonesia,High,2005,0.634
+Iran (Islamic Republic of),High,2005,0.727
+Iraq,Medium,2005,0.591
+Ireland,Very High,2005,0.894
+Israel,Very High,2005,0.856
+Italy,Very High,2005,0.869
+Jamaica,High,2005,0.685
+Japan,Very High,2005,0.894
+Jordan,High,2005,0.713
+Kazakhstan,Very High,2005,0.739
+Kenya,Medium,2005,0.521
+Kiribati,Medium,2005,0.585
+Korea (Democratic People's Rep. of),,2005,
+Korea (Republic of),Very High,2005,0.861
+Kuwait,Very High,2005,0.8
+Kyrgyzstan,High,2005,0.64
+Lao People's Democratic Republic,Medium,2005,0.516
+Latvia,Very High,2005,0.815
+Lebanon,High,2005,0.71
+Lesotho,Low,2005,0.447
+Liberia,Low,2005,0.439
+Libya,High,2005,0.764
+Liechtenstein,Very High,2005,0.902
+Lithuania,Very High,2005,0.821
+Luxembourg,Very High,2005,0.882
+Madagascar,Low,2005,0.464
+Malawi,Low,2005,0.417
+Malaysia,Very High,2005,0.728
+Maldives,High,2005,0.655
+Mali,Low,2005,0.364
+Malta,Very High,2005,0.834
+Marshall Islands,High,2005,
+Mauritania,Low,2005,0.485
+Mauritius,High,2005,0.719
+Mexico,High,2005,0.733
+Micronesia (Federated States of),Medium,2005,0.642
+Moldova (Republic of),High,2005,0.698
+Monaco,,2005,
+Mongolia,High,2005,0.658
+Montenegro,Very High,2005,0.761
+Morocco,Medium,2005,0.57
+Mozambique,Low,2005,0.359
+Myanmar,Medium,2005,0.456
+Namibia,Medium,2005,0.553
+Nauru,Medium,2005,0.527
+Nepal,Medium,2005,0.492
+Netherlands,Very High,2005,0.899
+New Zealand,Very High,2005,0.917
+Nicaragua,Medium,2005,0.585
+Niger,Low,2005,0.296
+Nigeria,Low,2005,0.468
+North Macedonia,High,2005,0.704
+Norway,Very High,2005,0.93
+Oman,Very High,2005,0.748
+Pakistan,Low,2005,0.477
+Palau,High,2005,0.779
+"Palestine, State of",High,2005,0.662
+Panama,Very High,2005,0.75
+Papua New Guinea,Medium,2005,0.469
+Paraguay,High,2005,0.673
+Peru,High,2005,0.685
+Philippines,High,2005,0.659
+Poland,Very High,2005,0.819
+Portugal,Very High,2005,0.813
+Qatar,Very High,2005,0.811
+Romania,Very High,2005,0.75
+Russian Federation,Very High,2005,0.767
+Rwanda,Low,2005,0.421
+Saint Kitts and Nevis,Very High,2005,0.759
+Saint Lucia,High,2005,0.711
+Saint Vincent and the Grenadines,High,2005,0.727
+Samoa,High,2005,0.692
+San Marino,Very High,2005,0.888
+Sao Tome and Principe,Medium,2005,0.529
+Saudi Arabia,Very High,2005,0.783
+Senegal,Low,2005,0.421
+Serbia,Very High,2005,0.732
+Seychelles,Very High,2005,0.762
+Sierra Leone,Low,2005,0.369
+Singapore,Very High,2005,0.896
+Slovakia,Very High,2005,0.802
+Slovenia,Very High,2005,0.869
+Solomon Islands,Medium,2005,0.516
+Somalia,Low,2005,
+South Africa,High,2005,0.632
+South Sudan,Low,2005,
+Spain,Very High,2005,0.851
+Sri Lanka,High,2005,0.71
+Sudan,Low,2005,0.448
+Suriname,Medium,2005,0.673
+Sweden,Very High,2005,0.903
+Switzerland,Very High,2005,0.903
+Syrian Arab Republic,Medium,2005,0.639
+Tajikistan,Medium,2005,0.606
+Tanzania (United Republic of),Low,2005,0.445
+Thailand,Very High,2005,0.715
+Timor-Leste,Medium,2005,0.553
+Togo,Low,2005,0.446
+Tonga,High,2005,0.695
+Trinidad and Tobago,Very High,2005,0.753
+Tunisia,High,2005,0.686
+Turkmenistan,High,2005,0.652
+Tuvalu,Medium,2005,0.614
+Uganda,Medium,2005,0.451
+Ukraine,High,2005,0.743
+United Arab Emirates,Very High,2005,0.815
+United Kingdom,Very High,2005,0.895
+United States,Very High,2005,0.904
+Uruguay,Very High,2005,0.768
+Uzbekistan,High,2005,0.636
+Vanuatu,Medium,2005,0.557
+Venezuela (Bolivarian Republic of),Medium,2005,0.722
+Viet Nam,High,2005,0.645
+Yemen,Low,2005,0.476
+Zambia,Medium,2005,0.472
+Zimbabwe,Medium,2005,0.42
+Afghanistan,Low,2006,0.41
+Albania,High,2006,0.728
+Algeria,High,2006,0.696
+Andorra,Very High,2006,0.842
+Angola,Medium,2006,0.463
+Antigua and Barbuda,Very High,2006,
+Argentina,Very High,2006,0.814
+Armenia,High,2006,0.714
+Australia,Very High,2006,0.914
+Austria,Very High,2006,0.893
+Azerbaijan,High,2006,0.701
+Bahamas,Very High,2006,0.8
+Bahrain,Very High,2006,0.794
+Bangladesh,Medium,2006,0.53
+Barbados,Very High,2006,0.784
+Belarus,Very High,2006,0.761
+Belgium,Very High,2006,0.904
+Belize,High,2006,0.697
+Benin,Low,2006,0.456
+Bhutan,Medium,2006,
+Bolivia (Plurinational State of),Medium,2006,0.637
+Bosnia and Herzegovina,High,2006,0.687
+Botswana,High,2006,0.615
+Brazil,High,2006,0.701
+Brunei Darussalam,Very High,2006,0.817
+Bulgaria,High,2006,0.77
+Burkina Faso,Low,2006,0.335
+Burundi,Low,2006,0.365
+Cabo Verde,Medium,2006,0.633
+Cambodia,Medium,2006,0.522
+Cameroon,Medium,2006,0.46
+Canada,Very High,2006,0.907
+Central African Republic,Low,2006,0.333
+Chad,Low,2006,0.328
+Chile,Very High,2006,0.796
+China,High,2006,0.656
+Colombia,High,2006,0.703
+Comoros,Medium,2006,0.497
+Congo,Medium,2006,0.552
+Congo (Democratic Republic of the),Low,2006,0.397
+Costa Rica,Very High,2006,0.745
+Côte d'Ivoire,Low,2006,0.455
+Croatia,Very High,2006,0.814
+Cuba,High,2006,0.761
+Cyprus,Very High,2006,0.839
+Czechia,Very High,2006,0.856
+Denmark,Very High,2006,0.911
+Djibouti,Low,2006,0.384
+Dominica,High,2006,0.731
+Dominican Republic,High,2006,0.684
+Ecuador,High,2006,0.719
+Egypt,High,2006,0.642
+El Salvador,Medium,2006,0.645
+Equatorial Guinea,Medium,2006,0.587
+Eritrea,Low,2006,0.466
+Estonia,Very High,2006,0.856
+Eswatini (Kingdom of),Medium,2006,0.454
+Ethiopia,Low,2006,0.359
+Fiji,High,2006,0.687
+Finland,Very High,2006,0.909
+France,Very High,2006,0.873
+Gabon,Medium,2006,0.643
+Gambia,Low,2006,0.427
+Georgia,Very High,2006,0.744
+Germany,Very High,2006,0.92
+Ghana,Medium,2006,0.537
+Greece,Very High,2006,0.872
+Grenada,High,2006,0.772
+Guatemala,Medium,2006,0.58
+Guinea,Low,2006,0.394
+Guinea-Bissau,Low,2006,0.414
+Guyana,High,2006,0.624
+Haiti,Medium,2006,0.51
+Honduras,Medium,2006,0.579
+"Hong Kong, China (SAR)",Very High,2006,0.878
+Hungary,Very High,2006,0.815
+Iceland,Very High,2006,0.928
+India,Medium,2006,0.541
+Indonesia,High,2006,0.643
+Iran (Islamic Republic of),High,2006,0.738
+Iraq,Medium,2006,0.591
+Ireland,Very High,2006,0.898
+Israel,Very High,2006,0.864
+Italy,Very High,2006,0.874
+Jamaica,High,2006,0.695
+Japan,Very High,2006,0.898
+Jordan,High,2006,0.719
+Kazakhstan,Very High,2006,0.75
+Kenya,Medium,2006,0.531
+Kiribati,Medium,2006,0.581
+Korea (Democratic People's Rep. of),,2006,
+Korea (Republic of),Very High,2006,0.866
+Kuwait,Very High,2006,0.8
+Kyrgyzstan,High,2006,0.646
+Lao People's Democratic Republic,Medium,2006,0.517
+Latvia,Very High,2006,0.821
+Lebanon,High,2006,0.711
+Lesotho,Low,2006,0.444
+Liberia,Low,2006,0.443
+Libya,High,2006,0.768
+Liechtenstein,Very High,2006,0.907
+Lithuania,Very High,2006,0.828
+Luxembourg,Very High,2006,0.882
+Madagascar,Low,2006,0.469
+Malawi,Low,2006,0.426
+Malaysia,Very High,2006,0.732
+Maldives,High,2006,0.67
+Mali,Low,2006,0.373
+Malta,Very High,2006,0.832
+Marshall Islands,High,2006,
+Mauritania,Low,2006,0.495
+Mauritius,High,2006,0.725
+Mexico,High,2006,0.741
+Micronesia (Federated States of),Medium,2006,0.643
+Moldova (Republic of),High,2006,0.706
+Monaco,,2006,
+Mongolia,High,2006,0.669
+Montenegro,Very High,2006,0.771
+Morocco,Medium,2006,0.576
+Mozambique,Low,2006,0.367
+Myanmar,Medium,2006,0.466
+Namibia,Medium,2006,0.559
+Nauru,Medium,2006,0.499
+Nepal,Medium,2006,0.503
+Netherlands,Very High,2006,0.905
+New Zealand,Very High,2006,0.918
+Nicaragua,Medium,2006,0.59
+Niger,Low,2006,0.303
+Nigeria,Low,2006,0.475
+North Macedonia,High,2006,0.712
+Norway,Very High,2006,0.934
+Oman,Very High,2006,0.757
+Pakistan,Low,2006,0.485
+Palau,High,2006,0.78
+"Palestine, State of",High,2006,0.662
+Panama,Very High,2006,0.756
+Papua New Guinea,Medium,2006,0.471
+Paraguay,High,2006,0.674
+Peru,High,2006,0.69
+Philippines,High,2006,0.659
+Poland,Very High,2006,0.824
+Portugal,Very High,2006,0.819
+Qatar,Very High,2006,0.818
+Romania,Very High,2006,0.768
+Russian Federation,Very High,2006,0.778
+Rwanda,Low,2006,0.44
+Saint Kitts and Nevis,Very High,2006,0.765
+Saint Lucia,High,2006,0.722
+Saint Vincent and the Grenadines,High,2006,0.737
+Samoa,High,2006,0.695
+San Marino,Very High,2006,0.892
+Sao Tome and Principe,Medium,2006,0.539
+Saudi Arabia,Very High,2006,0.785
+Senegal,Low,2006,0.429
+Serbia,Very High,2006,0.743
+Seychelles,Very High,2006,0.753
+Sierra Leone,Low,2006,0.371
+Singapore,Very High,2006,0.901
+Slovakia,Very High,2006,0.812
+Slovenia,Very High,2006,0.878
+Solomon Islands,Medium,2006,0.523
+Somalia,Low,2006,
+South Africa,High,2006,0.637
+South Sudan,Low,2006,
+Spain,Very High,2006,0.856
+Sri Lanka,High,2006,0.713
+Sudan,Low,2006,0.466
+Suriname,Medium,2006,0.678
+Sweden,Very High,2006,0.907
+Switzerland,Very High,2006,0.913
+Syrian Arab Republic,Medium,2006,0.65
+Tajikistan,Medium,2006,0.615
+Tanzania (United Republic of),Low,2006,0.455
+Thailand,Very High,2006,0.721
+Timor-Leste,Medium,2006,0.579
+Togo,Low,2006,0.452
+Tonga,High,2006,0.696
+Trinidad and Tobago,Very High,2006,0.762
+Tunisia,High,2006,0.693
+Turkmenistan,High,2006,0.661
+Tuvalu,Medium,2006,0.616
+Uganda,Medium,2006,0.463
+Ukraine,High,2006,0.752
+United Arab Emirates,Very High,2006,0.82
+United Kingdom,Very High,2006,0.894
+United States,Very High,2006,0.908
+Uruguay,Very High,2006,0.767
+Uzbekistan,High,2006,0.642
+Vanuatu,Medium,2006,0.564
+Venezuela (Bolivarian Republic of),Medium,2006,0.73
+Viet Nam,High,2006,0.653
+Yemen,Low,2006,0.481
+Zambia,Medium,2006,0.484
+Zimbabwe,Medium,2006,0.422
+Afghanistan,Low,2007,0.426
+Albania,High,2007,0.74
+Algeria,High,2007,0.701
+Andorra,Very High,2007,0.851
+Angola,Medium,2007,0.48
+Antigua and Barbuda,Very High,2007,0.816
+Argentina,Very High,2007,0.817
+Armenia,High,2007,0.73
+Australia,Very High,2007,0.916
+Austria,Very High,2007,0.896
+Azerbaijan,High,2007,0.714
+Bahamas,Very High,2007,0.8
+Bahrain,Very High,2007,0.8
+Bangladesh,Medium,2007,0.533
+Barbados,Very High,2007,0.789
+Belarus,Very High,2007,0.772
+Belgium,Very High,2007,0.907
+Belize,High,2007,0.704
+Benin,Low,2007,0.464
+Bhutan,Medium,2007,
+Bolivia (Plurinational State of),Medium,2007,0.644
+Bosnia and Herzegovina,High,2007,0.702
+Botswana,High,2007,0.629
+Brazil,High,2007,0.708
+Brunei Darussalam,Very High,2007,0.82
+Bulgaria,High,2007,0.776
+Burkina Faso,Low,2007,0.339
+Burundi,Low,2007,0.377
+Cabo Verde,Medium,2007,0.639
+Cambodia,Medium,2007,0.531
+Cameroon,Medium,2007,0.472
+Canada,Very High,2007,0.907
+Central African Republic,Low,2007,0.339
+Chad,Low,2007,0.339
+Chile,Very High,2007,0.801
+China,High,2007,0.668
+Colombia,High,2007,0.715
+Comoros,Medium,2007,0.503
+Congo,Medium,2007,0.553
+Congo (Democratic Republic of the),Low,2007,0.401
+Costa Rica,Very High,2007,0.754
+Côte d'Ivoire,Low,2007,0.458
+Croatia,Very High,2007,0.818
+Cuba,High,2007,0.775
+Cyprus,Very High,2007,0.845
+Czechia,Very High,2007,0.862
+Denmark,Very High,2007,0.912
+Djibouti,Low,2007,0.394
+Dominica,High,2007,0.73
+Dominican Republic,High,2007,0.692
+Ecuador,High,2007,0.722
+Egypt,High,2007,0.649
+El Salvador,Medium,2007,0.651
+Equatorial Guinea,Medium,2007,0.599
+Eritrea,Low,2007,0.465
+Estonia,Very High,2007,0.859
+Eswatini (Kingdom of),Medium,2007,0.464
+Ethiopia,Low,2007,0.376
+Fiji,High,2007,0.689
+Finland,Very High,2007,0.911
+France,Very High,2007,0.876
+Gabon,Medium,2007,0.646
+Gambia,Low,2007,0.433
+Georgia,Very High,2007,0.755
+Germany,Very High,2007,0.923
+Ghana,Medium,2007,0.547
+Greece,Very High,2007,0.866
+Grenada,High,2007,0.778
+Guatemala,Medium,2007,0.59
+Guinea,Low,2007,0.402
+Guinea-Bissau,Low,2007,0.421
+Guyana,High,2007,0.631
+Haiti,Medium,2007,0.516
+Honduras,Medium,2007,0.584
+"Hong Kong, China (SAR)",Very High,2007,0.892
+Hungary,Very High,2007,0.818
+Iceland,Very High,2007,0.933
+India,Medium,2007,0.55
+Indonesia,High,2007,0.646
+Iran (Islamic Republic of),High,2007,0.742
+Iraq,Medium,2007,0.596
+Ireland,Very High,2007,0.904
+Israel,Very High,2007,0.876
+Italy,Very High,2007,0.878
+Jamaica,High,2007,0.703
+Japan,Very High,2007,0.9
+Jordan,High,2007,0.716
+Kazakhstan,Very High,2007,0.757
+Kenya,Medium,2007,0.54
+Kiribati,Medium,2007,0.582
+Korea (Democratic People's Rep. of),,2007,
+Korea (Republic of),Very High,2007,0.871
+Kuwait,Very High,2007,0.802
+Kyrgyzstan,High,2007,0.652
+Lao People's Democratic Republic,Medium,2007,0.531
+Latvia,Very High,2007,0.825
+Lebanon,High,2007,0.724
+Lesotho,Low,2007,0.45
+Liberia,Low,2007,0.448
+Libya,High,2007,0.771
+Liechtenstein,Very High,2007,0.909
+Lithuania,Very High,2007,0.835
+Luxembourg,Very High,2007,0.885
+Madagascar,Low,2007,0.477
+Malawi,Low,2007,0.433
+Malaysia,Very High,2007,0.744
+Maldives,High,2007,0.67
+Mali,Low,2007,0.381
+Malta,Very High,2007,0.84
+Marshall Islands,High,2007,
+Mauritania,Low,2007,0.495
+Mauritius,High,2007,0.732
+Mexico,High,2007,0.743
+Micronesia (Federated States of),Medium,2007,0.642
+Moldova (Republic of),High,2007,0.711
+Monaco,,2007,
+Mongolia,High,2007,0.68
+Montenegro,Very High,2007,0.783
+Morocco,Medium,2007,0.583
+Mozambique,Low,2007,0.38
+Myanmar,Medium,2007,0.475
+Namibia,Medium,2007,0.567
+Nauru,Medium,2007,0.506
+Nepal,Medium,2007,0.508
+Netherlands,Very High,2007,0.911
+New Zealand,Very High,2007,0.919
+Nicaragua,Medium,2007,0.596
+Niger,Low,2007,0.309
+Nigeria,Low,2007,0.479
+North Macedonia,High,2007,0.717
+Norway,Very High,2007,0.936
+Oman,Very High,2007,0.764
+Pakistan,Low,2007,0.49
+Palau,High,2007,0.782
+"Palestine, State of",High,2007,0.672
+Panama,Very High,2007,0.765
+Papua New Guinea,Medium,2007,0.479
+Paraguay,High,2007,0.681
+Peru,High,2007,0.7
+Philippines,High,2007,0.663
+Poland,Very High,2007,0.828
+Portugal,Very High,2007,0.822
+Qatar,Very High,2007,0.827
+Romania,Very High,2007,0.78
+Russian Federation,Very High,2007,0.789
+Rwanda,Low,2007,0.454
+Saint Kitts and Nevis,Very High,2007,0.769
+Saint Lucia,High,2007,0.721
+Saint Vincent and the Grenadines,High,2007,0.747
+Samoa,High,2007,0.7
+San Marino,Very High,2007,0.895
+Sao Tome and Principe,Medium,2007,0.543
+Saudi Arabia,Very High,2007,0.786
+Senegal,Low,2007,0.442
+Serbia,Very High,2007,0.753
+Seychelles,Very High,2007,0.771
+Sierra Leone,Low,2007,0.392
+Singapore,Very High,2007,0.906
+Slovakia,Very High,2007,0.822
+Slovenia,Very High,2007,0.881
+Solomon Islands,Medium,2007,0.524
+Somalia,Low,2007,
+South Africa,High,2007,0.644
+South Sudan,Low,2007,
+Spain,Very High,2007,0.857
+Sri Lanka,High,2007,0.718
+Sudan,Low,2007,0.472
+Suriname,Medium,2007,0.684
+Sweden,Very High,2007,0.909
+Switzerland,Very High,2007,0.92
+Syrian Arab Republic,Medium,2007,0.657
+Tajikistan,Medium,2007,0.62
+Tanzania (United Republic of),Low,2007,0.464
+Thailand,Very High,2007,0.732
+Timor-Leste,Medium,2007,0.601
+Togo,Low,2007,0.445
+Tonga,High,2007,0.698
+Trinidad and Tobago,Very High,2007,0.768
+Tunisia,High,2007,0.7
+Turkmenistan,High,2007,0.672
+Tuvalu,Medium,2007,0.618
+Uganda,Medium,2007,0.473
+Ukraine,High,2007,0.759
+United Arab Emirates,Very High,2007,0.825
+United Kingdom,Very High,2007,0.897
+United States,Very High,2007,0.911
+Uruguay,Very High,2007,0.769
+Uzbekistan,High,2007,0.655
+Vanuatu,Medium,2007,0.567
+Venezuela (Bolivarian Republic of),Medium,2007,0.747
+Viet Nam,High,2007,0.66
+Yemen,Low,2007,0.485
+Zambia,Medium,2007,0.495
+Zimbabwe,Medium,2007,0.423
+Afghanistan,Low,2008,0.431
+Albania,High,2008,0.747
+Algeria,High,2008,0.709
+Andorra,Very High,2008,0.857
+Angola,Medium,2008,0.492
+Antigua and Barbuda,Very High,2008,0.816
+Argentina,Very High,2008,0.825
+Armenia,High,2008,0.733
+Australia,Very High,2008,0.92
+Austria,Very High,2008,0.899
+Azerbaijan,High,2008,0.723
+Bahamas,Very High,2008,0.801
+Bahrain,Very High,2008,0.803
+Bangladesh,Medium,2008,0.535
+Barbados,Very High,2008,0.792
+Belarus,Very High,2008,0.782
+Belgium,Very High,2008,0.909
+Belize,High,2008,0.709
+Benin,Low,2008,0.47
+Bhutan,Medium,2008,
+Bolivia (Plurinational State of),Medium,2008,0.651
+Bosnia and Herzegovina,High,2008,0.714
+Botswana,High,2008,0.637
+Brazil,High,2008,0.714
+Brunei Darussalam,Very High,2008,0.821
+Bulgaria,High,2008,0.782
+Burkina Faso,Low,2008,0.352
+Burundi,Low,2008,0.39
+Cabo Verde,Medium,2008,0.643
+Cambodia,Medium,2008,0.536
+Cameroon,Medium,2008,0.487
+Canada,Very High,2008,0.909
+Central African Republic,Low,2008,0.345
+Chad,Low,2008,0.343
+Chile,Very High,2008,0.812
+China,High,2008,0.678
+Colombia,High,2008,0.722
+Comoros,Medium,2008,0.51
+Congo,Medium,2008,0.561
+Congo (Democratic Republic of the),Low,2008,0.41
+Costa Rica,Very High,2008,0.762
+Côte d'Ivoire,Low,2008,0.461
+Croatia,Very High,2008,0.821
+Cuba,High,2008,0.784
+Cyprus,Very High,2008,0.853
+Czechia,Very High,2008,0.865
+Denmark,Very High,2008,0.915
+Djibouti,Low,2008,0.401
+Dominica,High,2008,0.741
+Dominican Republic,High,2008,0.697
+Ecuador,High,2008,0.728
+Egypt,High,2008,0.656
+El Salvador,Medium,2008,0.651
+Equatorial Guinea,Medium,2008,0.606
+Eritrea,Low,2008,0.45
+Estonia,Very High,2008,0.861
+Eswatini (Kingdom of),Medium,2008,0.473
+Ethiopia,Low,2008,0.391
+Fiji,High,2008,0.693
+Finland,Very High,2008,0.913
+France,Very High,2008,0.877
+Gabon,Medium,2008,0.647
+Gambia,Low,2008,0.442
+Georgia,Very High,2008,0.751
+Germany,Very High,2008,0.926
+Ghana,Medium,2008,0.558
+Greece,Very High,2008,0.871
+Grenada,High,2008,0.781
+Guatemala,Medium,2008,0.599
+Guinea,Low,2008,0.408
+Guinea-Bissau,Low,2008,0.426
+Guyana,High,2008,0.636
+Haiti,Medium,2008,0.52
+Honduras,Medium,2008,0.589
+"Hong Kong, China (SAR)",Very High,2008,0.908
+Hungary,Very High,2008,0.824
+Iceland,Very High,2008,0.927
+India,Medium,2008,0.557
+Indonesia,High,2008,0.649
+Iran (Islamic Republic of),High,2008,0.744
+Iraq,Medium,2008,0.612
+Ireland,Very High,2008,0.905
+Israel,Very High,2008,0.877
+Italy,Very High,2008,0.878
+Jamaica,High,2008,0.712
+Japan,Very High,2008,0.901
+Jordan,High,2008,0.726
+Kazakhstan,Very High,2008,0.757
+Kenya,Medium,2008,0.546
+Kiribati,Medium,2008,0.583
+Korea (Democratic People's Rep. of),,2008,
+Korea (Republic of),Very High,2008,0.874
+Kuwait,Very High,2008,0.806
+Kyrgyzstan,High,2008,0.657
+Lao People's Democratic Republic,Medium,2008,0.539
+Latvia,Very High,2008,0.832
+Lebanon,High,2008,0.733
+Lesotho,Low,2008,0.453
+Liberia,Low,2008,0.453
+Libya,High,2008,0.773
+Liechtenstein,Very High,2008,0.918
+Lithuania,Very High,2008,0.843
+Luxembourg,Very High,2008,0.898
+Madagascar,Low,2008,0.485
+Malawi,Low,2008,0.442
+Malaysia,Very High,2008,0.754
+Maldives,High,2008,0.682
+Mali,Low,2008,0.39
+Malta,Very High,2008,0.844
+Marshall Islands,High,2008,
+Mauritania,Low,2008,0.495
+Mauritius,High,2008,0.739
+Mexico,High,2008,0.745
+Micronesia (Federated States of),Medium,2008,0.641
+Moldova (Republic of),High,2008,0.718
+Monaco,,2008,
+Mongolia,High,2008,0.69
+Montenegro,Very High,2008,0.797
+Morocco,Medium,2008,0.59
+Mozambique,Low,2008,0.391
+Myanmar,Medium,2008,0.461
+Namibia,Medium,2008,0.574
+Nauru,Medium,2008,0.547
+Nepal,Medium,2008,0.518
+Netherlands,Very High,2008,0.911
+New Zealand,Very High,2008,0.919
+Nicaragua,Medium,2008,0.602
+Niger,Low,2008,0.318
+Nigeria,Low,2008,0.482
+North Macedonia,High,2008,0.736
+Norway,Very High,2008,0.935
+Oman,Very High,2008,0.77
+Pakistan,Low,2008,0.489
+Palau,High,2008,0.78
+"Palestine, State of",High,2008,0.678
+Panama,Very High,2008,0.769
+Papua New Guinea,Medium,2008,0.484
+Paraguay,High,2008,0.691
+Peru,High,2008,0.707
+Philippines,High,2008,0.666
+Poland,Very High,2008,0.834
+Portugal,Very High,2008,0.825
+Qatar,Very High,2008,0.835
+Romania,Very High,2008,0.807
+Russian Federation,Very High,2008,0.793
+Rwanda,Low,2008,0.465
+Saint Kitts and Nevis,Very High,2008,0.776
+Saint Lucia,High,2008,0.73
+Saint Vincent and the Grenadines,High,2008,0.752
+Samoa,High,2008,0.702
+San Marino,Very High,2008,0.898
+Sao Tome and Principe,Medium,2008,0.544
+Saudi Arabia,Very High,2008,0.794
+Senegal,Low,2008,0.454
+Serbia,Very High,2008,0.764
+Seychelles,Very High,2008,0.77
+Sierra Leone,Low,2008,0.403
+Singapore,Very High,2008,0.91
+Slovakia,Very High,2008,0.831
+Slovenia,Very High,2008,0.889
+Solomon Islands,Medium,2008,0.533
+Somalia,Low,2008,
+South Africa,High,2008,0.653
+South Sudan,Low,2008,
+Spain,Very High,2008,0.858
+Sri Lanka,High,2008,0.719
+Sudan,Low,2008,0.48
+Suriname,Medium,2008,0.689
+Sweden,Very High,2008,0.905
+Switzerland,Very High,2008,0.926
+Syrian Arab Republic,Medium,2008,0.651
+Tajikistan,Medium,2008,0.628
+Tanzania (United Republic of),Low,2008,0.472
+Thailand,Very High,2008,0.735
+Timor-Leste,Medium,2008,0.627
+Togo,Low,2008,0.452
+Tonga,High,2008,0.704
+Trinidad and Tobago,Very High,2008,0.771
+Tunisia,High,2008,0.705
+Turkmenistan,High,2008,0.682
+Tuvalu,Medium,2008,0.624
+Uganda,Medium,2008,0.481
+Ukraine,High,2008,0.763
+United Arab Emirates,Very High,2008,0.827
+United Kingdom,Very High,2008,0.902
+United States,Very High,2008,0.912
+Uruguay,Very High,2008,0.773
+Uzbekistan,High,2008,0.66
+Vanuatu,Medium,2008,0.575
+Venezuela (Bolivarian Republic of),Medium,2008,0.754
+Viet Nam,High,2008,0.665
+Yemen,Low,2008,0.488
+Zambia,Medium,2008,0.506
+Zimbabwe,Medium,2008,0.42
+Afghanistan,Low,2009,0.441
+Albania,High,2009,0.752
+Algeria,High,2009,0.716
+Andorra,Very High,2009,0.859
+Angola,Medium,2009,0.506
+Antigua and Barbuda,Very High,2009,0.81
+Argentina,Very High,2009,0.827
+Armenia,High,2009,0.732
+Australia,Very High,2009,0.922
+Austria,Very High,2009,0.898
+Azerbaijan,High,2009,0.729
+Bahamas,Very High,2009,0.798
+Bahrain,Very High,2009,0.803
+Bangladesh,Medium,2009,0.547
+Barbados,Very High,2009,0.794
+Belarus,Very High,2009,0.784
+Belgium,Very High,2009,0.91
+Belize,High,2009,0.715
+Benin,Low,2009,0.475
+Bhutan,Medium,2009,
+Bolivia (Plurinational State of),Medium,2009,0.657
+Bosnia and Herzegovina,High,2009,0.716
+Botswana,High,2009,0.639
+Brazil,High,2009,0.717
+Brunei Darussalam,Very High,2009,0.823
+Bulgaria,High,2009,0.784
+Burkina Faso,Low,2009,0.362
+Burundi,Low,2009,0.397
+Cabo Verde,Medium,2009,0.645
+Cambodia,Medium,2009,0.538
+Cameroon,Medium,2009,0.502
+Canada,Very High,2009,0.91
+Central African Republic,Low,2009,0.35
+Chad,Low,2009,0.357
+Chile,Very High,2009,0.811
+China,High,2009,0.689
+Colombia,High,2009,0.728
+Comoros,Medium,2009,0.517
+Congo,Medium,2009,0.574
+Congo (Democratic Republic of the),Low,2009,0.416
+Costa Rica,Very High,2009,0.765
+Côte d'Ivoire,Low,2009,0.465
+Croatia,Very High,2009,0.819
+Cuba,High,2009,0.784
+Cyprus,Very High,2009,0.857
+Czechia,Very High,2009,0.866
+Denmark,Very High,2009,0.909
+Djibouti,Low,2009,0.411
+Dominica,High,2009,0.736
+Dominican Republic,High,2009,0.701
+Ecuador,High,2009,0.73
+Egypt,High,2009,0.661
+El Salvador,Medium,2009,0.651
+Equatorial Guinea,Medium,2009,0.613
+Eritrea,Low,2009,0.455
+Estonia,Very High,2009,0.859
+Eswatini (Kingdom of),Medium,2009,0.481
+Ethiopia,Low,2009,0.399
+Fiji,High,2009,0.696
+Finland,Very High,2009,0.908
+France,Very High,2009,0.875
+Gabon,Medium,2009,0.652
+Gambia,Low,2009,0.446
+Georgia,Very High,2009,0.756
+Germany,Very High,2009,0.925
+Ghana,Medium,2009,0.563
+Greece,Very High,2009,0.873
+Grenada,High,2009,0.777
+Guatemala,Medium,2009,0.606
+Guinea,Low,2009,0.41
+Guinea-Bissau,Low,2009,0.434
+Guyana,High,2009,0.641
+Haiti,Medium,2009,0.526
+Honduras,Medium,2009,0.592
+"Hong Kong, China (SAR)",Very High,2009,0.91
+Hungary,Very High,2009,0.826
+Iceland,Very High,2009,0.925
+India,Medium,2009,0.562
+Indonesia,High,2009,0.66
+Iran (Islamic Republic of),High,2009,0.748
+Iraq,Medium,2009,0.622
+Ireland,Very High,2009,0.9
+Israel,Very High,2009,0.881
+Italy,Very High,2009,0.877
+Jamaica,High,2009,0.712
+Japan,Very High,2009,0.9
+Jordan,High,2009,0.728
+Kazakhstan,Very High,2009,0.76
+Kenya,Medium,2009,0.546
+Kiribati,Medium,2009,0.58
+Korea (Democratic People's Rep. of),,2009,
+Korea (Republic of),Very High,2009,0.876
+Kuwait,Very High,2009,0.808
+Kyrgyzstan,High,2009,0.661
+Lao People's Democratic Republic,Medium,2009,0.549
+Latvia,Very High,2009,0.831
+Lebanon,High,2009,0.741
+Lesotho,Low,2009,0.457
+Liberia,Low,2009,0.456
+Libya,High,2009,0.772
+Liechtenstein,Very High,2009,0.913
+Lithuania,Very High,2009,0.843
+Luxembourg,Very High,2009,0.908
+Madagascar,Low,2009,0.488
+Malawi,Low,2009,0.452
+Malaysia,Very High,2009,0.761
+Maldives,High,2009,0.684
+Mali,Low,2009,0.398
+Malta,Very High,2009,0.849
+Marshall Islands,High,2009,
+Mauritania,Low,2009,0.505
+Mauritius,High,2009,0.746
+Mexico,High,2009,0.745
+Micronesia (Federated States of),Medium,2009,0.642
+Moldova (Republic of),High,2009,0.713
+Monaco,,2009,
+Mongolia,High,2009,0.694
+Montenegro,Very High,2009,0.798
+Morocco,Medium,2009,0.596
+Mozambique,Low,2009,0.4
+Myanmar,Medium,2009,0.497
+Namibia,Medium,2009,0.579
+Nauru,Medium,2009,0.545
+Nepal,Medium,2009,0.53
+Netherlands,Very High,2009,0.912
+New Zealand,Very High,2009,0.922
+Nicaragua,Medium,2009,0.603
+Niger,Low,2009,0.325
+Nigeria,Low,2009,0.486
+North Macedonia,High,2009,0.74
+Norway,Very High,2009,0.935
+Oman,Very High,2009,0.784
+Pakistan,Low,2009,0.493
+Palau,High,2009,0.777
+"Palestine, State of",High,2009,0.683
+Panama,Very High,2009,0.771
+Papua New Guinea,Medium,2009,0.489
+Paraguay,High,2009,0.691
+Peru,High,2009,0.711
+Philippines,High,2009,0.666
+Poland,Very High,2009,0.838
+Portugal,Very High,2009,0.827
+Qatar,Very High,2009,0.833
+Romania,Very High,2009,0.819
+Russian Federation,Very High,2009,0.791
+Rwanda,Low,2009,0.477
+Saint Kitts and Nevis,Very High,2009,0.782
+Saint Lucia,High,2009,0.733
+Saint Vincent and the Grenadines,High,2009,0.756
+Samoa,High,2009,0.693
+San Marino,Very High,2009,0.9
+Sao Tome and Principe,Medium,2009,0.55
+Saudi Arabia,Very High,2009,0.798
+Senegal,Low,2009,0.461
+Serbia,Very High,2009,0.766
+Seychelles,Very High,2009,0.771
+Sierra Leone,Low,2009,0.411
+Singapore,Very High,2009,0.91
+Slovakia,Very High,2009,0.834
+Slovenia,Very High,2009,0.886
+Solomon Islands,Medium,2009,0.54
+Somalia,Low,2009,
+South Africa,High,2009,0.665
+South Sudan,Low,2009,
+Spain,Very High,2009,0.86
+Sri Lanka,High,2009,0.711
+Sudan,Low,2009,0.489
+Suriname,Medium,2009,0.693
+Sweden,Very High,2009,0.904
+Switzerland,Very High,2009,0.935
+Syrian Arab Republic,Medium,2009,0.66
+Tajikistan,Medium,2009,0.629
+Tanzania (United Republic of),Low,2009,0.482
+Thailand,Very High,2009,0.738
+Timor-Leste,Medium,2009,0.625
+Togo,Low,2009,0.46
+Tonga,High,2009,0.704
+Trinidad and Tobago,Very High,2009,0.782
+Tunisia,High,2009,0.709
+Turkmenistan,High,2009,0.69
+Tuvalu,Medium,2009,0.622
+Uganda,Medium,2009,0.491
+Ukraine,High,2009,0.761
+United Arab Emirates,Very High,2009,0.825
+United Kingdom,Very High,2009,0.907
+United States,Very High,2009,0.913
+Uruguay,Very High,2009,0.776
+Uzbekistan,High,2009,0.666
+Vanuatu,Medium,2009,0.576
+Venezuela (Bolivarian Republic of),Medium,2009,0.754
+Viet Nam,High,2009,0.671
+Yemen,Low,2009,0.493
+Zambia,Medium,2009,0.519
+Zimbabwe,Medium,2009,0.454
+Afghanistan,Low,2010,0.449
+Albania,High,2010,0.766
+Algeria,High,2010,0.721
+Andorra,Very High,2010,0.863
+Angola,Medium,2010,0.516
+Antigua and Barbuda,Very High,2010,0.808
+Argentina,Very High,2010,0.834
+Armenia,High,2010,0.739
+Australia,Very High,2010,0.924
+Austria,Very High,2010,0.903
+Azerbaijan,High,2010,0.733
+Bahamas,Very High,2010,0.8
+Bahrain,Very High,2010,0.807
+Bangladesh,Medium,2010,0.558
+Barbados,Very High,2010,0.792
+Belarus,Very High,2010,0.79
+Belgium,Very High,2010,0.913
+Belize,High,2010,0.72
+Benin,Low,2010,0.481
+Bhutan,Medium,2010,0.582
+Bolivia (Plurinational State of),Medium,2010,0.661
+Bosnia and Herzegovina,High,2010,0.718
+Botswana,High,2010,0.652
+Brazil,High,2010,0.722
+Brunei Darussalam,Very High,2010,0.825
+Bulgaria,High,2010,0.79
+Burkina Faso,Low,2010,0.372
+Burundi,Low,2010,0.404
+Cabo Verde,Medium,2010,0.649
+Cambodia,Medium,2010,0.542
+Cameroon,Medium,2010,0.515
+Canada,Very High,2010,0.911
+Central African Republic,Low,2010,0.357
+Chad,Low,2010,0.364
+Chile,Very High,2010,0.813
+China,High,2010,0.698
+Colombia,High,2010,0.732
+Comoros,Medium,2010,0.524
+Congo,Medium,2010,0.581
+Congo (Democratic Republic of the),Low,2010,0.424
+Costa Rica,Very High,2010,0.769
+Côte d'Ivoire,Low,2010,0.47
+Croatia,Very High,2010,0.824
+Cuba,High,2010,0.779
+Cyprus,Very High,2010,0.859
+Czechia,Very High,2010,0.872
+Denmark,Very High,2010,0.913
+Djibouti,Low,2010,0.422
+Dominica,High,2010,0.735
+Dominican Republic,High,2010,0.707
+Ecuador,High,2010,0.736
+Egypt,High,2010,0.667
+El Salvador,Medium,2010,0.657
+Equatorial Guinea,Medium,2010,0.609
+Eritrea,Low,2010,0.458
+Estonia,Very High,2010,0.864
+Eswatini (Kingdom of),Medium,2010,0.498
+Ethiopia,Low,2010,0.409
+Fiji,High,2010,0.699
+Finland,Very High,2010,0.912
+France,Very High,2010,0.88
+Gabon,Medium,2010,0.656
+Gambia,Low,2010,0.449
+Georgia,Very High,2010,0.763
+Germany,Very High,2010,0.929
+Ghana,Medium,2010,0.571
+Greece,Very High,2010,0.874
+Grenada,High,2010,0.779
+Guatemala,Medium,2010,0.613
+Guinea,Low,2010,0.415
+Guinea-Bissau,Low,2010,0.441
+Guyana,High,2010,0.65
+Haiti,Medium,2010,0.449
+Honduras,Medium,2010,0.596
+"Hong Kong, China (SAR)",Very High,2010,0.914
+Hungary,Very High,2010,0.829
+Iceland,Very High,2010,0.927
+India,Medium,2010,0.572
+Indonesia,High,2010,0.667
+Iran (Islamic Republic of),High,2010,0.756
+Iraq,Medium,2010,0.629
+Ireland,Very High,2010,0.908
+Israel,Very High,2010,0.887
+Italy,Very High,2010,0.88
+Jamaica,High,2010,0.711
+Japan,Very High,2010,0.903
+Jordan,High,2010,0.727
+Kazakhstan,Very High,2010,0.766
+Kenya,Medium,2010,0.545
+Kiribati,Medium,2010,0.584
+Korea (Democratic People's Rep. of),,2010,
+Korea (Republic of),Very High,2010,0.89
+Kuwait,Very High,2010,0.811
+Kyrgyzstan,High,2010,0.661
+Lao People's Democratic Republic,Medium,2010,0.557
+Latvia,Very High,2010,0.827
+Lebanon,High,2010,0.749
+Lesotho,Low,2010,0.47
+Liberia,Low,2010,0.46
+Libya,High,2010,0.774
+Liechtenstein,Very High,2010,0.916
+Lithuania,Very High,2010,0.846
+Luxembourg,Very High,2010,0.912
+Madagascar,Low,2010,0.488
+Malawi,Low,2010,0.461
+Malaysia,Very High,2010,0.768
+Maldives,High,2010,0.692
+Mali,Low,2010,0.406
+Malta,Very High,2010,0.862
+Marshall Islands,High,2010,
+Mauritania,Low,2010,0.508
+Mauritius,High,2010,0.755
+Mexico,High,2010,0.747
+Micronesia (Federated States of),Medium,2010,0.644
+Moldova (Republic of),High,2010,0.716
+Monaco,,2010,
+Mongolia,High,2010,0.7
+Montenegro,Very High,2010,0.806
+Morocco,Medium,2010,0.604
+Mozambique,Low,2010,0.407
+Myanmar,Medium,2010,0.506
+Namibia,Medium,2010,0.584
+Nauru,Medium,2010,0.559
+Nepal,Medium,2010,0.543
+Netherlands,Very High,2010,0.917
+New Zealand,Very High,2010,0.924
+Nicaragua,Medium,2010,0.611
+Niger,Low,2010,0.336
+Nigeria,Low,2010,0.488
+North Macedonia,High,2010,0.746
+Norway,Very High,2010,0.938
+Oman,Very High,2010,0.798
+Pakistan,Low,2010,0.496
+Palau,High,2010,0.775
+"Palestine, State of",High,2010,0.688
+Panama,Very High,2010,0.775
+Papua New Guinea,Medium,2010,0.497
+Paraguay,High,2010,0.7
+Peru,High,2010,0.725
+Philippines,High,2010,0.673
+Poland,Very High,2010,0.845
+Portugal,Very High,2010,0.831
+Qatar,Very High,2010,0.829
+Romania,Very High,2010,0.813
+Russian Federation,Very High,2010,0.797
+Rwanda,Low,2010,0.485
+Saint Kitts and Nevis,Very High,2010,0.79
+Saint Lucia,High,2010,0.731
+Saint Vincent and the Grenadines,High,2010,0.756
+Samoa,High,2010,0.704
+San Marino,Very High,2010,0.901
+Sao Tome and Principe,Medium,2010,0.553
+Saudi Arabia,Very High,2010,0.805
+Senegal,Low,2010,0.47
+Serbia,Very High,2010,0.768
+Seychelles,Very High,2010,0.774
+Sierra Leone,Low,2010,0.416
+Singapore,Very High,2010,0.921
+Slovakia,Very High,2010,0.841
+Slovenia,Very High,2010,0.89
+Solomon Islands,Medium,2010,0.553
+Somalia,Low,2010,
+South Africa,High,2010,0.675
+South Sudan,Low,2010,0.406
+Spain,Very High,2010,0.868
+Sri Lanka,High,2010,0.735
+Sudan,Low,2010,0.489
+Suriname,Medium,2010,0.696
+Sweden,Very High,2010,0.91
+Switzerland,Very High,2010,0.94
+Syrian Arab Republic,Medium,2010,0.661
+Tajikistan,Medium,2010,0.631
+Tanzania (United Republic of),Low,2010,0.493
+Thailand,Very High,2010,0.743
+Timor-Leste,Medium,2010,0.639
+Togo,Low,2010,0.469
+Tonga,High,2010,0.709
+Trinidad and Tobago,Very High,2010,0.785
+Tunisia,High,2010,0.713
+Turkmenistan,High,2010,0.699
+Tuvalu,Medium,2010,0.623
+Uganda,Medium,2010,0.5
+Ukraine,High,2010,0.766
+United Arab Emirates,Very High,2010,0.828
+United Kingdom,Very High,2010,0.913
+United States,Very High,2010,0.916
+Uruguay,Very High,2010,0.785
+Uzbekistan,High,2010,0.675
+Vanuatu,Medium,2010,0.578
+Venezuela (Bolivarian Republic of),Medium,2010,0.759
+Viet Nam,High,2010,0.676
+Yemen,Low,2010,0.496
+Zambia,Medium,2010,0.528
+Zimbabwe,Medium,2010,0.481
+Afghanistan,Low,2011,0.457
+Albania,High,2011,0.779
+Algeria,High,2011,0.725
+Andorra,Very High,2011,0.867
+Angola,Medium,2011,0.533
+Antigua and Barbuda,Very High,2011,0.805
+Argentina,Very High,2011,0.842
+Armenia,High,2011,0.743
+Australia,Very High,2011,0.927
+Austria,Very High,2011,0.907
+Azerbaijan,High,2011,0.735
+Bahamas,Very High,2011,0.8
+Bahrain,Very High,2011,0.812
+Bangladesh,Medium,2011,0.565
+Barbados,Very High,2011,0.79
+Belarus,Very High,2011,0.798
+Belgium,Very High,2011,0.914
+Belize,High,2011,0.719
+Benin,Low,2011,0.486
+Bhutan,Medium,2011,0.591
+Bolivia (Plurinational State of),Medium,2011,0.667
+Bosnia and Herzegovina,High,2011,0.723
+Botswana,High,2011,0.66
+Brazil,High,2011,0.727
+Brunei Darussalam,Very High,2011,0.829
+Bulgaria,High,2011,0.794
+Burkina Faso,Low,2011,0.383
+Burundi,Low,2011,0.408
+Cabo Verde,Medium,2011,0.657
+Cambodia,Medium,2011,0.546
+Cameroon,Medium,2011,0.524
+Canada,Very High,2011,0.914
+Central African Republic,Low,2011,0.365
+Chad,Low,2011,0.373
+Chile,Very High,2011,0.816
+China,High,2011,0.706
+Colombia,High,2011,0.738
+Comoros,Medium,2011,0.532
+Congo,Medium,2011,0.584
+Congo (Democratic Republic of the),Low,2011,0.432
+Costa Rica,Very High,2011,0.778
+Côte d'Ivoire,Low,2011,0.468
+Croatia,Very High,2011,0.829
+Cuba,High,2011,0.776
+Cyprus,Very High,2011,0.863
+Czechia,Very High,2011,0.876
+Denmark,Very High,2011,0.927
+Djibouti,Low,2011,0.432
+Dominica,High,2011,0.724
+Dominican Republic,High,2011,0.712
+Ecuador,High,2011,0.743
+Egypt,High,2011,0.671
+El Salvador,Medium,2011,0.657
+Equatorial Guinea,Medium,2011,0.618
+Eritrea,Low,2011,0.473
+Estonia,Very High,2011,0.873
+Eswatini (Kingdom of),Medium,2011,0.514
+Ethiopia,Low,2011,0.419
+Fiji,High,2011,0.704
+Finland,Very High,2011,0.916
+France,Very High,2011,0.884
+Gabon,Medium,2011,0.661
+Gambia,Low,2011,0.45
+Georgia,Very High,2011,0.771
+Germany,Very High,2011,0.935
+Ghana,Medium,2011,0.579
+Greece,Very High,2011,0.871
+Grenada,High,2011,0.782
+Guatemala,Medium,2011,0.617
+Guinea,Low,2011,0.421
+Guinea-Bissau,Low,2011,0.45
+Guyana,High,2011,0.663
+Haiti,Medium,2011,0.529
+Honduras,Medium,2011,0.598
+"Hong Kong, China (SAR)",Very High,2011,0.921
+Hungary,Very High,2011,0.833
+Iceland,Very High,2011,0.933
+India,Medium,2011,0.586
+Indonesia,High,2011,0.674
+Iran (Islamic Republic of),High,2011,0.765
+Iraq,Medium,2011,0.637
+Ireland,Very High,2011,0.906
+Israel,Very High,2011,0.89
+Italy,Very High,2011,0.883
+Jamaica,High,2011,0.715
+Japan,Very High,2011,0.902
+Jordan,High,2011,0.73
+Kazakhstan,Very High,2011,0.774
+Kenya,Medium,2011,0.552
+Kiribati,Medium,2011,0.583
+Korea (Democratic People's Rep. of),,2011,
+Korea (Republic of),Very High,2011,0.895
+Kuwait,Very High,2011,0.817
+Kyrgyzstan,High,2011,0.664
+Lao People's Democratic Republic,Medium,2011,0.569
+Latvia,Very High,2011,0.833
+Lebanon,High,2011,0.755
+Lesotho,Low,2011,0.478
+Liberia,Low,2011,0.464
+Libya,High,2011,0.734
+Liechtenstein,Very High,2011,0.919
+Lithuania,Very High,2011,0.853
+Luxembourg,Very High,2011,0.913
+Madagascar,Low,2011,0.49
+Malawi,Low,2011,0.469
+Malaysia,Very High,2011,0.771
+Maldives,High,2011,0.701
+Mali,Low,2011,0.411
+Malta,Very High,2011,0.857
+Marshall Islands,High,2011,0.656
+Mauritania,Low,2011,0.513
+Mauritius,High,2011,0.764
+Mexico,High,2011,0.753
+Micronesia (Federated States of),Medium,2011,0.646
+Moldova (Republic of),High,2011,0.719
+Monaco,,2011,
+Mongolia,High,2011,0.71
+Montenegro,Very High,2011,0.811
+Morocco,Medium,2011,0.616
+Mozambique,Low,2011,0.412
+Myanmar,Medium,2011,0.517
+Namibia,Medium,2011,0.59
+Nauru,Medium,2011,0.572
+Nepal,Medium,2011,0.552
+Netherlands,Very High,2011,0.927
+New Zealand,Very High,2011,0.924
+Nicaragua,Medium,2011,0.619
+Niger,Low,2011,0.344
+Nigeria,Low,2011,0.494
+North Macedonia,High,2011,0.751
+Norway,Very High,2011,0.94
+Oman,Very High,2011,0.811
+Pakistan,Low,2011,0.5
+Palau,High,2011,0.778
+"Palestine, State of",High,2011,0.696
+Panama,Very High,2011,0.781
+Papua New Guinea,Medium,2011,0.502
+Paraguay,High,2011,0.711
+Peru,High,2011,0.731
+Philippines,High,2011,0.677
+Poland,Very High,2011,0.851
+Portugal,Very High,2011,0.836
+Qatar,Very High,2011,0.83
+Romania,Very High,2011,0.813
+Russian Federation,Very High,2011,0.807
+Rwanda,Low,2011,0.493
+Saint Kitts and Nevis,Very High,2011,0.801
+Saint Lucia,High,2011,0.737
+Saint Vincent and the Grenadines,High,2011,0.759
+Samoa,High,2011,0.706
+San Marino,Very High,2011,0.895
+Sao Tome and Principe,Medium,2011,0.556
+Saudi Arabia,Very High,2011,0.816
+Senegal,Low,2011,0.483
+Serbia,Very High,2011,0.773
+Seychelles,Very High,2011,0.768
+Sierra Leone,Low,2011,0.424
+Singapore,Very High,2011,0.924
+Slovakia,Very High,2011,0.846
+Slovenia,Very High,2011,0.892
+Solomon Islands,Medium,2011,0.557
+Somalia,Low,2011,
+South Africa,High,2011,0.686
+South Sudan,Low,2011,0.408
+Spain,Very High,2011,0.873
+Sri Lanka,High,2011,0.741
+Sudan,Low,2011,0.491
+Suriname,Medium,2011,0.697
+Sweden,Very High,2011,0.912
+Switzerland,Very High,2011,0.94
+Syrian Arab Republic,Medium,2011,0.687
+Tajikistan,Medium,2011,0.636
+Tanzania (United Republic of),Low,2011,0.498
+Thailand,Very High,2011,0.749
+Timor-Leste,Medium,2011,0.649
+Togo,Low,2011,0.483
+Tonga,High,2011,0.716
+Trinidad and Tobago,Very High,2011,0.788
+Tunisia,High,2011,0.715
+Turkmenistan,High,2011,0.708
+Tuvalu,Medium,2011,0.623
+Uganda,Medium,2011,0.504
+Ukraine,High,2011,0.772
+United Arab Emirates,Very High,2011,0.835
+United Kingdom,Very High,2011,0.909
+United States,Very High,2011,0.918
+Uruguay,Very High,2011,0.791
+Uzbekistan,High,2011,0.682
+Vanuatu,Medium,2011,0.581
+Venezuela (Bolivarian Republic of),Medium,2011,0.766
+Viet Nam,High,2011,0.681
+Yemen,Low,2011,0.495
+Zambia,Medium,2011,0.534
+Zimbabwe,Medium,2011,0.502
+Afghanistan,Low,2012,0.467
+Albania,High,2012,0.789
+Algeria,High,2012,0.726
+Andorra,Very High,2012,0.867
+Angola,Medium,2012,0.545
+Antigua and Barbuda,Very High,2012,0.811
+Argentina,Very High,2012,0.844
+Armenia,High,2012,0.751
+Australia,Very High,2012,0.931
+Austria,Very High,2012,0.909
+Azerbaijan,High,2012,0.739
+Bahamas,Very High,2012,0.803
+Bahrain,Very High,2012,0.827
+Bangladesh,Medium,2012,0.575
+Barbados,Very High,2012,0.793
+Belarus,Very High,2012,0.805
+Belgium,Very High,2012,0.915
+Belize,High,2012,0.722
+Benin,Low,2012,0.494
+Bhutan,Medium,2012,0.597
+Bolivia (Plurinational State of),Medium,2012,0.673
+Bosnia and Herzegovina,High,2012,0.735
+Botswana,High,2012,0.664
+Brazil,High,2012,0.732
+Brunei Darussalam,Very High,2012,0.836
+Bulgaria,High,2012,0.798
+Burkina Faso,Low,2012,0.393
+Burundi,Low,2012,0.412
+Cabo Verde,Medium,2012,0.657
+Cambodia,Medium,2012,0.551
+Cameroon,Medium,2012,0.535
+Canada,Very High,2012,0.921
+Central African Republic,Low,2012,0.372
+Chad,Low,2012,0.381
+Chile,Very High,2012,0.824
+China,High,2012,0.715
+Colombia,High,2012,0.739
+Comoros,Medium,2012,0.538
+Congo,Medium,2012,0.595
+Congo (Democratic Republic of the),Low,2012,0.434
+Costa Rica,Very High,2012,0.782
+Côte d'Ivoire,Low,2012,0.474
+Croatia,Very High,2012,0.832
+Cuba,High,2012,0.771
+Cyprus,Very High,2012,0.862
+Czechia,Very High,2012,0.878
+Denmark,Very High,2012,0.931
+Djibouti,Low,2012,0.444
+Dominica,High,2012,0.728
+Dominican Republic,High,2012,0.718
+Ecuador,High,2012,0.75
+Egypt,High,2012,0.679
+El Salvador,Medium,2012,0.661
+Equatorial Guinea,Medium,2012,0.628
+Eritrea,Low,2012,0.476
+Estonia,Very High,2012,0.876
+Eswatini (Kingdom of),Medium,2012,0.53
+Ethiopia,Low,2012,0.426
+Fiji,High,2012,0.707
+Finland,Very High,2012,0.916
+France,Very High,2012,0.885
+Gabon,Medium,2012,0.671
+Gambia,Low,2012,0.457
+Georgia,Very High,2012,0.779
+Germany,Very High,2012,0.937
+Ghana,Medium,2012,0.583
+Greece,Very High,2012,0.87
+Grenada,High,2012,0.78
+Guatemala,Medium,2012,0.62
+Guinea,Low,2012,0.425
+Guinea-Bissau,Low,2012,0.454
+Guyana,High,2012,0.669
+Haiti,Medium,2012,0.534
+Honduras,Medium,2012,0.596
+"Hong Kong, China (SAR)",Very High,2012,0.925
+Hungary,Very High,2012,0.833
+Iceland,Very High,2012,0.938
+India,Medium,2012,0.594
+Indonesia,High,2012,0.682
+Iran (Islamic Republic of),High,2012,0.78
+Iraq,Medium,2012,0.644
+Ireland,Very High,2012,0.907
+Israel,Very High,2012,0.891
+Italy,Very High,2012,0.881
+Jamaica,High,2012,0.716
+Japan,Very High,2012,0.906
+Jordan,High,2012,0.736
+Kazakhstan,Very High,2012,0.781
+Kenya,Medium,2012,0.557
+Kiribati,Medium,2012,0.593
+Korea (Democratic People's Rep. of),,2012,
+Korea (Republic of),Very High,2012,0.897
+Kuwait,Very High,2012,0.821
+Kyrgyzstan,High,2012,0.673
+Lao People's Democratic Republic,Medium,2012,0.578
+Latvia,Very High,2012,0.837
+Lebanon,High,2012,0.757
+Lesotho,Low,2012,0.489
+Liberia,Low,2012,0.469
+Libya,High,2012,0.777
+Liechtenstein,Very High,2012,0.921
+Lithuania,Very High,2012,0.855
+Luxembourg,Very High,2012,0.917
+Madagascar,Low,2012,0.492
+Malawi,Low,2012,0.476
+Malaysia,Very High,2012,0.777
+Maldives,High,2012,0.708
+Mali,Low,2012,0.407
+Malta,Very High,2012,0.865
+Marshall Islands,High,2012,0.659
+Mauritania,Low,2012,0.522
+Mauritius,High,2012,0.774
+Mexico,High,2012,0.76
+Micronesia (Federated States of),Medium,2012,0.644
+Moldova (Republic of),High,2012,0.722
+Monaco,,2012,
+Mongolia,High,2012,0.72
+Montenegro,Very High,2012,0.813
+Morocco,Medium,2012,0.626
+Mozambique,Low,2012,0.418
+Myanmar,Medium,2012,0.526
+Namibia,Medium,2012,0.599
+Nauru,Medium,2012,0.586
+Nepal,Medium,2012,0.557
+Netherlands,Very High,2012,0.927
+New Zealand,Very High,2012,0.927
+Nicaragua,Medium,2012,0.625
+Niger,Low,2012,0.352
+Nigeria,Low,2012,0.499
+North Macedonia,High,2012,0.755
+Norway,Very High,2012,0.941
+Oman,Very High,2012,0.813
+Pakistan,Low,2012,0.504
+Palau,High,2012,0.78
+"Palestine, State of",High,2012,0.702
+Panama,Very High,2012,0.788
+Papua New Guinea,Medium,2012,0.51
+Paraguay,High,2012,0.716
+Peru,High,2012,0.741
+Philippines,High,2012,0.684
+Poland,Very High,2012,0.855
+Portugal,Very High,2012,0.837
+Qatar,Very High,2012,0.84
+Romania,Very High,2012,0.807
+Russian Federation,Very High,2012,0.811
+Rwanda,Low,2012,0.501
+Saint Kitts and Nevis,Very High,2012,0.809
+Saint Lucia,High,2012,0.731
+Saint Vincent and the Grenadines,High,2012,0.762
+Samoa,High,2012,0.703
+San Marino,Very High,2012,0.886
+Sao Tome and Principe,Medium,2012,0.562
+Saudi Arabia,Very High,2012,0.824
+Senegal,Low,2012,0.491
+Serbia,Very High,2012,0.78
+Seychelles,Very High,2012,0.784
+Sierra Leone,Low,2012,0.427
+Singapore,Very High,2012,0.926
+Slovakia,Very High,2012,0.846
+Slovenia,Very High,2012,0.892
+Solomon Islands,Medium,2012,0.558
+Somalia,Low,2012,
+South Africa,High,2012,0.696
+South Sudan,Low,2012,0.377
+Spain,Very High,2012,0.875
+Sri Lanka,High,2012,0.747
+Sudan,Low,2012,0.498
+Suriname,Medium,2012,0.698
+Sweden,Very High,2012,0.912
+Switzerland,Very High,2012,0.943
+Syrian Arab Republic,Medium,2012,0.638
+Tajikistan,Medium,2012,0.641
+Tanzania (United Republic of),Low,2012,0.501
+Thailand,Very High,2012,0.752
+Timor-Leste,Medium,2012,0.644
+Togo,Low,2012,0.487
+Tonga,High,2012,0.718
+Trinidad and Tobago,Very High,2012,0.794
+Tunisia,High,2012,0.716
+Turkmenistan,High,2012,0.714
+Tuvalu,Medium,2012,0.631
+Uganda,Medium,2012,0.504
+Ukraine,High,2012,0.774
+United Arab Emirates,Very High,2012,0.841
+United Kingdom,Very High,2012,0.91
+United States,Very High,2012,0.92
+Uruguay,Very High,2012,0.794
+Uzbekistan,High,2012,0.688
+Vanuatu,Medium,2012,0.581
+Venezuela (Bolivarian Republic of),Medium,2012,0.769
+Viet Nam,High,2012,0.684
+Yemen,Low,2012,0.497
+Zambia,Medium,2012,0.548
+Zimbabwe,Medium,2012,0.522
+Afghanistan,Low,2013,0.475
+Albania,High,2013,0.793
+Algeria,High,2013,0.729
+Andorra,Very High,2013,0.851
+Angola,Medium,2013,0.555
+Antigua and Barbuda,Very High,2013,0.812
+Argentina,Very High,2013,0.846
+Armenia,High,2013,0.757
+Australia,Very High,2013,0.929
+Austria,Very High,2013,0.907
+Azerbaijan,High,2013,0.745
+Bahamas,Very High,2013,0.804
+Bahrain,Very High,2013,0.839
+Bangladesh,Medium,2013,0.577
+Barbados,Very High,2013,0.793
+Belarus,Very High,2013,0.806
+Belgium,Very High,2013,0.917
+Belize,High,2013,0.721
+Benin,Low,2013,0.503
+Bhutan,Medium,2013,0.604
+Bolivia (Plurinational State of),Medium,2013,0.681
+Bosnia and Herzegovina,High,2013,0.745
+Botswana,High,2013,0.676
+Brazil,High,2013,0.75
+Brunei Darussalam,Very High,2013,0.835
+Bulgaria,High,2013,0.804
+Burkina Faso,Low,2013,0.399
+Burundi,Low,2013,0.416
+Cabo Verde,Medium,2013,0.664
+Cambodia,Medium,2013,0.554
+Cameroon,Medium,2013,0.544
+Canada,Very High,2013,0.923
+Central African Republic,Low,2013,0.352
+Chad,Low,2013,0.385
+Chile,Very High,2013,0.837
+China,High,2013,0.723
+Colombia,High,2013,0.75
+Comoros,Medium,2013,0.546
+Congo,Medium,2013,0.6
+Congo (Democratic Republic of the),Low,2013,0.44
+Costa Rica,Very High,2013,0.787
+Côte d'Ivoire,Low,2013,0.48
+Croatia,Very High,2013,0.839
+Cuba,High,2013,0.766
+Cyprus,Very High,2013,0.863
+Czechia,Very High,2013,0.884
+Denmark,Very High,2013,0.933
+Djibouti,Low,2013,0.453
+Dominica,High,2013,0.72
+Dominican Republic,High,2013,0.722
+Ecuador,High,2013,0.755
+Egypt,High,2013,0.684
+El Salvador,Medium,2013,0.664
+Equatorial Guinea,Medium,2013,0.633
+Eritrea,Low,2013,0.472
+Estonia,Very High,2013,0.881
+Eswatini (Kingdom of),Medium,2013,0.546
+Ethiopia,Low,2013,0.437
+Fiji,High,2013,0.712
+Finland,Very High,2013,0.926
+France,Very High,2013,0.888
+Gabon,Medium,2013,0.678
+Gambia,Low,2013,0.461
+Georgia,Very High,2013,0.784
+Germany,Very High,2013,0.938
+Ghana,Medium,2013,0.587
+Greece,Very High,2013,0.874
+Grenada,High,2013,0.783
+Guatemala,Medium,2013,0.623
+Guinea,Low,2013,0.43
+Guinea-Bissau,Low,2013,0.458
+Guyana,High,2013,0.674
+Haiti,Medium,2013,0.54
+Honduras,Medium,2013,0.602
+"Hong Kong, China (SAR)",Very High,2013,0.928
+Hungary,Very High,2013,0.843
+Iceland,Very High,2013,0.942
+India,Medium,2013,0.6
+Indonesia,High,2013,0.687
+Iran (Islamic Republic of),High,2013,0.78
+Iraq,Medium,2013,0.648
+Ireland,Very High,2013,0.911
+Israel,Very High,2013,0.896
+Italy,Very High,2013,0.88
+Jamaica,High,2013,0.715
+Japan,Very High,2013,0.909
+Jordan,High,2013,0.738
+Kazakhstan,Very High,2013,0.789
+Kenya,Medium,2013,0.562
+Kiribati,Medium,2013,0.602
+Korea (Democratic People's Rep. of),,2013,
+Korea (Republic of),Very High,2013,0.902
+Kuwait,Very High,2013,0.813
+Kyrgyzstan,High,2013,0.68
+Lao People's Democratic Republic,Medium,2013,0.587
+Latvia,Very High,2013,0.846
+Lebanon,High,2013,0.756
+Lesotho,Low,2013,0.494
+Liberia,Low,2013,0.474
+Libya,High,2013,0.766
+Liechtenstein,Very High,2013,0.921
+Lithuania,Very High,2013,0.858
+Luxembourg,Very High,2013,0.922
+Madagascar,Low,2013,0.494
+Malawi,Low,2013,0.484
+Malaysia,Very High,2013,0.782
+Maldives,High,2013,0.715
+Mali,Low,2013,0.404
+Malta,Very High,2013,0.874
+Marshall Islands,High,2013,0.669
+Mauritania,Low,2013,0.53
+Mauritius,High,2013,0.779
+Mexico,High,2013,0.761
+Micronesia (Federated States of),Medium,2013,0.642
+Moldova (Republic of),High,2013,0.726
+Monaco,,2013,
+Mongolia,High,2013,0.73
+Montenegro,Very High,2013,0.819
+Morocco,Medium,2013,0.636
+Mozambique,Low,2013,0.432
+Myanmar,Medium,2013,0.538
+Namibia,Medium,2013,0.61
+Nauru,Medium,2013,0.597
+Nepal,Medium,2013,0.563
+Netherlands,Very High,2013,0.929
+New Zealand,Very High,2013,0.93
+Nicaragua,Medium,2013,0.631
+Niger,Low,2013,0.358
+Nigeria,Low,2013,0.504
+North Macedonia,High,2013,0.763
+Norway,Very High,2013,0.945
+Oman,Very High,2013,0.814
+Pakistan,Low,2013,0.51
+Palau,High,2013,0.776
+"Palestine, State of",High,2013,0.704
+Panama,Very High,2013,0.794
+Papua New Guinea,Medium,2013,0.516
+Paraguay,High,2013,0.729
+Peru,High,2013,0.749
+Philippines,High,2013,0.689
+Poland,Very High,2013,0.865
+Portugal,Very High,2013,0.842
+Qatar,Very High,2013,0.852
+Romania,Very High,2013,0.811
+Russian Federation,Very High,2013,0.816
+Rwanda,Low,2013,0.502
+Saint Kitts and Nevis,Very High,2013,0.819
+Saint Lucia,High,2013,0.723
+Saint Vincent and the Grenadines,High,2013,0.766
+Samoa,High,2013,0.704
+San Marino,Very High,2013,0.882
+Sao Tome and Principe,Medium,2013,0.573
+Saudi Arabia,Very High,2013,0.831
+Senegal,Low,2013,0.497
+Serbia,Very High,2013,0.785
+Seychelles,Very High,2013,0.786
+Sierra Leone,Low,2013,0.445
+Singapore,Very High,2013,0.93
+Slovakia,Very High,2013,0.849
+Slovenia,Very High,2013,0.901
+Solomon Islands,Medium,2013,0.563
+Somalia,Low,2013,
+South Africa,High,2013,0.705
+South Sudan,Low,2013,0.378
+Spain,Very High,2013,0.88
+Sri Lanka,High,2013,0.752
+Sudan,Low,2013,0.503
+Suriname,Medium,2013,0.7
+Sweden,Very High,2013,0.932
+Switzerland,Very High,2013,0.947
+Syrian Arab Republic,Medium,2013,0.558
+Tajikistan,Medium,2013,0.647
+Tanzania (United Republic of),Low,2013,0.504
+Thailand,Very High,2013,0.754
+Timor-Leste,Medium,2013,0.64
+Togo,Low,2013,0.495
+Tonga,High,2013,0.719
+Trinidad and Tobago,Very High,2013,0.801
+Tunisia,High,2013,0.719
+Turkmenistan,High,2013,0.716
+Tuvalu,Medium,2013,0.637
+Uganda,Medium,2013,0.511
+Ukraine,High,2013,0.774
+United Arab Emirates,Very High,2013,0.847
+United Kingdom,Very High,2013,0.923
+United States,Very High,2013,0.922
+Uruguay,Very High,2013,0.802
+Uzbekistan,High,2013,0.693
+Vanuatu,Medium,2013,0.586
+Venezuela (Bolivarian Republic of),Medium,2013,0.771
+Viet Nam,High,2013,0.689
+Yemen,Low,2013,0.496
+Zambia,Medium,2013,0.554
+Zimbabwe,Medium,2013,0.532
+Afghanistan,Low,2014,0.48
+Albania,High,2014,0.797
+Algeria,High,2014,0.732
+Andorra,Very High,2014,0.854
+Angola,Medium,2014,0.565
+Antigua and Barbuda,Very High,2014,0.815
+Argentina,Very High,2014,0.847
+Armenia,High,2014,0.764
+Australia,Very High,2014,0.931
+Austria,Very High,2014,0.911
+Azerbaijan,High,2014,0.749
+Bahamas,Very High,2014,0.807
+Bahrain,Very High,2014,0.839
+Bangladesh,Medium,2014,0.585
+Barbados,Very High,2014,0.795
+Belarus,Very High,2014,0.81
+Belgium,Very High,2014,0.922
+Belize,High,2014,0.716
+Benin,Low,2014,0.506
+Bhutan,Medium,2014,0.615
+Bolivia (Plurinational State of),Medium,2014,0.683
+Bosnia and Herzegovina,High,2014,0.751
+Botswana,High,2014,0.683
+Brazil,High,2014,0.753
+Brunei Darussalam,Very High,2014,0.834
+Bulgaria,High,2014,0.807
+Burkina Faso,Low,2014,0.403
+Burundi,Low,2014,0.419
+Cabo Verde,Medium,2014,0.663
+Cambodia,Medium,2014,0.559
+Cameroon,Medium,2014,0.553
+Canada,Very High,2014,0.925
+Central African Republic,Low,2014,0.354
+Chad,Low,2014,0.392
+Chile,Very High,2014,0.841
+China,High,2014,0.732
+Colombia,High,2014,0.755
+Comoros,Medium,2014,0.551
+Congo,Medium,2014,0.609
+Congo (Democratic Republic of the),Low,2014,0.45
+Costa Rica,Very High,2014,0.79
+Côte d'Ivoire,Low,2014,0.499
+Croatia,Very High,2014,0.842
+Cuba,High,2014,0.766
+Cyprus,Very High,2014,0.867
+Czechia,Very High,2014,0.889
+Denmark,Very High,2014,0.932
+Djibouti,Low,2014,0.463
+Dominica,High,2014,0.725
+Dominican Republic,High,2014,0.728
+Ecuador,High,2014,0.759
+Egypt,High,2014,0.688
+El Salvador,Medium,2014,0.663
+Equatorial Guinea,Medium,2014,0.639
+Eritrea,Low,2014,0.49
+Estonia,Very High,2014,0.879
+Eswatini (Kingdom of),Medium,2014,0.56
+Ethiopia,Low,2014,0.445
+Fiji,High,2014,0.715
+Finland,Very High,2014,0.928
+France,Very High,2014,0.892
+Gabon,Medium,2014,0.687
+Gambia,Low,2014,0.462
+Georgia,Very High,2014,0.793
+Germany,Very High,2014,0.942
+Ghana,Medium,2014,0.582
+Greece,Very High,2014,0.879
+Grenada,High,2014,0.783
+Guatemala,Medium,2014,0.64
+Guinea,Low,2014,0.436
+Guinea-Bissau,Low,2014,0.465
+Guyana,High,2014,0.682
+Haiti,Medium,2014,0.545
+Honduras,Medium,2014,0.603
+"Hong Kong, China (SAR)",Very High,2014,0.932
+Hungary,Very High,2014,0.84
+Iceland,Very High,2014,0.946
+India,Medium,2014,0.611
+Indonesia,High,2014,0.69
+Iran (Islamic Republic of),High,2014,0.783
+Iraq,Medium,2014,0.651
+Ireland,Very High,2014,0.918
+Israel,Very High,2014,0.899
+Italy,Very High,2014,0.882
+Jamaica,High,2014,0.714
+Japan,Very High,2014,0.91
+Jordan,High,2014,0.737
+Kazakhstan,Very High,2014,0.794
+Kenya,Medium,2014,0.569
+Kiribati,Medium,2014,0.612
+Korea (Democratic People's Rep. of),,2014,
+Korea (Republic of),Very High,2014,0.906
+Kuwait,Very High,2014,0.816
+Kyrgyzstan,High,2014,0.686
+Lao People's Democratic Republic,Medium,2014,0.597
+Latvia,Very High,2014,0.85
+Lebanon,High,2014,0.755
+Lesotho,Low,2014,0.5
+Liberia,Low,2014,0.472
+Libya,High,2014,0.75
+Liechtenstein,Very High,2014,0.923
+Lithuania,Very High,2014,0.864
+Luxembourg,Very High,2014,0.927
+Madagascar,Low,2014,0.497
+Malawi,Low,2014,0.493
+Malaysia,Very High,2014,0.787
+Maldives,High,2014,0.723
+Mali,Low,2014,0.41
+Malta,Very High,2014,0.881
+Marshall Islands,High,2014,0.676
+Mauritania,Low,2014,0.532
+Mauritius,High,2014,0.788
+Mexico,High,2014,0.765
+Micronesia (Federated States of),Medium,2014,0.64
+Moldova (Republic of),High,2014,0.749
+Monaco,,2014,
+Mongolia,High,2014,0.735
+Montenegro,Very High,2014,0.822
+Morocco,Medium,2014,0.645
+Mozambique,Low,2014,0.438
+Myanmar,Medium,2014,0.548
+Namibia,Medium,2014,0.619
+Nauru,Medium,2014,0.618
+Nepal,Medium,2014,0.567
+Netherlands,Very High,2014,0.931
+New Zealand,Very High,2014,0.931
+Nicaragua,Medium,2014,0.638
+Niger,Low,2014,0.363
+Nigeria,Low,2014,0.513
+North Macedonia,High,2014,0.769
+Norway,Very High,2014,0.949
+Oman,Very High,2014,0.818
+Pakistan,Low,2014,0.519
+Palau,High,2014,0.777
+"Palestine, State of",High,2014,0.698
+Panama,Very High,2014,0.797
+Papua New Guinea,Medium,2014,0.531
+Paraguay,High,2014,0.731
+Peru,High,2014,0.754
+Philippines,High,2014,0.693
+Poland,Very High,2014,0.867
+Portugal,Very High,2014,0.847
+Qatar,Very High,2014,0.85
+Romania,Very High,2014,0.811
+Russian Federation,Very High,2014,0.818
+Rwanda,Low,2014,0.507
+Saint Kitts and Nevis,Very High,2014,0.827
+Saint Lucia,High,2014,0.727
+Saint Vincent and the Grenadines,High,2014,0.772
+Samoa,High,2014,0.707
+San Marino,Very High,2014,0.879
+Sao Tome and Principe,Medium,2014,0.584
+Saudi Arabia,Very High,2014,0.836
+Senegal,Low,2014,0.501
+Serbia,Very High,2014,0.787
+Seychelles,Very High,2014,0.796
+Sierra Leone,Low,2014,0.447
+Singapore,Very High,2014,0.932
+Slovakia,Very High,2014,0.851
+Slovenia,Very High,2014,0.903
+Solomon Islands,Medium,2014,0.562
+Somalia,Low,2014,
+South Africa,High,2014,0.714
+South Sudan,Low,2014,0.376
+Spain,Very High,2014,0.884
+Sri Lanka,High,2014,0.757
+Sudan,Low,2014,0.511
+Suriname,Medium,2014,0.701
+Sweden,Very High,2014,0.935
+Switzerland,Very High,2014,0.951
+Syrian Arab Republic,Medium,2014,0.544
+Tajikistan,Medium,2014,0.649
+Tanzania (United Republic of),Low,2014,0.506
+Thailand,Very High,2014,0.785
+Timor-Leste,Medium,2014,0.63
+Togo,Low,2014,0.502
+Tonga,High,2014,0.721
+Trinidad and Tobago,Very High,2014,0.806
+Tunisia,High,2014,0.721
+Turkmenistan,High,2014,0.719
+Tuvalu,Medium,2014,0.637
+Uganda,Medium,2014,0.518
+Ukraine,High,2014,0.774
+United Arab Emirates,Very High,2014,0.853
+United Kingdom,Very High,2014,0.924
+United States,Very High,2014,0.923
+Uruguay,Very High,2014,0.805
+Uzbekistan,High,2014,0.698
+Vanuatu,Medium,2014,0.59
+Venezuela (Bolivarian Republic of),Medium,2014,0.768
+Viet Nam,High,2014,0.693
+Yemen,Low,2014,0.485
+Zambia,Medium,2014,0.557
+Zimbabwe,Medium,2014,0.539
+Afghanistan,Low,2015,0.479
+Albania,High,2015,0.797
+Algeria,High,2015,0.736
+Andorra,Very High,2015,0.856
+Angola,Medium,2015,0.591
+Antigua and Barbuda,Very High,2015,0.818
+Argentina,Very High,2015,0.85
+Armenia,High,2015,0.769
+Australia,Very High,2015,0.933
+Austria,Very High,2015,0.91
+Azerbaijan,High,2015,0.751
+Bahamas,Very High,2015,0.807
+Bahrain,Very High,2015,0.859
+Bangladesh,Medium,2015,0.604
+Barbados,Very High,2015,0.798
+Belarus,Very High,2015,0.809
+Belgium,Very High,2015,0.924
+Belize,High,2015,0.714
+Benin,Low,2015,0.509
+Bhutan,Medium,2015,0.625
+Bolivia (Plurinational State of),Medium,2015,0.688
+Bosnia and Herzegovina,High,2015,0.757
+Botswana,High,2015,0.688
+Brazil,High,2015,0.752
+Brunei Darussalam,Very High,2015,0.832
+Bulgaria,High,2015,0.809
+Burkina Faso,Low,2015,0.413
+Burundi,Low,2015,0.42
+Cabo Verde,Medium,2015,0.658
+Cambodia,Medium,2015,0.564
+Cameroon,Medium,2015,0.562
+Canada,Very High,2015,0.927
+Central African Republic,Low,2015,0.367
+Chad,Low,2015,0.388
+Chile,Very High,2015,0.846
+China,High,2015,0.741
+Colombia,High,2015,0.758
+Comoros,Medium,2015,0.556
+Congo,Medium,2015,0.61
+Congo (Democratic Republic of the),Low,2015,0.457
+Costa Rica,Very High,2015,0.792
+Côte d'Ivoire,Low,2015,0.501
+Croatia,Very High,2015,0.844
+Cuba,High,2015,0.765
+Cyprus,Very High,2015,0.874
+Czechia,Very High,2015,0.891
+Denmark,Very High,2015,0.936
+Djibouti,Low,2015,0.473
+Dominica,High,2015,0.719
+Dominican Republic,High,2015,0.739
+Ecuador,High,2015,0.764
+Egypt,High,2015,0.695
+El Salvador,Medium,2015,0.663
+Equatorial Guinea,Medium,2015,0.648
+Eritrea,Low,2015,0.473
+Estonia,Very High,2015,0.883
+Eswatini (Kingdom of),Medium,2015,0.577
+Ethiopia,Low,2015,0.455
+Fiji,High,2015,0.716
+Finland,Very High,2015,0.93
+France,Very High,2015,0.893
+Gabon,Medium,2015,0.692
+Gambia,Low,2015,0.467
+Georgia,Very High,2015,0.798
+Germany,Very High,2015,0.941
+Ghana,Medium,2015,0.586
+Greece,Very High,2015,0.881
+Grenada,High,2015,0.786
+Guatemala,Medium,2015,0.629
+Guinea,Low,2015,0.449
+Guinea-Bissau,Low,2015,0.47
+Guyana,High,2015,0.686
+Haiti,Medium,2015,0.549
+Honduras,Medium,2015,0.61
+"Hong Kong, China (SAR)",Very High,2015,0.936
+Hungary,Very High,2015,0.839
+Iceland,Very High,2015,0.948
+India,Medium,2015,0.619
+Indonesia,High,2015,0.698
+Iran (Islamic Republic of),High,2015,0.782
+Iraq,Medium,2015,0.656
+Ireland,Very High,2015,0.924
+Israel,Very High,2015,0.899
+Italy,Very High,2015,0.881
+Jamaica,High,2015,0.712
+Japan,Very High,2015,0.913
+Jordan,High,2015,0.738
+Kazakhstan,Very High,2015,0.799
+Kenya,Medium,2015,0.575
+Kiribati,Medium,2015,0.625
+Korea (Democratic People's Rep. of),,2015,
+Korea (Republic of),Very High,2015,0.908
+Kuwait,Very High,2015,0.829
+Kyrgyzstan,High,2015,0.689
+Lao People's Democratic Republic,Medium,2015,0.604
+Latvia,Very High,2015,0.853
+Lebanon,High,2015,0.756
+Lesotho,Low,2015,0.508
+Liberia,Low,2015,0.472
+Libya,High,2015,0.749
+Liechtenstein,Very High,2015,0.926
+Lithuania,Very High,2015,0.865
+Luxembourg,Very High,2015,0.914
+Madagascar,Low,2015,0.499
+Malawi,Low,2015,0.498
+Malaysia,Very High,2015,0.792
+Maldives,High,2015,0.728
+Mali,Low,2015,0.409
+Malta,Very High,2015,0.887
+Marshall Islands,High,2015,0.688
+Mauritania,Low,2015,0.536
+Mauritius,High,2015,0.791
+Mexico,High,2015,0.769
+Micronesia (Federated States of),Medium,2015,0.642
+Moldova (Republic of),High,2015,0.749
+Monaco,,2015,
+Mongolia,High,2015,0.739
+Montenegro,Very High,2015,0.827
+Morocco,Medium,2015,0.656
+Mozambique,Low,2015,0.445
+Myanmar,Medium,2015,0.557
+Namibia,Medium,2015,0.627
+Nauru,Medium,2015,0.642
+Nepal,Medium,2015,0.568
+Netherlands,Very High,2015,0.932
+New Zealand,Very High,2015,0.933
+Nicaragua,Medium,2015,0.644
+Niger,Low,2015,0.367
+Nigeria,Low,2015,0.52
+North Macedonia,High,2015,0.777
+Norway,Very High,2015,0.952
+Oman,Very High,2015,0.824
+Pakistan,Low,2015,0.525
+Palau,High,2015,0.782
+"Palestine, State of",High,2015,0.71
+Panama,Very High,2015,0.802
+Papua New Guinea,Medium,2015,0.54
+Paraguay,High,2015,0.738
+Peru,High,2015,0.758
+Philippines,High,2015,0.696
+Poland,Very High,2015,0.869
+Portugal,Very High,2015,0.85
+Qatar,Very High,2015,0.852
+Romania,Very High,2015,0.813
+Russian Federation,Very High,2015,0.823
+Rwanda,Low,2015,0.509
+Saint Kitts and Nevis,Very High,2015,0.829
+Saint Lucia,High,2015,0.736
+Saint Vincent and the Grenadines,High,2015,0.777
+Samoa,High,2015,0.71
+San Marino,Very High,2015,0.872
+Sao Tome and Principe,Medium,2015,0.595
+Saudi Arabia,Very High,2015,0.842
+Senegal,Low,2015,0.501
+Serbia,Very High,2015,0.794
+Seychelles,Very High,2015,0.797
+Sierra Leone,Low,2015,0.438
+Singapore,Very High,2015,0.935
+Slovakia,Very High,2015,0.852
+Slovenia,Very High,2015,0.903
+Solomon Islands,Medium,2015,0.562
+Somalia,Low,2015,
+South Africa,High,2015,0.721
+South Sudan,Low,2015,0.381
+Spain,Very High,2015,0.889
+Sri Lanka,High,2015,0.76
+Sudan,Low,2015,0.514
+Suriname,Medium,2015,0.707
+Sweden,Very High,2015,0.937
+Switzerland,Very High,2015,0.952
+Syrian Arab Republic,Medium,2015,0.552
+Tajikistan,Medium,2015,0.651
+Tanzania (United Republic of),Low,2015,0.507
+Thailand,Very High,2015,0.789
+Timor-Leste,Medium,2015,0.621
+Togo,Low,2015,0.51
+Tonga,High,2015,0.723
+Trinidad and Tobago,Very High,2015,0.812
+Tunisia,High,2015,0.724
+Turkmenistan,High,2015,0.725
+Tuvalu,Medium,2015,0.656
+Uganda,Medium,2015,0.525
+Ukraine,High,2015,0.764
+United Arab Emirates,Very High,2015,0.86
+United Kingdom,Very High,2015,0.923
+United States,Very High,2015,0.924
+Uruguay,Very High,2015,0.807
+Uzbekistan,High,2015,0.701
+Vanuatu,Medium,2015,0.592
+Venezuela (Bolivarian Republic of),Medium,2015,0.766
+Viet Nam,High,2015,0.697
+Yemen,Low,2015,0.455
+Zambia,Medium,2015,0.563
+Zimbabwe,Medium,2015,0.544
+Afghanistan,Low,2016,0.483
+Albania,High,2016,0.795
+Algeria,High,2016,0.738
+Andorra,Very High,2016,0.859
+Angola,Medium,2016,0.595
+Antigua and Barbuda,Very High,2016,0.822
+Argentina,Very High,2016,0.848
+Armenia,High,2016,0.773
+Australia,Very High,2016,0.936
+Austria,Very High,2016,0.913
+Azerbaijan,High,2016,0.752
+Bahamas,Very High,2016,0.809
+Bahrain,Very High,2016,0.862
+Bangladesh,Medium,2016,0.613
+Barbados,Very High,2016,0.801
+Belarus,Very High,2016,0.809
+Belgium,Very High,2016,0.927
+Belize,High,2016,0.72
+Benin,Low,2016,0.508
+Bhutan,Medium,2016,0.635
+Bolivia (Plurinational State of),Medium,2016,0.7
+Bosnia and Herzegovina,High,2016,0.767
+Botswana,High,2016,0.697
+Brazil,High,2016,0.753
+Brunei Darussalam,Very High,2016,0.83
+Bulgaria,High,2016,0.81
+Burkina Faso,Low,2016,0.422
+Burundi,Low,2016,0.423
+Cabo Verde,Medium,2016,0.664
+Cambodia,Medium,2016,0.573
+Cameroon,Medium,2016,0.566
+Canada,Very High,2016,0.928
+Central African Republic,Low,2016,0.373
+Chad,Low,2016,0.388
+Chile,Very High,2016,0.851
+China,High,2016,0.749
+Colombia,High,2016,0.763
+Comoros,Medium,2016,0.563
+Congo,Medium,2016,0.606
+Congo (Democratic Republic of the),Low,2016,0.466
+Costa Rica,Very High,2016,0.796
+Côte d'Ivoire,Low,2016,0.506
+Croatia,Very High,2016,0.85
+Cuba,High,2016,0.763
+Cyprus,Very High,2016,0.881
+Czechia,Very High,2016,0.894
+Denmark,Very High,2016,0.943
+Djibouti,Low,2016,0.482
+Dominica,High,2016,0.728
+Dominican Republic,High,2016,0.759
+Ecuador,High,2016,0.761
+Egypt,High,2016,0.702
+El Salvador,Medium,2016,0.664
+Equatorial Guinea,Medium,2016,0.65
+Eritrea,Low,2016,0.477
+Estonia,Very High,2016,0.884
+Eswatini (Kingdom of),Medium,2016,0.59
+Ethiopia,Low,2016,0.465
+Fiji,High,2016,0.721
+Finland,Very High,2016,0.931
+France,Very High,2016,0.896
+Gabon,Medium,2016,0.696
+Gambia,Low,2016,0.472
+Georgia,Very High,2016,0.802
+Germany,Very High,2016,0.941
+Ghana,Medium,2016,0.586
+Greece,Very High,2016,0.877
+Grenada,High,2016,0.787
+Guatemala,Medium,2016,0.633
+Guinea,Low,2016,0.466
+Guinea-Bissau,Low,2016,0.476
+Guyana,High,2016,0.693
+Haiti,Medium,2016,0.552
+Honduras,Medium,2016,0.615
+"Hong Kong, China (SAR)",Very High,2016,0.939
+Hungary,Very High,2016,0.843
+Iceland,Very High,2016,0.951
+India,Medium,2016,0.63
+Indonesia,High,2016,0.701
+Iran (Islamic Republic of),High,2016,0.785
+Iraq,Medium,2016,0.661
+Ireland,Very High,2016,0.929
+Israel,Very High,2016,0.902
+Italy,Very High,2016,0.886
+Jamaica,High,2016,0.71
+Japan,Very High,2016,0.914
+Jordan,High,2016,0.74
+Kazakhstan,Very High,2016,0.797
+Kenya,Medium,2016,0.586
+Kiribati,Medium,2016,0.619
+Korea (Democratic People's Rep. of),,2016,
+Korea (Republic of),Very High,2016,0.912
+Kuwait,Very High,2016,0.832
+Kyrgyzstan,High,2016,0.692
+Lao People's Democratic Republic,Medium,2016,0.61
+Latvia,Very High,2016,0.858
+Lebanon,High,2016,0.76
+Lesotho,Low,2016,0.518
+Liberia,Low,2016,0.478
+Libya,High,2016,0.746
+Liechtenstein,Very High,2016,0.925
+Lithuania,Very High,2016,0.87
+Luxembourg,Very High,2016,0.922
+Madagascar,Low,2016,0.501
+Malawi,Low,2016,0.501
+Malaysia,Very High,2016,0.798
+Maldives,High,2016,0.734
+Mali,Low,2016,0.407
+Malta,Very High,2016,0.887
+Marshall Islands,High,2016,0.695
+Mauritania,Low,2016,0.532
+Mauritius,High,2016,0.794
+Mexico,High,2016,0.773
+Micronesia (Federated States of),Medium,2016,0.643
+Moldova (Republic of),High,2016,0.755
+Monaco,,2016,
+Mongolia,High,2016,0.741
+Montenegro,Very High,2016,0.826
+Morocco,Medium,2016,0.662
+Mozambique,Low,2016,0.448
+Myanmar,Medium,2016,0.567
+Namibia,Medium,2016,0.631
+Nauru,Medium,2016,0.655
+Nepal,Medium,2016,0.574
+Netherlands,Very High,2016,0.933
+New Zealand,Very High,2016,0.935
+Nicaragua,Medium,2016,0.65
+Niger,Low,2016,0.372
+Nigeria,Low,2016,0.526
+North Macedonia,High,2016,0.782
+Norway,Very High,2016,0.956
+Oman,Very High,2016,0.832
+Pakistan,Low,2016,0.533
+Palau,High,2016,0.784
+"Palestine, State of",High,2016,0.715
+Panama,Very High,2016,0.809
+Papua New Guinea,Medium,2016,0.547
+Paraguay,High,2016,0.736
+Peru,High,2016,0.764
+Philippines,High,2016,0.696
+Poland,Very High,2016,0.872
+Portugal,Very High,2016,0.851
+Qatar,Very High,2016,0.853
+Romania,Very High,2016,0.815
+Russian Federation,Very High,2016,0.826
+Rwanda,Low,2016,0.518
+Saint Kitts and Nevis,Very High,2016,0.836
+Saint Lucia,High,2016,0.744
+Saint Vincent and the Grenadines,High,2016,0.783
+Samoa,High,2016,0.714
+San Marino,Very High,2016,0.868
+Sao Tome and Principe,Medium,2016,0.599
+Saudi Arabia,Very High,2016,0.846
+Senegal,Low,2016,0.51
+Serbia,Very High,2016,0.8
+Seychelles,Very High,2016,0.798
+Sierra Leone,Low,2016,0.446
+Singapore,Very High,2016,0.937
+Slovakia,Very High,2016,0.855
+Slovenia,Very High,2016,0.909
+Solomon Islands,Medium,2016,0.564
+Somalia,Low,2016,
+South Africa,High,2016,0.711
+South Sudan,Low,2016,0.376
+Spain,Very High,2016,0.894
+Sri Lanka,High,2016,0.765
+Sudan,Low,2016,0.517
+Suriname,Medium,2016,0.709
+Sweden,Very High,2016,0.939
+Switzerland,Very High,2016,0.954
+Syrian Arab Republic,Medium,2016,0.551
+Tajikistan,Medium,2016,0.655
+Tanzania (United Republic of),Low,2016,0.509
+Thailand,Very High,2016,0.793
+Timor-Leste,Medium,2016,0.61
+Togo,Low,2016,0.515
+Tonga,High,2016,0.728
+Trinidad and Tobago,Very High,2016,0.81
+Tunisia,High,2016,0.728
+Turkmenistan,High,2016,0.729
+Tuvalu,Medium,2016,0.651
+Uganda,Medium,2016,0.531
+Ukraine,High,2016,0.767
+United Arab Emirates,Very High,2016,0.866
+United Kingdom,Very High,2016,0.926
+United States,Very High,2016,0.926
+Uruguay,Very High,2016,0.811
+Uzbekistan,High,2016,0.709
+Vanuatu,Medium,2016,0.596
+Venezuela (Bolivarian Republic of),Medium,2016,0.759
+Viet Nam,High,2016,0.702
+Yemen,Low,2016,0.443
+Zambia,Medium,2016,0.564
+Zimbabwe,Medium,2016,0.547
+Afghanistan,Low,2017,0.485
+Albania,High,2017,0.796
+Algeria,High,2017,0.738
+Andorra,Very High,2017,0.86
+Angola,Medium,2017,0.597
+Antigua and Barbuda,Very High,2017,0.824
+Argentina,Very High,2017,0.853
+Armenia,High,2017,0.775
+Australia,Very High,2017,0.937
+Austria,Very High,2017,0.914
+Azerbaijan,High,2017,0.754
+Bahamas,Very High,2017,0.812
+Bahrain,Very High,2017,0.867
+Bangladesh,Medium,2017,0.622
+Barbados,Very High,2017,0.803
+Belarus,Very High,2017,0.811
+Belgium,Very High,2017,0.931
+Belize,High,2017,0.716
+Benin,Low,2017,0.505
+Bhutan,Medium,2017,0.644
+Bolivia (Plurinational State of),Medium,2017,0.707
+Bosnia and Herzegovina,High,2017,0.77
+Botswana,High,2017,0.705
+Brazil,High,2017,0.758
+Brunei Darussalam,Very High,2017,0.829
+Bulgaria,High,2017,0.81
+Burkina Faso,Low,2017,0.432
+Burundi,Low,2017,0.422
+Cabo Verde,Medium,2017,0.668
+Cambodia,Medium,2017,0.581
+Cameroon,Medium,2017,0.574
+Canada,Very High,2017,0.929
+Central African Republic,Low,2017,0.379
+Chad,Low,2017,0.389
+Chile,Very High,2017,0.854
+China,High,2017,0.757
+Colombia,High,2017,0.765
+Comoros,Medium,2017,0.571
+Congo,Medium,2017,0.6
+Congo (Democratic Republic of the),Low,2017,0.469
+Costa Rica,Very High,2017,0.8
+Côte d'Ivoire,Low,2017,0.515
+Croatia,Very High,2017,0.855
+Cuba,High,2017,0.764
+Cyprus,Very High,2017,0.891
+Czechia,Very High,2017,0.896
+Denmark,Very High,2017,0.944
+Djibouti,Low,2017,0.491
+Dominica,High,2017,0.709
+Dominican Republic,High,2017,0.761
+Ecuador,High,2017,0.762
+Egypt,High,2017,0.709
+El Salvador,Medium,2017,0.667
+Equatorial Guinea,Medium,2017,0.65
+Eritrea,Low,2017,0.472
+Estonia,Very High,2017,0.886
+Eswatini (Kingdom of),Medium,2017,0.601
+Ethiopia,Low,2017,0.472
+Fiji,High,2017,0.728
+Finland,Very High,2017,0.934
+France,Very High,2017,0.899
+Gabon,Medium,2017,0.699
+Gambia,Low,2017,0.477
+Georgia,Very High,2017,0.807
+Germany,Very High,2017,0.944
+Ghana,Medium,2017,0.585
+Greece,Very High,2017,0.88
+Grenada,High,2017,0.786
+Guatemala,Medium,2017,0.636
+Guinea,Low,2017,0.467
+Guinea-Bissau,Low,2017,0.479
+Guyana,High,2017,0.699
+Haiti,Medium,2017,0.557
+Honduras,Medium,2017,0.614
+"Hong Kong, China (SAR)",Very High,2017,0.946
+Hungary,Very High,2017,0.846
+Iceland,Very High,2017,0.955
+India,Medium,2017,0.636
+Indonesia,High,2017,0.708
+Iran (Islamic Republic of),High,2017,0.788
+Iraq,Medium,2017,0.667
+Ireland,Very High,2017,0.934
+Israel,Very High,2017,0.906
+Italy,Very High,2017,0.889
+Jamaica,High,2017,0.711
+Japan,Very High,2017,0.916
+Jordan,High,2017,0.744
+Kazakhstan,Very High,2017,0.802
+Kenya,Medium,2017,0.591
+Kiribati,Medium,2017,0.626
+Korea (Democratic People's Rep. of),,2017,
+Korea (Republic of),Very High,2017,0.915
+Kuwait,Very High,2017,0.835
+Kyrgyzstan,High,2017,0.695
+Lao People's Democratic Republic,Medium,2017,0.612
+Latvia,Very High,2017,0.863
+Lebanon,High,2017,0.765
+Lesotho,Low,2017,0.522
+Liberia,Low,2017,0.481
+Libya,High,2017,0.761
+Liechtenstein,Very High,2017,0.934
+Lithuania,Very High,2017,0.878
+Luxembourg,Very High,2017,0.918
+Madagascar,Low,2017,0.502
+Malawi,Low,2017,0.506
+Malaysia,Very High,2017,0.8
+Maldives,High,2017,0.74
+Mali,Low,2017,0.413
+Malta,Very High,2017,0.896
+Marshall Islands,High,2017,0.702
+Mauritania,Low,2017,0.536
+Mauritius,High,2017,0.797
+Mexico,High,2017,0.776
+Micronesia (Federated States of),Medium,2017,0.643
+Moldova (Republic of),High,2017,0.764
+Monaco,,2017,
+Mongolia,High,2017,0.742
+Montenegro,Very High,2017,0.833
+Morocco,Medium,2017,0.671
+Mozambique,Low,2017,0.45
+Myanmar,Medium,2017,0.58
+Namibia,Medium,2017,0.634
+Nauru,Medium,2017,0.664
+Nepal,Medium,2017,0.581
+Netherlands,Very High,2017,0.936
+New Zealand,Very High,2017,0.935
+Nicaragua,Medium,2017,0.656
+Niger,Low,2017,0.377
+Nigeria,Low,2017,0.528
+North Macedonia,High,2017,0.789
+Norway,Very High,2017,0.959
+Oman,Very High,2017,0.833
+Pakistan,Low,2017,0.534
+Palau,High,2017,0.786
+"Palestine, State of",High,2017,0.718
+Panama,Very High,2017,0.814
+Papua New Guinea,Medium,2017,0.553
+Paraguay,High,2017,0.739
+Peru,High,2017,0.765
+Philippines,High,2017,0.7
+Poland,Very High,2017,0.874
+Portugal,Very High,2017,0.857
+Qatar,Very High,2017,0.862
+Romania,Very High,2017,0.823
+Russian Federation,Very High,2017,0.827
+Rwanda,Low,2017,0.52
+Saint Kitts and Nevis,Very High,2017,0.836
+Saint Lucia,High,2017,0.742
+Saint Vincent and the Grenadines,High,2017,0.789
+Samoa,High,2017,0.714
+San Marino,Very High,2017,0.867
+Sao Tome and Principe,Medium,2017,0.604
+Saudi Arabia,Very High,2017,0.849
+Senegal,Low,2017,0.511
+Serbia,Very High,2017,0.802
+Seychelles,Very High,2017,0.798
+Sierra Leone,Low,2017,0.448
+Singapore,Very High,2017,0.938
+Slovakia,Very High,2017,0.857
+Slovenia,Very High,2017,0.912
+Solomon Islands,Medium,2017,0.566
+Somalia,Low,2017,
+South Africa,High,2017,0.725
+South Sudan,Low,2017,0.378
+Spain,Very High,2017,0.896
+Sri Lanka,High,2017,0.77
+Sudan,Low,2017,0.52
+Suriname,Medium,2017,0.71
+Sweden,Very High,2017,0.941
+Switzerland,Very High,2017,0.955
+Syrian Arab Republic,Medium,2017,0.558
+Tajikistan,Medium,2017,0.659
+Tanzania (United Republic of),Low,2017,0.517
+Thailand,Very High,2017,0.795
+Timor-Leste,Medium,2017,0.614
+Togo,Low,2017,0.522
+Tonga,High,2017,0.734
+Trinidad and Tobago,Very High,2017,0.811
+Tunisia,High,2017,0.732
+Turkmenistan,High,2017,0.729
+Tuvalu,Medium,2017,0.651
+Uganda,Medium,2017,0.534
+Ukraine,High,2017,0.771
+United Arab Emirates,Very High,2017,0.898
+United Kingdom,Very High,2017,0.929
+United States,Very High,2017,0.928
+Uruguay,Very High,2017,0.815
+Uzbekistan,High,2017,0.714
+Vanuatu,Medium,2017,0.599
+Venezuela (Bolivarian Republic of),Medium,2017,0.75
+Viet Nam,High,2017,0.706
+Yemen,Low,2017,0.432
+Zambia,Medium,2017,0.568
+Zimbabwe,Medium,2017,0.552
+Afghanistan,Low,2018,0.486
+Albania,High,2018,0.797
+Algeria,High,2018,0.74
+Andorra,Very High,2018,0.863
+Angola,Medium,2018,0.598
+Antigua and Barbuda,Very High,2018,0.828
+Argentina,Very High,2018,0.852
+Armenia,High,2018,0.781
+Australia,Very High,2018,0.941
+Austria,Very High,2018,0.917
+Azerbaijan,High,2018,0.757
+Bahamas,Very High,2018,0.814
+Bahrain,Very High,2018,0.88
+Bangladesh,Medium,2018,0.636
+Barbados,Very High,2018,0.804
+Belarus,Very High,2018,0.812
+Belgium,Very High,2018,0.933
+Belize,High,2018,0.715
+Benin,Low,2018,0.506
+Bhutan,Medium,2018,0.655
+Bolivia (Plurinational State of),Medium,2018,0.712
+Bosnia and Herzegovina,High,2018,0.774
+Botswana,High,2018,0.7
+Brazil,High,2018,0.762
+Brunei Darussalam,Very High,2018,0.826
+Bulgaria,High,2018,0.811
+Burkina Faso,Low,2018,0.443
+Burundi,Low,2018,0.421
+Cabo Verde,Medium,2018,0.664
+Cambodia,Medium,2018,0.588
+Cameroon,Medium,2018,0.581
+Canada,Very High,2018,0.93
+Central African Republic,Low,2018,0.386
+Chad,Low,2018,0.393
+Chile,Very High,2018,0.856
+China,High,2018,0.766
+Colombia,High,2018,0.766
+Comoros,Medium,2018,0.578
+Congo,Medium,2018,0.603
+Congo (Democratic Republic of the),Low,2018,0.474
+Costa Rica,Very High,2018,0.804
+Côte d'Ivoire,Low,2018,0.522
+Croatia,Very High,2018,0.86
+Cuba,High,2018,0.765
+Cyprus,Very High,2018,0.896
+Czechia,Very High,2018,0.893
+Denmark,Very High,2018,0.942
+Djibouti,Low,2018,0.499
+Dominica,High,2018,0.744
+Dominican Republic,High,2018,0.763
+Ecuador,High,2018,0.761
+Egypt,High,2018,0.717
+El Salvador,Medium,2018,0.673
+Equatorial Guinea,Medium,2018,0.652
+Eritrea,Low,2018,0.482
+Estonia,Very High,2018,0.89
+Eswatini (Kingdom of),Medium,2018,0.613
+Ethiopia,Low,2018,0.479
+Fiji,High,2018,0.731
+Finland,Very High,2018,0.936
+France,Very High,2018,0.903
+Gabon,Medium,2018,0.699
+Gambia,Low,2018,0.483
+Georgia,Very High,2018,0.816
+Germany,Very High,2018,0.946
+Ghana,Medium,2018,0.589
+Greece,Very High,2018,0.886
+Grenada,High,2018,0.79
+Guatemala,Medium,2018,0.64
+Guinea,Low,2018,0.464
+Guinea-Bissau,Low,2018,0.48
+Guyana,High,2018,0.704
+Haiti,Medium,2018,0.559
+Honduras,Medium,2018,0.614
+"Hong Kong, China (SAR)",Very High,2018,0.949
+Hungary,Very High,2018,0.85
+Iceland,Very High,2018,0.958
+India,Medium,2018,0.636
+Indonesia,High,2018,0.712
+Iran (Islamic Republic of),High,2018,0.787
+Iraq,Medium,2018,0.673
+Ireland,Very High,2018,0.938
+Israel,Very High,2018,0.908
+Italy,Very High,2018,0.894
+Jamaica,High,2018,0.711
+Japan,Very High,2018,0.917
+Jordan,High,2018,0.742
+Kazakhstan,Very High,2018,0.804
+Kenya,Medium,2018,0.598
+Kiribati,Medium,2018,0.629
+Korea (Democratic People's Rep. of),,2018,
+Korea (Republic of),Very High,2018,0.918
+Kuwait,Very High,2018,0.836
+Kyrgyzstan,High,2018,0.698
+Lao People's Democratic Republic,Medium,2018,0.613
+Latvia,Very High,2018,0.868
+Lebanon,High,2018,0.764
+Lesotho,Low,2018,0.525
+Liberia,Low,2018,0.484
+Libya,High,2018,0.764
+Liechtenstein,Very High,2018,0.928
+Lithuania,Very High,2018,0.882
+Luxembourg,Very High,2018,0.921
+Madagascar,Low,2018,0.502
+Malawi,Low,2018,0.509
+Malaysia,Very High,2018,0.802
+Maldives,High,2018,0.747
+Mali,Low,2018,0.417
+Malta,Very High,2018,0.903
+Marshall Islands,High,2018,0.71
+Mauritania,Low,2018,0.546
+Mauritius,High,2018,0.8
+Mexico,High,2018,0.779
+Micronesia (Federated States of),Medium,2018,0.642
+Moldova (Republic of),High,2018,0.767
+Monaco,,2018,
+Mongolia,High,2018,0.754
+Montenegro,Very High,2018,0.838
+Morocco,Medium,2018,0.677
+Mozambique,Low,2018,0.458
+Myanmar,Medium,2018,0.595
+Namibia,Medium,2018,0.635
+Nauru,Medium,2018,0.668
+Nepal,Medium,2018,0.588
+Netherlands,Very High,2018,0.939
+New Zealand,Very High,2018,0.936
+Nicaragua,Medium,2018,0.658
+Niger,Low,2018,0.383
+Nigeria,Low,2018,0.53
+North Macedonia,High,2018,0.796
+Norway,Very High,2018,0.96
+Oman,Very High,2018,0.838
+Pakistan,Low,2018,0.535
+Palau,High,2018,0.788
+"Palestine, State of",High,2018,0.722
+Panama,Very High,2018,0.817
+Papua New Guinea,Medium,2018,0.556
+Paraguay,High,2018,0.742
+Peru,High,2018,0.77
+Philippines,High,2018,0.706
+Poland,Very High,2018,0.876
+Portugal,Very High,2018,0.858
+Qatar,Very High,2018,0.866
+Romania,Very High,2018,0.829
+Russian Federation,Very High,2018,0.836
+Rwanda,Low,2018,0.522
+Saint Kitts and Nevis,Very High,2018,0.835
+Saint Lucia,High,2018,0.744
+Saint Vincent and the Grenadines,High,2018,0.793
+Samoa,High,2018,0.713
+San Marino,Very High,2018,0.859
+Sao Tome and Principe,Medium,2018,0.607
+Saudi Arabia,Very High,2018,0.856
+Senegal,Low,2018,0.515
+Serbia,Very High,2018,0.808
+Seychelles,Very High,2018,0.804
+Sierra Leone,Low,2018,0.454
+Singapore,Very High,2018,0.942
+Slovakia,Very High,2018,0.86
+Slovenia,Very High,2018,0.916
+Solomon Islands,Medium,2018,0.568
+Somalia,Low,2018,
+South Africa,High,2018,0.731
+South Sudan,Low,2018,0.38
+Spain,Very High,2018,0.899
+Sri Lanka,High,2018,0.774
+Sudan,Low,2018,0.52
+Suriname,Medium,2018,0.714
+Sweden,Very High,2018,0.943
+Switzerland,Very High,2018,0.957
+Syrian Arab Republic,Medium,2018,0.563
+Tajikistan,Medium,2018,0.664
+Tanzania (United Republic of),Low,2018,0.525
+Thailand,Very High,2018,0.796
+Timor-Leste,Medium,2018,0.616
+Togo,Low,2018,0.528
+Tonga,High,2018,0.737
+Trinidad and Tobago,Very High,2018,0.809
+Tunisia,High,2018,0.737
+Turkmenistan,High,2018,0.73
+Tuvalu,Medium,2018,0.66
+Uganda,Medium,2018,0.539
+Ukraine,High,2018,0.771
+United Arab Emirates,Very High,2018,0.917
+United Kingdom,Very High,2018,0.928
+United States,Very High,2018,0.93
+Uruguay,Very High,2018,0.815
+Uzbekistan,High,2018,0.719
+Vanuatu,Medium,2018,0.604
+Venezuela (Bolivarian Republic of),Medium,2018,0.738
+Viet Nam,High,2018,0.711
+Yemen,Low,2018,0.427
+Zambia,Medium,2018,0.571
+Zimbabwe,Medium,2018,0.564
+Afghanistan,Low,2019,0.492
+Albania,High,2019,0.8
+Algeria,High,2019,0.742
+Andorra,Very High,2019,0.865
+Angola,Medium,2019,0.597
+Antigua and Barbuda,Very High,2019,0.831
+Argentina,Very High,2019,0.853
+Armenia,High,2019,0.789
+Australia,Very High,2019,0.941
+Austria,Very High,2019,0.92
+Azerbaijan,High,2019,0.762
+Bahamas,Very High,2019,0.802
+Bahrain,Very High,2019,0.888
+Bangladesh,Medium,2019,0.646
+Barbados,Very High,2019,0.806
+Belarus,Very High,2019,0.81
+Belgium,Very High,2019,0.936
+Belize,High,2019,0.718
+Benin,Low,2019,0.506
+Bhutan,Medium,2019,0.668
+Bolivia (Plurinational State of),Medium,2019,0.715
+Bosnia and Herzegovina,High,2019,0.78
+Botswana,High,2019,0.703
+Brazil,High,2019,0.764
+Brunei Darussalam,Very High,2019,0.827
+Bulgaria,High,2019,0.813
+Burkina Faso,Low,2019,0.446
+Burundi,Low,2019,0.423
+Cabo Verde,Medium,2019,0.667
+Cambodia,Medium,2019,0.596
+Cameroon,Medium,2019,0.586
+Canada,Very High,2019,0.932
+Central African Republic,Low,2019,0.391
+Chad,Low,2019,0.398
+Chile,Very High,2019,0.859
+China,High,2019,0.775
+Colombia,High,2019,0.768
+Comoros,Medium,2019,0.584
+Congo,Medium,2019,0.596
+Congo (Democratic Republic of the),Low,2019,0.476
+Costa Rica,Very High,2019,0.811
+Côte d'Ivoire,Low,2019,0.529
+Croatia,Very High,2019,0.866
+Cuba,High,2019,0.766
+Cyprus,Very High,2019,0.901
+Czechia,Very High,2019,0.896
+Denmark,Very High,2019,0.946
+Djibouti,Low,2019,0.508
+Dominica,High,2019,0.745
+Dominican Republic,High,2019,0.765
+Ecuador,High,2019,0.758
+Egypt,High,2019,0.724
+El Salvador,Medium,2019,0.676
+Equatorial Guinea,Medium,2019,0.653
+Eritrea,Low,2019,0.487
+Estonia,Very High,2019,0.893
+Eswatini (Kingdom of),Medium,2019,0.623
+Ethiopia,Low,2019,0.485
+Fiji,High,2019,0.73
+Finland,Very High,2019,0.939
+France,Very High,2019,0.905
+Gabon,Medium,2019,0.702
+Gambia,Low,2019,0.492
+Georgia,Very High,2019,0.816
+Germany,Very High,2019,0.951
+Ghana,Medium,2019,0.599
+Greece,Very High,2019,0.89
+Grenada,High,2019,0.79
+Guatemala,Medium,2019,0.645
+Guinea,Low,2019,0.47
+Guinea-Bissau,Low,2019,0.488
+Guyana,High,2019,0.711
+Haiti,Medium,2019,0.559
+Honduras,Medium,2019,0.629
+"Hong Kong, China (SAR)",Very High,2019,0.953
+Hungary,Very High,2019,0.854
+Iceland,Very High,2019,0.958
+India,Medium,2019,0.638
+Indonesia,High,2019,0.718
+Iran (Islamic Republic of),High,2019,0.785
+Iraq,Medium,2019,0.678
+Ireland,Very High,2019,0.942
+Israel,Very High,2019,0.909
+Italy,Very High,2019,0.899
+Jamaica,High,2019,0.712
+Japan,Very High,2019,0.918
+Jordan,High,2019,0.744
+Kazakhstan,Very High,2019,0.81
+Kenya,Medium,2019,0.604
+Kiribati,Medium,2019,0.636
+Korea (Democratic People's Rep. of),,2019,
+Korea (Republic of),Very High,2019,0.922
+Kuwait,Very High,2019,0.838
+Kyrgyzstan,High,2019,0.699
+Lao People's Democratic Republic,Medium,2019,0.617
+Latvia,Very High,2019,0.873
+Lebanon,High,2019,0.76
+Lesotho,Low,2019,0.528
+Liberia,Low,2019,0.485
+Libya,High,2019,0.756
+Liechtenstein,Very High,2019,0.94
+Lithuania,Very High,2019,0.886
+Luxembourg,Very High,2019,0.925
+Madagascar,Low,2019,0.498
+Malawi,Low,2019,0.514
+Malaysia,Very High,2019,0.805
+Maldives,High,2019,0.753
+Mali,Low,2019,0.421
+Malta,Very High,2019,0.905
+Marshall Islands,High,2019,0.722
+Mauritania,Low,2019,0.552
+Mauritius,High,2019,0.806
+Mexico,High,2019,0.781
+Micronesia (Federated States of),Medium,2019,0.64
+Moldova (Republic of),High,2019,0.773
+Monaco,,2019,
+Mongolia,High,2019,0.749
+Montenegro,Very High,2019,0.841
+Morocco,Medium,2019,0.684
+Mozambique,Low,2019,0.465
+Myanmar,Medium,2019,0.608
+Namibia,Medium,2019,0.638
+Nauru,Medium,2019,0.68
+Nepal,Medium,2019,0.598
+Netherlands,Very High,2019,0.941
+New Zealand,Very High,2019,0.937
+Nicaragua,Medium,2019,0.661
+Niger,Low,2019,0.39
+Nigeria,Low,2019,0.537
+North Macedonia,High,2019,0.787
+Norway,Very High,2019,0.961
+Oman,Very High,2019,0.841
+Pakistan,Low,2019,0.537
+Palau,High,2019,0.792
+"Palestine, State of",High,2019,0.739
+Panama,Very High,2019,0.82
+Papua New Guinea,Medium,2019,0.562
+Paraguay,High,2019,0.746
+Peru,High,2019,0.774
+Philippines,High,2019,0.714
+Poland,Very High,2019,0.88
+Portugal,Very High,2019,0.864
+Qatar,Very High,2019,0.869
+Romania,Very High,2019,0.834
+Russian Federation,Very High,2019,0.839
+Rwanda,Low,2019,0.531
+Saint Kitts and Nevis,Very High,2019,0.838
+Saint Lucia,High,2019,0.733
+Saint Vincent and the Grenadines,High,2019,0.789
+Samoa,High,2019,0.712
+San Marino,Very High,2019,0.861
+Sao Tome and Principe,Medium,2019,0.608
+Saudi Arabia,Very High,2019,0.862
+Senegal,Low,2019,0.514
+Serbia,Very High,2019,0.812
+Seychelles,Very High,2019,0.808
+Sierra Leone,Low,2019,0.457
+Singapore,Very High,2019,0.945
+Slovakia,Very High,2019,0.863
+Slovenia,Very High,2019,0.918
+Solomon Islands,Medium,2019,0.568
+Somalia,Low,2019,
+South Africa,High,2019,0.741
+South Sudan,Low,2019,0.391
+Spain,Very High,2019,0.904
+Sri Lanka,High,2019,0.775
+Sudan,Low,2019,0.521
+Suriname,Medium,2019,0.71
+Sweden,Very High,2019,0.947
+Switzerland,Very High,2019,0.96
+Syrian Arab Republic,Medium,2019,0.564
+Tajikistan,Medium,2019,0.668
+Tanzania (United Republic of),Low,2019,0.533
+Thailand,Very High,2019,0.801
+Timor-Leste,Medium,2019,0.627
+Togo,Low,2019,0.536
+Tonga,High,2019,0.74
+Trinidad and Tobago,Very High,2019,0.813
+Tunisia,High,2019,0.74
+Turkmenistan,High,2019,0.732
+Tuvalu,Medium,2019,0.654
+Uganda,Medium,2019,0.544
+Ukraine,High,2019,0.774
+United Arab Emirates,Very High,2019,0.933
+United Kingdom,Very High,2019,0.933
+United States,Very High,2019,0.933
+Uruguay,Very High,2019,0.818
+Uzbekistan,High,2019,0.725
+Vanuatu,Medium,2019,0.614
+Venezuela (Bolivarian Republic of),Medium,2019,0.72
+Viet Nam,High,2019,0.717
+Yemen,Low,2019,0.43
+Zambia,Medium,2019,0.574
+Zimbabwe,Medium,2019,0.56
+Afghanistan,Low,2020,0.488
+Albania,High,2020,0.784
+Algeria,High,2020,0.73
+Andorra,Very High,2020,0.843
+Angola,Medium,2020,0.594
+Antigua and Barbuda,Very High,2020,0.82
+Argentina,Very High,2020,0.841
+Armenia,High,2020,0.769
+Australia,Very High,2020,0.948
+Austria,Very High,2020,0.916
+Azerbaijan,High,2020,0.722
+Bahamas,Very High,2020,0.798
+Bahrain,Very High,2020,0.884
+Bangladesh,Medium,2020,0.657
+Barbados,Very High,2020,0.803
+Belarus,Very High,2020,0.8
+Belgium,Very High,2020,0.93
+Belize,High,2020,0.705
+Benin,Low,2020,0.501
+Bhutan,Medium,2020,0.675
+Bolivia (Plurinational State of),Medium,2020,0.691
+Bosnia and Herzegovina,High,2020,0.776
+Botswana,High,2020,0.701
+Brazil,High,2020,0.758
+Brunei Darussalam,Very High,2020,0.827
+Bulgaria,High,2020,0.802
+Burkina Faso,Low,2020,0.446
+Burundi,Low,2020,0.419
+Cabo Verde,Medium,2020,0.649
+Cambodia,Medium,2020,0.596
+Cameroon,Medium,2020,0.585
+Canada,Very High,2020,0.928
+Central African Republic,Low,2020,0.389
+Chad,Low,2020,0.396
+Chile,Very High,2020,0.849
+China,High,2020,0.781
+Colombia,High,2020,0.756
+Comoros,Medium,2020,0.588
+Congo,Medium,2020,0.598
+Congo (Democratic Republic of the),Low,2020,0.477
+Costa Rica,Very High,2020,0.811
+Côte d'Ivoire,Low,2020,0.53
+Croatia,Very High,2020,0.86
+Cuba,High,2020,0.759
+Cyprus,Very High,2020,0.9
+Czechia,Very High,2020,0.891
+Denmark,Very High,2020,0.946
+Djibouti,Low,2020,0.512
+Dominica,High,2020,0.738
+Dominican Republic,High,2020,0.76
+Ecuador,High,2020,0.734
+Egypt,High,2020,0.729
+El Salvador,Medium,2020,0.666
+Equatorial Guinea,Medium,2020,0.65
+Eritrea,Low,2020,0.49
+Estonia,Very High,2020,0.891
+Eswatini (Kingdom of),Medium,2020,0.622
+Ethiopia,Low,2020,0.489
+Fiji,High,2020,0.722
+Finland,Very High,2020,0.939
+France,Very High,2020,0.9
+Gabon,Medium,2020,0.704
+Gambia,Low,2020,0.492
+Georgia,Very High,2020,0.807
+Germany,Very High,2020,0.948
+Ghana,Medium,2020,0.601
+Greece,Very High,2020,0.887
+Grenada,High,2020,0.786
+Guatemala,Medium,2020,0.638
+Guinea,Low,2020,0.471
+Guinea-Bissau,Low,2020,0.482
+Guyana,High,2020,0.727
+Haiti,Medium,2020,0.557
+Honduras,Medium,2020,0.621
+"Hong Kong, China (SAR)",Very High,2020,0.955
+Hungary,Very High,2020,0.849
+Iceland,Very High,2020,0.955
+India,Medium,2020,0.638
+Indonesia,High,2020,0.712
+Iran (Islamic Republic of),High,2020,0.779
+Iraq,Medium,2020,0.661
+Ireland,Very High,2020,0.945
+Israel,Very High,2020,0.906
+Italy,Very High,2020,0.892
+Jamaica,High,2020,0.707
+Japan,Very High,2020,0.917
+Jordan,High,2020,0.74
+Kazakhstan,Very High,2020,0.806
+Kenya,Medium,2020,0.599
+Kiribati,Medium,2020,0.629
+Korea (Democratic People's Rep. of),,2020,
+Korea (Republic of),Very High,2020,0.922
+Kuwait,Very High,2020,0.826
+Kyrgyzstan,High,2020,0.691
+Lao People's Democratic Republic,Medium,2020,0.616
+Latvia,Very High,2020,0.873
+Lebanon,High,2020,0.742
+Lesotho,Low,2020,0.53
+Liberia,Low,2020,0.483
+Libya,High,2020,0.737
+Liechtenstein,Very High,2020,0.933
+Lithuania,Very High,2020,0.88
+Luxembourg,Very High,2020,0.921
+Madagascar,Low,2020,0.486
+Malawi,Low,2020,0.512
+Malaysia,Very High,2020,0.802
+Maldives,High,2020,0.737
+Mali,Low,2020,0.407
+Malta,Very High,2020,0.901
+Marshall Islands,High,2020,0.727
+Mauritania,Low,2020,0.539
+Mauritius,High,2020,0.792
+Mexico,High,2020,0.757
+Micronesia (Federated States of),Medium,2020,0.636
+Moldova (Republic of),High,2020,0.765
+Monaco,,2020,
+Mongolia,High,2020,0.74
+Montenegro,Very High,2020,0.832
+Morocco,Medium,2020,0.683
+Mozambique,Low,2020,0.467
+Myanmar,Medium,2020,0.615
+Namibia,Medium,2020,0.634
+Nauru,Medium,2020,0.689
+Nepal,Medium,2020,0.593
+Netherlands,Very High,2020,0.938
+New Zealand,Very High,2020,0.935
+Nicaragua,Medium,2020,0.652
+Niger,Low,2020,0.391
+Nigeria,Low,2020,0.539
+North Macedonia,High,2020,0.766
+Norway,Very High,2020,0.963
+Oman,Very High,2020,0.823
+Pakistan,Low,2020,0.536
+Palau,High,2020,0.794
+"Palestine, State of",High,2020,0.715
+Panama,Very High,2020,0.809
+Papua New Guinea,Medium,2020,0.567
+Paraguay,High,2020,0.742
+Peru,High,2020,0.758
+Philippines,High,2020,0.705
+Poland,Very High,2020,0.874
+Portugal,Very High,2020,0.861
+Qatar,Very High,2020,0.863
+Romania,Very High,2020,0.828
+Russian Federation,Very High,2020,0.826
+Rwanda,Low,2020,0.535
+Saint Kitts and Nevis,Very High,2020,0.832
+Saint Lucia,High,2020,0.724
+Saint Vincent and the Grenadines,High,2020,0.785
+Samoa,High,2020,0.712
+San Marino,Very High,2020,0.844
+Sao Tome and Principe,Medium,2020,0.609
+Saudi Arabia,Very High,2020,0.861
+Senegal,Low,2020,0.514
+Serbia,Very High,2020,0.806
+Seychelles,Very High,2020,0.799
+Sierra Leone,Low,2020,0.453
+Singapore,Very High,2020,0.942
+Slovakia,Very High,2020,0.86
+Slovenia,Very High,2020,0.91
+Solomon Islands,Medium,2020,0.566
+Somalia,Low,2020,
+South Africa,High,2020,0.722
+South Sudan,Low,2020,0.386
+Spain,Very High,2020,0.894
+Sri Lanka,High,2020,0.777
+Sudan,Low,2020,0.518
+Suriname,Medium,2020,0.702
+Sweden,Very High,2020,0.944
+Switzerland,Very High,2020,0.957
+Syrian Arab Republic,Medium,2020,0.561
+Tajikistan,Medium,2020,0.656
+Tanzania (United Republic of),Low,2020,0.535
+Thailand,Very High,2020,0.8
+Timor-Leste,Medium,2020,0.633
+Togo,Low,2020,0.54
+Tonga,High,2020,0.742
+Trinidad and Tobago,Very High,2020,0.815
+Tunisia,High,2020,0.734
+Turkmenistan,High,2020,0.731
+Tuvalu,Medium,2020,0.655
+Uganda,Medium,2020,0.545
+Ukraine,High,2020,0.762
+United Arab Emirates,Very High,2020,0.93
+United Kingdom,Very High,2020,0.92
+United States,Very High,2020,0.923
+Uruguay,Very High,2020,0.82
+Uzbekistan,High,2020,0.716
+Vanuatu,Medium,2020,0.612
+Venezuela (Bolivarian Republic of),Medium,2020,0.691
+Viet Nam,High,2020,0.726
+Yemen,Low,2020,0.43
+Zambia,Medium,2020,0.569
+Zimbabwe,Medium,2020,0.554
+Afghanistan,Low,2021,0.473
+Albania,High,2021,0.785
+Algeria,High,2021,0.74
+Andorra,Very High,2021,0.855
+Angola,Medium,2021,0.59
+Antigua and Barbuda,Very High,2021,0.819
+Argentina,Very High,2021,0.844
+Armenia,High,2021,0.774
+Australia,Very High,2021,0.949
+Austria,Very High,2021,0.92
+Azerbaijan,High,2021,0.738
+Bahamas,Very High,2021,0.799
+Bahrain,Very High,2021,0.884
+Bangladesh,Medium,2021,0.662
+Barbados,Very High,2021,0.803
+Belarus,Very High,2021,0.801
+Belgium,Very High,2021,0.938
+Belize,High,2021,0.698
+Benin,Low,2021,0.502
+Bhutan,Medium,2021,0.677
+Bolivia (Plurinational State of),Medium,2021,0.691
+Bosnia and Herzegovina,High,2021,0.776
+Botswana,High,2021,0.68
+Brazil,High,2021,0.756
+Brunei Darussalam,Very High,2021,0.824
+Bulgaria,High,2021,0.796
+Burkina Faso,Low,2021,0.445
+Burundi,Low,2021,0.419
+Cabo Verde,Medium,2021,0.65
+Cambodia,Medium,2021,0.596
+Cameroon,Medium,2021,0.581
+Canada,Very High,2021,0.934
+Central African Republic,Low,2021,0.387
+Chad,Low,2021,0.393
+Chile,Very High,2021,0.856
+China,High,2021,0.785
+Colombia,High,2021,0.752
+Comoros,Medium,2021,0.585
+Congo,Medium,2021,0.598
+Congo (Democratic Republic of the),Low,2021,0.475
+Costa Rica,Very High,2021,0.804
+Côte d'Ivoire,Low,2021,0.53
+Croatia,Very High,2021,0.867
+Cuba,High,2021,0.742
+Cyprus,Very High,2021,0.901
+Czechia,Very High,2021,0.891
+Denmark,Very High,2021,0.947
+Djibouti,Low,2021,0.512
+Dominica,High,2021,0.737
+Dominican Republic,High,2021,0.756
+Ecuador,High,2021,0.746
+Egypt,High,2021,0.726
+El Salvador,Medium,2021,0.669
+Equatorial Guinea,Medium,2021,0.647
+Eritrea,Low,2021,0.49
+Estonia,Very High,2021,0.89
+Eswatini (Kingdom of),Medium,2021,0.612
+Ethiopia,Low,2021,0.489
+Fiji,High,2021,0.715
+Finland,Very High,2021,0.941
+France,Very High,2021,0.906
+Gabon,Medium,2021,0.687
+Gambia,Low,2021,0.49
+Georgia,Very High,2021,0.809
+Germany,Very High,2021,0.948
+Ghana,Medium,2021,0.6
+Greece,Very High,2021,0.887
+Grenada,High,2021,0.788
+Guatemala,Medium,2021,0.63
+Guinea,Low,2021,0.467
+Guinea-Bissau,Low,2021,0.482
+Guyana,High,2021,0.721
+Haiti,Medium,2021,0.551
+Honduras,Medium,2021,0.62
+"Hong Kong, China (SAR)",Very High,2021,0.959
+Hungary,Very High,2021,0.846
+Iceland,Very High,2021,0.957
+India,Medium,2021,0.633
+Indonesia,High,2021,0.707
+Iran (Islamic Republic of),High,2021,0.776
+Iraq,Medium,2021,0.667
+Ireland,Very High,2021,0.946
+Israel,Very High,2021,0.911
+Italy,Very High,2021,0.899
+Jamaica,High,2021,0.704
+Japan,Very High,2021,0.92
+Jordan,High,2021,0.736
+Kazakhstan,Very High,2021,0.801
+Kenya,Medium,2021,0.596
+Kiribati,Medium,2021,0.627
+Korea (Democratic People's Rep. of),,2021,
+Korea (Republic of),Very High,2021,0.926
+Kuwait,Very High,2021,0.836
+Kyrgyzstan,High,2021,0.696
+Lao People's Democratic Republic,Medium,2021,0.615
+Latvia,Very High,2021,0.865
+Lebanon,High,2021,0.725
+Lesotho,Low,2021,0.522
+Liberia,Low,2021,0.484
+Libya,High,2021,0.746
+Liechtenstein,Very High,2021,0.936
+Lithuania,Very High,2021,0.875
+Luxembourg,Very High,2021,0.927
+Madagascar,Low,2021,0.484
+Malawi,Low,2021,0.509
+Malaysia,Very High,2021,0.798
+Maldives,High,2021,0.753
+Mali,Low,2021,0.408
+Malta,Very High,2021,0.912
+Marshall Islands,High,2021,0.729
+Mauritania,Low,2021,0.538
+Mauritius,High,2021,0.79
+Mexico,High,2021,0.757
+Micronesia (Federated States of),Medium,2021,0.634
+Moldova (Republic of),High,2021,0.767
+Monaco,,2021,
+Mongolia,High,2021,0.73
+Montenegro,Very High,2021,0.84
+Morocco,Medium,2021,0.688
+Mozambique,Low,2021,0.459
+Myanmar,Medium,2021,0.599
+Namibia,Medium,2021,0.616
+Nauru,Medium,2021,0.693
+Nepal,Medium,2021,0.591
+Netherlands,Very High,2021,0.941
+New Zealand,Very High,2021,0.936
+Nicaragua,Medium,2021,0.665
+Niger,Low,2021,0.389
+Nigeria,Low,2021,0.542
+North Macedonia,High,2021,0.764
+Norway,Very High,2021,0.964
+Oman,Very High,2021,0.81
+Pakistan,Low,2021,0.537
+Palau,High,2021,0.802
+"Palestine, State of",High,2021,0.715
+Panama,Very High,2021,0.813
+Papua New Guinea,Medium,2021,0.564
+Paraguay,High,2021,0.73
+Peru,High,2021,0.755
+Philippines,High,2021,0.692
+Poland,Very High,2021,0.876
+Portugal,Very High,2021,0.865
+Qatar,Very High,2021,0.864
+Romania,Very High,2021,0.825
+Russian Federation,Very High,2021,0.818
+Rwanda,Low,2021,0.539
+Saint Kitts and Nevis,Very High,2021,0.832
+Saint Lucia,High,2021,0.717
+Saint Vincent and the Grenadines,High,2021,0.773
+Samoa,High,2021,0.708
+San Marino,Very High,2021,0.853
+Sao Tome and Principe,Medium,2021,0.609
+Saudi Arabia,Very High,2021,0.867
+Senegal,Low,2021,0.512
+Serbia,Very High,2021,0.804
+Seychelles,Very High,2021,0.795
+Sierra Leone,Low,2021,0.456
+Singapore,Very High,2021,0.942
+Slovakia,Very High,2021,0.852
+Slovenia,Very High,2021,0.916
+Solomon Islands,Medium,2021,0.564
+Somalia,Low,2021,
+South Africa,High,2021,0.721
+South Sudan,Low,2021,0.381
+Spain,Very High,2021,0.904
+Sri Lanka,High,2021,0.783
+Sudan,Low,2021,0.516
+Suriname,Medium,2021,0.689
+Sweden,Very High,2021,0.949
+Switzerland,Very High,2021,0.965
+Syrian Arab Republic,Medium,2021,0.558
+Tajikistan,Medium,2021,0.677
+Tanzania (United Republic of),Low,2021,0.529
+Thailand,Very High,2021,0.797
+Timor-Leste,Medium,2021,0.574
+Togo,Low,2021,0.545
+Tonga,High,2021,0.738
+Trinidad and Tobago,Very High,2021,0.804
+Tunisia,High,2021,0.729
+Turkmenistan,High,2021,0.74
+Tuvalu,Medium,2021,0.653
+Uganda,Medium,2021,0.545
+Ukraine,High,2021,0.755
+United Arab Emirates,Very High,2021,0.931
+United Kingdom,Very High,2021,0.931
+United States,Very High,2021,0.921
+Uruguay,Very High,2021,0.814
+Uzbekistan,High,2021,0.721
+Vanuatu,Medium,2021,0.614
+Venezuela (Bolivarian Republic of),Medium,2021,0.69
+Viet Nam,High,2021,0.718
+Yemen,Low,2021,0.425
+Zambia,Medium,2021,0.565
+Zimbabwe,Medium,2021,0.549
+Afghanistan,Low,2022,0.462
+Albania,High,2022,0.789
+Algeria,High,2022,0.745
+Andorra,Very High,2022,0.884
+Angola,Medium,2022,0.591
+Antigua and Barbuda,Very High,2022,0.826
+Argentina,Very High,2022,0.849
+Armenia,High,2022,0.786
+Australia,Very High,2022,0.946
+Austria,Very High,2022,0.926
+Azerbaijan,High,2022,0.76
+Bahamas,Very High,2022,0.82
+Bahrain,Very High,2022,0.888
+Bangladesh,Medium,2022,0.67
+Barbados,Very High,2022,0.809
+Belarus,Very High,2022,0.801
+Belgium,Very High,2022,0.942
+Belize,High,2022,0.7
+Benin,Low,2022,0.504
+Bhutan,Medium,2022,0.681
+Bolivia (Plurinational State of),Medium,2022,0.698
+Bosnia and Herzegovina,High,2022,0.779
+Botswana,High,2022,0.708
+Brazil,High,2022,0.76
+Brunei Darussalam,Very High,2022,0.823
+Bulgaria,High,2022,0.799
+Burkina Faso,Low,2022,0.438
+Burundi,Low,2022,0.42
+Cabo Verde,Medium,2022,0.661
+Cambodia,Medium,2022,0.6
+Cameroon,Medium,2022,0.587
+Canada,Very High,2022,0.935
+Central African Republic,Low,2022,0.387
+Chad,Low,2022,0.394
+Chile,Very High,2022,0.86
+China,High,2022,0.788
+Colombia,High,2022,0.758
+Comoros,Medium,2022,0.586
+Congo,Medium,2022,0.593
+Congo (Democratic Republic of the),Low,2022,0.481
+Costa Rica,Very High,2022,0.806
+Côte d'Ivoire,Low,2022,0.534
+Croatia,Very High,2022,0.878
+Cuba,High,2022,0.764
+Cyprus,Very High,2022,0.907
+Czechia,Very High,2022,0.895
+Denmark,Very High,2022,0.952
+Djibouti,Low,2022,0.515
+Dominica,High,2022,0.74
+Dominican Republic,High,2022,0.766
+Ecuador,High,2022,0.765
+Egypt,High,2022,0.728
+El Salvador,Medium,2022,0.674
+Equatorial Guinea,Medium,2022,0.65
+Eritrea,Low,2022,0.493
+Estonia,Very High,2022,0.899
+Eswatini (Kingdom of),Medium,2022,0.61
+Ethiopia,Low,2022,0.492
+Fiji,High,2022,0.729
+Finland,Very High,2022,0.942
+France,Very High,2022,0.91
+Gabon,Medium,2022,0.693
+Gambia,Low,2022,0.495
+Georgia,Very High,2022,0.814
+Germany,Very High,2022,0.95
+Ghana,Medium,2022,0.602
+Greece,Very High,2022,0.893
+Grenada,High,2022,0.793
+Guatemala,Medium,2022,0.629
+Guinea,Low,2022,0.471
+Guinea-Bissau,Low,2022,0.483
+Guyana,High,2022,0.742
+Haiti,Medium,2022,0.552
+Honduras,Medium,2022,0.624
+"Hong Kong, China (SAR)",Very High,2022,0.956
+Hungary,Very High,2022,0.851
+Iceland,Very High,2022,0.959
+India,Medium,2022,0.644
+Indonesia,High,2022,0.713
+Iran (Islamic Republic of),High,2022,0.78
+Iraq,Medium,2022,0.673
+Ireland,Very High,2022,0.95
+Israel,Very High,2022,0.915
+Italy,Very High,2022,0.906
+Jamaica,High,2022,0.706
+Japan,Very High,2022,0.92
+Jordan,High,2022,0.736
+Kazakhstan,Very High,2022,0.802
+Kenya,Medium,2022,0.601
+Kiribati,Medium,2022,0.628
+Korea (Democratic People's Rep. of),,2022,
+Korea (Republic of),Very High,2022,0.929
+Kuwait,Very High,2022,0.847
+Kyrgyzstan,High,2022,0.701
+Lao People's Democratic Republic,Medium,2022,0.62
+Latvia,Very High,2022,0.879
+Lebanon,High,2022,0.723
+Lesotho,Low,2022,0.521
+Liberia,Low,2022,0.487
+Libya,High,2022,0.746
+Liechtenstein,Very High,2022,0.942
+Lithuania,Very High,2022,0.879
+Luxembourg,Very High,2022,0.927
+Madagascar,Low,2022,0.487
+Malawi,Low,2022,0.508
+Malaysia,Very High,2022,0.807
+Maldives,High,2022,0.762
+Mali,Low,2022,0.41
+Malta,Very High,2022,0.915
+Marshall Islands,High,2022,0.731
+Mauritania,Low,2022,0.54
+Mauritius,High,2022,0.796
+Mexico,High,2022,0.781
+Micronesia (Federated States of),Medium,2022,0.634
+Moldova (Republic of),High,2022,0.763
+Monaco,,2022,
+Mongolia,High,2022,0.741
+Montenegro,Very High,2022,0.844
+Morocco,Medium,2022,0.698
+Mozambique,Low,2022,0.461
+Myanmar,Medium,2022,0.608
+Namibia,Medium,2022,0.61
+Nauru,Medium,2022,0.696
+Nepal,Medium,2022,0.601
+Netherlands,Very High,2022,0.946
+New Zealand,Very High,2022,0.939
+Nicaragua,Medium,2022,0.669
+Niger,Low,2022,0.394
+Nigeria,Low,2022,0.548
+North Macedonia,High,2022,0.765
+Norway,Very High,2022,0.966
+Oman,Very High,2022,0.819
+Pakistan,Low,2022,0.54
+Palau,High,2022,0.797
+"Palestine, State of",High,2022,0.716
+Panama,Very High,2022,0.82
+Papua New Guinea,Medium,2022,0.568
+Paraguay,High,2022,0.731
+Peru,High,2022,0.762
+Philippines,High,2022,0.71
+Poland,Very High,2022,0.881
+Portugal,Very High,2022,0.874
+Qatar,Very High,2022,0.875
+Romania,Very High,2022,0.827
+Russian Federation,Very High,2022,0.821
+Rwanda,Low,2022,0.548
+Saint Kitts and Nevis,Very High,2022,0.838
+Saint Lucia,High,2022,0.725
+Saint Vincent and the Grenadines,High,2022,0.772
+Samoa,High,2022,0.702
+San Marino,Very High,2022,0.867
+Sao Tome and Principe,Medium,2022,0.613
+Saudi Arabia,Very High,2022,0.875
+Senegal,Low,2022,0.517
+Serbia,Very High,2022,0.805
+Seychelles,Very High,2022,0.802
+Sierra Leone,Low,2022,0.458
+Singapore,Very High,2022,0.949
+Slovakia,Very High,2022,0.855
+Slovenia,Very High,2022,0.926
+Solomon Islands,Medium,2022,0.562
+Somalia,Low,2022,0.38
+South Africa,High,2022,0.717
+South Sudan,Low,2022,0.381
+Spain,Very High,2022,0.911
+Sri Lanka,High,2022,0.78
+Sudan,Low,2022,0.516
+Suriname,Medium,2022,0.69
+Sweden,Very High,2022,0.952
+Switzerland,Very High,2022,0.967
+Syrian Arab Republic,Medium,2022,0.557
+Tajikistan,Medium,2022,0.679
+Tanzania (United Republic of),Low,2022,0.532
+Thailand,Very High,2022,0.803
+Timor-Leste,Medium,2022,0.566
+Togo,Low,2022,0.547
+Tonga,High,2022,0.739
+Trinidad and Tobago,Very High,2022,0.814
+Tunisia,High,2022,0.732
+Turkmenistan,High,2022,0.744
+Tuvalu,Medium,2022,0.653
+Uganda,Medium,2022,0.55
+Ukraine,High,2022,0.734
+United Arab Emirates,Very High,2022,0.937
+United Kingdom,Very High,2022,0.94
+United States,Very High,2022,0.927
+Uruguay,Very High,2022,0.83
+Uzbekistan,High,2022,0.727
+Vanuatu,Medium,2022,0.614
+Venezuela (Bolivarian Republic of),Medium,2022,0.699
+Viet Nam,High,2022,0.726
+Yemen,Low,2022,0.424
+Zambia,Medium,2022,0.569
+Zimbabwe,Medium,2022,0.55
