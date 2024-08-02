@@ -174,3 +174,42 @@ ggplot(tourism_df, aes(x = year, y = hotel_guests*1000)) +
   
   theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
 ```
+
+
+```{r}
+library(tidyverse)
+tourism_df<-read.csv("C:\\Users\\grozz\\Downloads\\Linear Regressions msds\\Final Project\\full_tourism_dataset.csv")
+ggplot(tourism_df, aes(x=total_tourism_employees, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
+```
+
+```{r}
+ggplot(tourism_df, aes(x=rooms, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()+
+View(tourism_df)
+```
+
+```{r}
+ggplot(expenditure_sub55, aes(x=bed_places, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()+scale_x_continuous(limits = c(0,50000))+geom_smooth(method = "lm", se=FALSE)
+```
+
+```{r}
+expenditure_sub55 <-tourism_df%>%filter(total_inbound_tourism_expenditure < 55000)
+ggplot(tourism_df, aes(x=establishments, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
+
+```
+
+```{r}
+ggplot(tourism_df, aes(x=occupancy_rate_per_bed_place, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
+```
+
+```{r}
+ggplot(tourism_df, aes(x=occupancy_rate_per_room, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
+```
+
+```{r}
+expenditure_sub55 <-tourism_df%>%filter(total_inbound_tourism_expenditure < 55000)
+
+ggplot(expedinture_sub55, aes(x=bed_places, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
+
+expenditure_sub55
+```
+
