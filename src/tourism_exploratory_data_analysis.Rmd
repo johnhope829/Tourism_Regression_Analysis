@@ -2,9 +2,175 @@
 
 ```{r, message=FALSE, warning=FALSE}
 library(tidyverse)
+library(ggcorrplot)
+library(RColorBrewer)
 ```
 
+```{r, message=FALSE, warning=FALSE}
+tourism_df <- read.csv("../data/processed/full_tourism_dataset.csv", na.strings=c("","NA"))
+
+tourism_df <- tourism_df %>% 
+  filter(year < 2020)
+```
+
+## Tourism Income by Region
+
+```{r}
+positions <- rev(c("Europe and Central Asia","East Asia and Pacific","North America","Middle East and North Africa","Latin America and the Caribbean", "South Asia", "Sub-Saharan Africa"))
+
+col_grid <- rgb(235, 235, 235, 100, maxColorValue = 255)
+
+ggplot(filter(tourism_df, year == 2019), aes(x = world_region, y = total_inbound_tourism_expenditure, fill = world_region)) +
+  geom_bar(stat = "summary", fun = "sum", color = "black", width = 1) +
+  geom_text(stat = "summary", 
+            fun = "sum", 
+            aes(label = paste0("italic('$", round(after_stat(y)/1000, 1), "B')")),
+            position = position_dodge(width= 1), 
+            hjust = -0.05,
+            size = 4.3,
+            parse = T
+            ) +
+  coord_flip() +
+  scale_y_continuous(limits = c(0, 500000), labels = scales::unit_format(unit = "B", scale = 1e-3, big.mark = ",")) +
+  scale_x_discrete(limits = positions) +
+  scale_fill_brewer(palette = "YlGnBu") +
+  labs(y = "Total Inbound Tourism Expenditure (in USD)", 
+       x = "World Region",
+       title = "2019 Tourism Income by World Region") +
+  theme_bw() +
+  theme(legend.position = "none") +
+  theme(panel.grid = element_line(color = col_grid)) +
+  theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
+```
+
+## Top 20 Countries Tourism Income and HDI Status
+
+```{r fig.width=7, fig.height=5} 
+tourism_2019_top_20 <- tourism_df %>% 
+  filter(year == 2019) %>%
+  mutate(hdi_code = ifelse(is.na(hdi_code), "N/A", hdi_code) ) %>% 
+  group_by(country, hdi_code) %>% 
+  summarise(country_sum = sum(total_inbound_tourism_expenditure)) %>% 
+  arrange(desc(country_sum)) %>% 
+  head(20)
+
+positions <- rev(tourism_2019_top_20$country)
+
+ggplot(tourism_2019_top_20, aes(x = country, y = country_sum, ))+#fill = hdi_code) ) +
+  geom_bar(stat = "summary", 
+           fun = "sum", 
+           aes(fill = hdi_code),
+           color = "black", 
+           width = 1,
+           show.legend = T) +
+  geom_text(stat = "summary", 
+            fun = "sum", 
+            aes(label = paste0("italic('$", round(after_stat(y)/1000, 1), "B')")),
+            position = position_dodge(width= 1), 
+            hjust = -0.05,
+            size = 3,
+            parse = T
+            ) +
+  coord_flip() +
+  scale_y_continuous(limits = c(0, 265000), labels = scales::unit_format(unit = "B", scale = 1e-3, big.mark = ",")) +
+  scale_x_discrete(limits = positions) +
+  scale_fill_manual(values = c(
+    "High" = "greenyellow", 
+    "Medium" = "gold", 
+    "Very High" = "forestgreen", 
+    "Low" = "red3"),
+    limits = c("Very High","High","Medium","Low",NA),
+    breaks = c("Very High","High","Medium","Low",NA)
+    ) +
+  labs(y = "Total Inbound Tourism Expenditure (in USD)", 
+       x = "Country",
+       title = "Top 20 Countries in Tourism Income (2019)",
+       fill = "HDI Status") +
+  theme_bw() +
+  theme(panel.grid = element_line(color = col_grid)) +
+  theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
+```
+
+## Bottom 20 Countries Tourism Income and HDI Status
+
+```{r fig.width=7, fig.height=5} 
+tourism_2019_bottom_20 <- tourism_df %>% 
+  filter(year == 2019) %>%
+  drop_na(total_inbound_tourism_expenditure) %>%
+  group_by(country, hdi_code) %>% 
+  summarise(country_sum = sum(total_inbound_tourism_expenditure)) %>% 
+  arrange(desc(country_sum)) %>% 
+  tail(20)
+
+positions <- (tourism_2019_bottom_20$country)
+
+ggplot(tourism_2019_bottom_20, aes(x = country, y = country_sum, ))+#fill = hdi_code) ) +
+  geom_bar(stat = "summary", 
+           fun = "sum", 
+           aes(fill = hdi_code),
+           color = "black", 
+           width = 1,
+           show.legend = T) +
+  geom_text(stat = "summary", 
+            fun = "sum", 
+            aes(label = paste0("italic('$", round(after_stat(y), 1), "M')")),
+            position = position_dodge(width= 1), 
+            hjust = -0.05,
+            size = 3,
+            parse = T
+            ) +
+  coord_flip() +
+  scale_y_continuous(limits = c(0,165), labels = scales::unit_format(unit = "M", scale = 1, big.mark = ",")) +
+  scale_x_discrete(limits = positions) +
+  scale_fill_manual(values = c(
+    "High" = "greenyellow", 
+    "Medium" = "gold", 
+    "Very High" = "forestgreen", 
+    "Low" = "red3"),
+    limits = c("Very High","High","Medium","Low",NA),
+    breaks = c("Very High","High","Medium","Low",NA)
+    ) +
+  labs(y = "Total Inbound Tourism Expenditure (in USD)", 
+       x = "Country",
+       title = "Bottom 20 Countries in Tourism Income (2019)",
+       fill = "HDI Status") +
+  theme_bw() +
+  theme(panel.grid = element_line(color = col_grid)) +
+  theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
+```
+
+## Correlation Matrix
+
+```{r}
+correlation_matrix <- round(cor(tourism_df[,-c(1,2,62)],  use = "pairwise.complete.obs"), 3)
+
+correlation_matrix
+```
+
+# Appendix
+
+## Hotel Guests Over Time
 
 ```{r, message=FALSE, warning=FALSE}
-tourism_df <- read.csv("../data/tourism_metrics.csv")
+ggplot(tourism_df, aes(x = year, y = hotel_guests*1000)) +
+  
+  stat_summary(fun.y = "sum", 
+               geom = "bar", 
+               position = "identity",
+               fill = "seagreen4",
+               color = "black",
+               width = 1) +
+  
+  scale_y_continuous(labels = scales::unit_format(unit = "M", scale = 1e-6, big.mark = ",")) +
+  
+  scale_x_continuous(limits = c(1994,2020), 
+                     breaks = c(seq(1995,2015,by = 5),2019)) +
+  
+  labs(x = "Year", 
+       y = "Hotel Guests", 
+       title = "Total Hotel Guests by Year (1995 - 2019)") +
+  
+  theme_bw() +
+  
+  theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
 ```
