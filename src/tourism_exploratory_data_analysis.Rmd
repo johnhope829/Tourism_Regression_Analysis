@@ -142,6 +142,8 @@ ggplot(tourism_2019_bottom_20, aes(x = country, y = country_sum, ))+#fill = hdi_
   theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
 ```
 
+## Economic Indicators
+
 ```{r}
 # GDP Per Capita
 gpc_cor <- round(cor(tourism_df$gdp_per_capita, tourism_df$total_inbound_tourism_expenditure, use = "pairwise.complete.obs"),4)
@@ -207,6 +209,37 @@ ggplot(tourism_df, aes(x = cpi, y = total_inbound_tourism_expenditure)) +
   theme_bw()
 ```
 
+```{r} 
+tourism_df <- tourism_df %>% 
+  mutate(condition = as.factor(
+    as.numeric(
+      (
+        (exchange_rate_growth >= 0.025 & total_arrivals_growth >= 0.025) | 
+          (exchange_rate_growth <= -0.025 & total_arrivals_growth <= -0.025)
+       )
+      )
+    )
+  )
+
+ggplot(tourism_df, aes(x = exchange_rate_growth, y = total_arrivals_growth, color = condition)) +
+  geom_point(size = 2, alpha = 0.5) +
+  scale_x_continuous(limits = c(-0.25,0.25), labels = scales::percent_format()) +
+  scale_y_continuous(limits = c(-0.5,0.5), labels = scales::percent_format()) +
+  scale_color_manual(values = c("1" = "darkred", "0" = "black"),
+                    limits = c("1","0"),
+                    breaks = "1",
+                    label = "Exchange rate and visitors\nboth grow > 2.5% or both grow < -2.5%") +
+  labs(x = "Exchange Rate Growth", 
+       y = "Total Visitors Growth",
+       title = "Exchange Rate Growth and Total Visitors Growth",
+       color = "Legend") +
+  theme_bw() +
+  #theme(legend.position = "none") +
+  theme(panel.grid = element_line(color = col_grid)) +
+  theme(plot.title = element_text(hjust = 0.5, size = 16, face = "bold.italic")) +
+ theme(legend.title = element_text(size=8), legend.text=element_text(size=8))
+```
+
 ## Correlation Matrix
 
 ```{r}
@@ -268,7 +301,6 @@ ggplot(tourism_df, aes(x = year, y = hotel_guests*1000)) +
   
   theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
 ```
-
 
 ```{r}
 library(tidyverse)
