@@ -29,7 +29,7 @@ This project makes use of the following R packages:
 - `broom` - for data manipulation
 - `car` - for detecing multicollinarity
 
-## Code
+### Code Files
 
 There are three code files in this repository which can be found in the `src` directory of this repository:
 - `data_cleaning.ipynb` ([src](src/data_cleaning.ipynb)). This file contains the Python code used to read, transform, and aggregate the data from the different sources.
