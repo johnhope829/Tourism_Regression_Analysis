@@ -39,16 +39,16 @@ There are three code files in this repository which can be found in the `src` di
 ## Data
 
 There is raw data collected from four organizations that is used as part of this project, all of which can be found in the `data/raw` section of this repository:
-- **UN Tourism**: Datasets collected from the UN Tourism open database, containing key tourism metrics, such as tourism income, number of visitors, and infrastructure
+- **UN Tourism**: Historical datasets collected from the UN Tourism open database, containing key tourism metrics, such as tourism income, number of visitors, and infrastructure
     - `unwto-all-data-download_2022.xlsx`
-- **UN Development Programme**: Dataset collected on the historical Human Development Index (HDI) for each country
+- **UN Development Programme**: Historical dataset collected on the Human Development Index (HDI) for each country
     - `HDR23-24_Composite_indices_complete_time_series.csv`
 - **U.S. Department of Agriculture**: Historical datasets collected on macroeconomic indicators from each country  
     - `RealGDPValues.xlsx`
     - `RealPerCapitaGDPValues.xlsx`
     - `RealExchangeRateValues.xlsx`
     - `CPIValues.xlsx`
-- **World Bank**: Historical datasets collected on unemployments from each country  
+- **World Bank**: Historical dataset collected on unemployments from each country  
     - `API_SL.UEM.TOTL.ZS_DS2_en_csv_v2_2431972.csv`
 
 All of the individual data files were processed into a more analytics ready format. All of which can be found in the `data/processed` section of this repository:
