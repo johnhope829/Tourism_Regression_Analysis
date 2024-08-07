@@ -1,5 +1,9 @@
 # Tourism Dataset Exploratory Data Analysis
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE)
+```
+
 ```{r, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(ggcorrplot)
@@ -8,14 +12,49 @@ library(gridExtra)
 ```
 
 ```{r, message=FALSE, warning=FALSE}
-tourism_df <- read.csv("../data/processed/full_tourism_dataset.csv", na.strings=c("","NA"))
+tourism_df <- read.csv("../data/processed/full_tourism_dataset.csv")
 
 tourism_df <- tourism_df %>% 
-  filter(year < 2020)
+  filter(year < 2020) %>% 
+  filter(total_inbound_tourism_expenditure >= 0 | total_arrivals >= 0) %>% 
+  mutate(world_region = as.factor(world_region),
+         hdi_code = as.factor(hdi_code))
+
+tourism_df <- tourism_df %>% 
+  mutate(tourism_grew = as.factor(ifelse(inbound_tourism_expenditure_growth >= 0.05, "Y", "N"))) %>% 
+  mutate(log_gdp = log(gdp),
+         log_gdp_per_capita = log(gdp_per_capita),
+         log_total_inbound_tourism_expenditure = log(total_inbound_tourism_expenditure))
 ```
 
 ```{r}
 col_grid <- rgb(235, 235, 235, 100, maxColorValue = 255)
+```
+
+## Hotel Guests Over Time
+
+```{r, message=FALSE, warning=FALSE}
+ggplot(tourism_df, aes(x = year, y = hotel_guests*1000)) +
+  
+  stat_summary(fun.y = "sum", 
+               geom = "bar", 
+               position = "identity",
+               fill = "seagreen4",
+               color = "black",
+               width = 1) +
+  
+  scale_y_continuous(labels = scales::unit_format(unit = "M", scale = 1e-6, big.mark = ",")) +
+  
+  scale_x_continuous(limits = c(1994,2020), 
+                     breaks = c(seq(1995,2015,by = 5),2019)) +
+  
+  labs(x = "Year", 
+       y = "Hotel Guests", 
+       title = "Total Hotel Guests by Year (1995 - 2019)") +
+  
+  theme_bw() +
+  
+  theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
 ```
 
 ## Tourism Income by Region
@@ -248,94 +287,49 @@ correlation_matrix <- round(cor(tourism_df[,-c(1,2,62)],  use = "pairwise.comple
 correlation_matrix
 ```
 
-# Research Question 2
-What is the influence of overnight, day visitors, cruise ship, etc on income? 
+## Infrastructure Scatterplots
 
 ```{r}
-income_df <- read.csv("../data/processed/full_tourism_dataset.csv", na.strings=c("","NA"))
-income_df
-```
-
-```{r}
-income_df <- select(income_df, world_region, year, total_inbound_tourism_expenditure, total_overnights, hotel_guests, hotel_overnights, overnight_visitors, same_day_visitors, same_day_cruise_passengers, visitors_personal, visitors_business_professional, total_arrivals_transport, arrivals_by_air, arrivals_by_water, arrivals_by_land, total_domestic_trip_visitors, domestic_trip_overnight_visitors, domestic_trip_same_day_visitors, total_guests_domestic, total_overnights_domestic, hotel_guests_domestic, hotel_overnights_domestic, gdp_per_capita, gdp, exchange_rate, cpi, hdi_code, hdi)
-income_df
+ggplot(tourism_df, aes(x=hotel_guests, y=total_inbound_tourism_expenditure, color = world_region)) + 
+  geom_point()
 ```
 
 ```{r}
-library(ggplot2)
-ggplot(income_df, aes(x=hotel_guests, y=total_inbound_tourism_expenditure, color = world_region)) + geom_point()
+ggplot(tourism_df, aes(x=visitors_personal, y=total_inbound_tourism_expenditure, color = world_region)) + 
+  geom_point()
 ```
 
 ```{r}
-ggplot(income_df, aes(x=visitors_personal, y=total_inbound_tourism_expenditure, color = world_region)) + geom_point()
+ggplot(tourism_df, aes(x=visitors_business_professional, y=total_inbound_tourism_expenditure, color = world_region)) + 
+  geom_point()
 ```
 
 ```{r}
-ggplot(income_df, aes(x=visitors_business_professional, y=total_inbound_tourism_expenditure, color = world_region)) + geom_point()
-```
-
-# Appendix
-
-## Hotel Guests Over Time
-
-```{r, message=FALSE, warning=FALSE}
-ggplot(tourism_df, aes(x = year, y = hotel_guests*1000)) +
-  
-  stat_summary(fun.y = "sum", 
-               geom = "bar", 
-               position = "identity",
-               fill = "seagreen4",
-               color = "black",
-               width = 1) +
-  
-  scale_y_continuous(labels = scales::unit_format(unit = "M", scale = 1e-6, big.mark = ",")) +
-  
-  scale_x_continuous(limits = c(1994,2020), 
-                     breaks = c(seq(1995,2015,by = 5),2019)) +
-  
-  labs(x = "Year", 
-       y = "Hotel Guests", 
-       title = "Total Hotel Guests by Year (1995 - 2019)") +
-  
-  theme_bw() +
-  
-  theme(plot.title = element_text(hjust = 0.5, size = 18, face = "bold.italic"))
+ggplot(tourism_df, aes(x=total_tourism_employees, y=total_inbound_tourism_expenditure, color=world_region)) + geom_point()
 ```
 
 ```{r}
-library(tidyverse)
-tourism_df<-read.csv("C:\\Users\\grozz\\Downloads\\Linear Regressions msds\\Final Project\\full_tourism_dataset.csv")
-ggplot(tourism_df, aes(x=total_tourism_employees, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
+ggplot(tourism_df, aes(x=rooms, y=total_inbound_tourism_expenditure, color=world_region)) + 
+  geom_point()
 ```
 
 ```{r}
-ggplot(tourism_df, aes(x=rooms, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()+
-View(tourism_df)
+ggplot(tourism_df, aes(x=bed_places, y=total_inbound_tourism_expenditure, color=world_region)) + 
+  geom_point() + 
+  scale_x_continuous(limits = c(0,50000))+geom_smooth(method = "lm", se=FALSE)
 ```
 
 ```{r}
-ggplot(expenditure_sub55, aes(x=bed_places, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()+scale_x_continuous(limits = c(0,50000))+geom_smooth(method = "lm", se=FALSE)
+ggplot(tourism_df, aes(x=establishments, y=total_inbound_tourism_expenditure, color=world_region)) + 
+  geom_point()
 ```
 
 ```{r}
-expenditure_sub55 <-tourism_df%>%filter(total_inbound_tourism_expenditure < 55000)
-ggplot(tourism_df, aes(x=establishments, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
-
+ggplot(tourism_df, aes(x=occupancy_rate_per_bed_place, y=total_inbound_tourism_expenditure, color=world_region)) + 
+  geom_point()
 ```
 
 ```{r}
-ggplot(tourism_df, aes(x=occupancy_rate_per_bed_place, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
+ggplot(tourism_df, aes(x=occupancy_rate_per_room, y=total_inbound_tourism_expenditure, color=world_region)) + 
+  geom_point()
 ```
-
-```{r}
-ggplot(tourism_df, aes(x=occupancy_rate_per_room, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
-```
-
-```{r}
-expenditure_sub55 <-tourism_df%>%filter(total_inbound_tourism_expenditure < 55000)
-
-ggplot(expedinture_sub55, aes(x=bed_places, y=total_inbound_tourism_expenditure, color=world_region))+geom_point()
-
-expenditure_sub55
-```
-

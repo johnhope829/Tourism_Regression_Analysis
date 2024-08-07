@@ -1,10 +1,789 @@
 # Tourism Dataset Regression Model Building
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE)
+```
+
 ```{r, message=FALSE, warning=FALSE}
 library(tidyverse)
+library(broom)
+library(MASS)
+library(caret)
+library(car)
+library(gridExtra)
+```
+
+## Read and Transform Data
+
+```{r, message=FALSE, warning=FALSE}
+tourism_df <- read.csv("../data/processed/full_tourism_dataset.csv")
+
+tourism_df <- tourism_df %>% 
+  filter(year < 2020) %>% 
+  filter(total_inbound_tourism_expenditure >= 0 | total_arrivals >= 0) %>% 
+  mutate(world_region = as.factor(world_region),
+         hdi_code = as.factor(hdi_code))
+
+tourism_df <- tourism_df %>% 
+  mutate(tourism_grew = as.factor(ifelse(inbound_tourism_expenditure_growth >= 0.05, "Y", "N"))) %>% 
+  mutate(log_gdp = log(gdp),
+         log_gdp_per_capita = log(gdp_per_capita),
+         log_total_inbound_tourism_expenditure = log(total_inbound_tourism_expenditure))
+```
+
+## Multiple Linear Regression Model 1 - Macroeconomic Indicators to Predict Tourism Income
+
+### Initial Models
+
+```{r}
+income_model_df <- tourism_df %>% 
+  dplyr::select(country,
+                year,
+                total_inbound_tourism_expenditure,
+                log_total_inbound_tourism_expenditure,
+                gdp_per_capita,
+                log_gdp_per_capita,
+                gdp,
+                log_gdp,
+                exchange_rate,
+                cpi,
+                hdi,
+                unemployment_rate,
+                hdi_code,
+                world_region) %>% 
+  na.omit()
+
+####################################
+## initial model - no interaction ##
+####################################
+income_model1 <- lm(log_total_inbound_tourism_expenditure~
+                     log_gdp_per_capita+
+                     log_gdp+
+                     exchange_rate+
+                     cpi+
+                     hdi+
+                     unemployment_rate+
+                     hdi_code+
+                     world_region, data = income_model_df)
+summary(income_model1)
+
+#################################
+## initial model - interaction ##
+#################################
+income_model2 <- lm(log_total_inbound_tourism_expenditure~
+                     log_gdp_per_capita+
+                     log_gdp+
+                     exchange_rate+
+                     cpi+
+                     unemployment_rate+
+                     cpi*hdi_code+
+                     cpi*world_region+
+                     hdi_code+
+                     world_region, data = income_model_df)
+summary(income_model2)
+```
+
+### Varible Selection
+
+#### Step-Wise AIC
+```{r}
+###################
+## step-wise AIC ##
+###################
+aic <- MASS::stepAIC(income_model2, direction = "both", trace = F)
+summary(aic) 
+# removed exchange rate and gdp_per_capita
+```
+
+#### Ridge Regression
+
+```{r}
+###################
+## design matrix ##
+###################
+X <- model.matrix(log_total_inbound_tourism_expenditure~
+                    0+
+                    log_gdp_per_capita+
+                    log_gdp+
+                    exchange_rate+
+                    cpi+
+                    unemployment_rate+
+                    cpi*hdi_code+
+                    cpi*world_region+
+                    hdi_code+
+                    world_region, data = income_model_df)
+
+y <- income_model_df$log_total_inbound_tourism_expenditure
+
+######################
+## ridge regression ##
+######################
+ridge_income_model <- glmnet(x = X, y = y, alpha = 0)
+ridge_k_cv_glmnet <- cv.glmnet(x = X, y = y, alpha = 0, nfolds = 10)
+plot(ridge_income_model, label = T, xvar = "lambda") + abline(v = log(ridge_k_cv_glmnet$lambda.1se))
+predict(ridge_income_model, type = "coefficient", s = ridge_k_cv_glmnet$lambda.1se, newx = X)
+
+# based on ridge regression, we would remove exchange rate, and interaction terms
+```
+
+#### Lasso Regression
+
+```{r}
+######################
+## lasso regression ##
+######################
+lasso_income_model <- glmnet(x = X, y = y, alpha = 1)
+lasso_k_cv_glmnet <- cv.glmnet(x = X, y = y, alpha = 0, nfolds = 10)
+plot(lasso_income_model, label = T, xvar = "lambda") + abline(v = log(lasso_k_cv_glmnet$lambda.1se))
+predict(lasso_income_model, type = "coefficient", s = lasso_k_cv_glmnet$lambda.1se, newx = X)
+
+# lasso would only keep gdp, gdp gdp per capita, cpi, and hdi_code
+```
+
+### Model Evals
+
+```{r}
+# use trainControl() function for applying cross validation methods
+control <- trainControl(method = "repeatedcv", number = 10, repeats = 10)
+
+aic_model <- train(log_total_inbound_tourism_expenditure~
+                     log_gdp+
+                     cpi+
+                     unemployment_rate+
+                     cpi*hdi_code+
+                     cpi*world_region+
+                     hdi_code+
+                     world_region,
+                   method = "lm", trControl = control, data = income_model_df)
+
+# model assessment
+aic_model$results$RMSE
+aic_model$results$Rsquared
+aic_model$results$MAE
+
+# train model, with control cv function
+ridge_model <- train(log_total_inbound_tourism_expenditure~
+                       log_gdp_per_capita+
+                       log_gdp+
+                       cpi+
+                       hdi_code+
+                       world_region,
+                      method = "lm", trControl = control, data = income_model_df)
+
+# model assessment
+ridge_model$results$RMSE
+ridge_model$results$Rsquared
+ridge_model$results$MAE
+
+# train model, with control cv function
+lasso_model <- train(log_total_inbound_tourism_expenditure~
+                       log_gdp_per_capita+ 
+                       log_gdp+
+                       cpi+
+                       hdi_code,
+                      method = "lm", trControl = control, data = income_model_df)
+
+# model assessment
+lasso_model$results$RMSE
+lasso_model$results$Rsquared
+lasso_model$results$MAE
+```
+
+```{r}
+# get VIF values
+car::vif(lasso_model$finalModel)
+```
+
+### Model Assumptions
+
+```{r, fig.height=7.5, fig.width = 15}
+#######################
+## model assumptions ##
+#######################
+
+p1 <- ggplot(income_model_df, aes(x = log_gdp_per_capita, y = log_total_inbound_tourism_expenditure)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  theme_minimal() +
+  labs(x = "ln(GDP Per Capita)", y = "ln(Tourism Income)") +
+  theme(axis.title = element_text(face = "bold"))
+
+p2 <- ggplot(income_model_df, aes(x = log_gdp, y = log_total_inbound_tourism_expenditure)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  theme_minimal() +
+  labs(x = "ln(GDP)", y = "ln(Tourism Income)") +
+  theme(axis.title = element_text(face = "bold"))
+
+p3 <- ggplot(income_model_df, aes(x = cpi, y = log_total_inbound_tourism_expenditure)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  scale_x_continuous(limits = c(0,150)) +
+  theme_minimal() +
+  labs(x = "CPI", y = "ln(Tourism Income)") +
+  theme(axis.title = element_text(face = "bold"))
+
+grid.arrange(p1,p2,p3, nrow = 2)
 ```
 
 
-```{r, message=FALSE, warning=FALSE}
-tourism_df <- read.csv("../data/tourism_metrics.csv")
+```{r, fig.width=7, fig.height = 6}
+income_final_model <- lm(log_total_inbound_tourism_expenditure~
+                     log_gdp_per_capita+ 
+                     log_gdp+
+                     cpi+
+                     hdi_code,
+                   data = income_model_df)
+
+# predictions, residuals on fitted model
+income_model_preds <- mutate(income_model_df, predictions = fitted(income_model), resid = residuals(income_model))
+
+# residual plot
+ggplot(income_model_preds, aes(x = predictions, y = resid)) +
+  geom_hline(yintercept = 0, color = "red", size = 1.1) +
+  geom_point(size = 2.5, alpha = 0.5) +
+  labs(x = "Predicted ln(Tourism Income)", y = "Residual") +
+  #scale_x_continuous(limits = c(0,50000))
+  theme_minimal() +
+  theme(strip.background = element_rect(fill="gray90"),
+        strip.text = element_text(size = 18, face = "bold")) +
+  theme(axis.title = element_text(face = "bold"))
+
+## qq plot
+ggplot(income_model_preds, aes(sample = resid)) +
+  stat_qq_line(size = 1, color = "red") +
+  stat_qq(size = 3, alpha = 0.6) +
+  labs(x = "Theoretical", y = "Sample") +
+  theme_minimal() +
+  theme(strip.background = element_rect(fill="gray90"),
+        strip.text = element_text(size = 18, face = "bold")) +
+  theme(axis.title = element_text(face = "bold"))
+```
+
+### Model Training
+
+```{r}
+####################
+## model training ##
+####################
+set.seed(6021)
+
+# use trainControl() function for applying cross validation methods
+control <- trainControl(method = "repeatedcv", number = 10, repeats = 100)
+
+# train model, with control cv function
+income_trained_model <- train(log_total_inbound_tourism_expenditure~
+                       log_gdp_per_capita+ 
+                       log_gdp+
+                       cpi+
+                       hdi_code,
+                      method = "lm", trControl = control, data = income_model_df)
+
+# model summary
+summary(income_trained_model)
+```
+
+### Predictions and Model Assessment
+
+```{r}
+set.seed(6021)
+
+# model assessment
+income_trained_model$results$RMSE
+income_trained_model$results$Rsquared
+income_trained_model$results$MAE
+
+# make predictions
+predictions <- exp(predict(income_trained_model, income_model_df))
+
+# get predictions interval into data frame
+pred_intervals <- data.frame(exp(predict(income_trained_model, newdata = income_model_df, interval = "prediction", level = 0.95)))
+colnames(pred_intervals) <- "predicted"
+
+# display outcomes
+pred_df <- income_model_df %>% 
+  dplyr::select(country, year, total_inbound_tourism_expenditure) %>% 
+  mutate(pred = pred_intervals$predicted)
+
+pred_df_view <- pred_df[sample.int(nrow(pred_df), 10),] 
+
+pred_df_view <- pred_df_view %>% 
+  rename(observed = total_inbound_tourism_expenditure)
+
+# summarize predictions results
+results <- income_model_df %>% 
+  mutate(preds = predictions,
+         observed = total_inbound_tourism_expenditure) %>% 
+  mutate(diff = observed - preds,
+         abs_diff = abs(observed - preds)) %>% 
+  mutate(pct_diff = 100 * (abs_diff / abs(observed))) 
+
+# get RMSE, MAE and MAPE on predicted values, non-log
+print(paste0("RMSE: ",round(sqrt(mean(results$diff^2)), 3)))
+print(paste0("MAE: ",round(mean(results$abs_diff),3)))
+print(paste0("MAPE: ",round(mean(results$pct_diff),3),"%"))
+```
+
+
+## Multiple Linear Regression Model 2 - Infrastructure to Preidct Tourism Income
+
+### Initial Model
+```{r}
+infrastructure_model_df <- tourism_df %>% 
+  dplyr::select(bed_places, occupancy_rate_per_bed_place,
+                establishments,rooms,total_tourism_employees,world_region,country,occupancy_rate_per_room,
+                year,log_total_inbound_tourism_expenditure,total_inbound_tourism_expenditure,
+                hdi_code) %>%
+  na.omit()
+
+infrastructure_model <-lm(log_total_inbound_tourism_expenditure~
+                            bed_places+
+                            occupancy_rate_per_room+occupancy_rate_per_bed_place+
+                            establishments+rooms+
+                            total_tourism_employees+
+                            hdi_code+
+                            world_region, 
+                          data = infrastructure_model_df)
+
+summary(infrastructure_model)
+```
+
+### Variable Selection
+
+```{r}
+# aic for variable selection
+aic_model <- MASS::stepAIC(infrastructure_model, direction = "both", trace = F)
+summary(aic_model) 
+```
+
+```{r}
+vif_values <- data.frame(car::vif(aic_model))
+
+ggplot(vif_values, aes(x = rownames(vif_values), y = GVIF)) + 
+  geom_bar(stat = "identity", fill = "navy") + 
+  geom_text(aes(label = format(round(GVIF,2), nsmall = 2)),
+            position = position_dodge(width= 1), 
+            hjust = -0.1,
+            size = 4.3
+            ) +
+  geom_hline(yintercept = 5, linetype = "dashed", color = "gold") + 
+  geom_hline(yintercept = 10, linetype = "dashed", color = "red") +
+  scale_y_continuous(limits = c(0,40), breaks = seq(0,40,by=5)) +
+  coord_flip() + 
+  labs(y= "VIF", x= "Feature") +
+  theme_minimal() +
+  theme(axis.text=element_text(size=8)) +
+  theme(axis.title = element_text(face = "bold"),
+        axis.text.y = element_text(face = "italic"))
+```
+
+```{r}
+# remove high VIF - rooms
+infrastructure_model2<-lm(log_total_inbound_tourism_expenditure~
+                            occupancy_rate_per_room+
+                            occupancy_rate_per_bed_place+
+                            establishments+
+                            total_tourism_employees+
+                            hdi_code+
+                            world_region, 
+                          data = tourism_df)
+
+summary(infrastructure_model2)
+
+vif(infrastructure_model2)
+
+# remove insignificant variable - employees
+
+infrastructure_model3 <-lm(log_total_inbound_tourism_expenditure~
+                           occupancy_rate_per_room+
+                           occupancy_rate_per_bed_place+
+                           establishments+
+                           hdi_code+
+                           world_region, 
+                         data = tourism_df)
+
+summary(infrastructure_model3)
+
+vif(infrastructure_model3)
+
+#optimized, predictors with adverse VIFs have been removed, r-squared & adjusted increased slightly
+```
+
+### Model Assumptions
+
+```{r, fig.height=7.5, fig.width = 15}
+##########################
+## linearity assumption ##
+##########################
+
+p1 <- ggplot(tourism_df, aes(x = occupancy_rate_per_room, y = log_total_inbound_tourism_expenditure)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  theme_minimal() +
+  labs(x = "Occupancy Rate per Room", y = "ln(Tourism Income)") +
+  theme(axis.title = element_text(face = "bold"))
+
+p2 <- ggplot(tourism_df, aes(x = occupancy_rate_per_bed_place, y = log_total_inbound_tourism_expenditure)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  theme_minimal() +
+  labs(x = "Occupancy Rate per Bed Place", y = "ln(Tourism Income)") +
+  theme(axis.title = element_text(face = "bold"))
+
+p3 <- ggplot(tourism_df, aes(x = establishments, y = log_total_inbound_tourism_expenditure)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  #scale_x_continuous(limits = c(0,20000)) +
+  theme_minimal() +
+  labs(x = "Number of Establishments", y = "ln(Tourism Income)") +
+  theme(axis.title = element_text(face = "bold"))
+
+grid.arrange(p1,p2,p3, nrow = 2)
+```
+
+```{r, fig.width=7, fig.height = 6}
+infrastructure_model_df <- tourism_df %>% 
+  dplyr::select(occupancy_rate_per_bed_place,occupancy_rate_per_room,establishments,hdi_code,world_region,
+                log_total_inbound_tourism_expenditure,total_inbound_tourism_expenditure,country,year) %>%
+  na.omit()
+
+infrastructure_final_model <- lm(log_total_inbound_tourism_expenditure~
+                           occupancy_rate_per_room+
+                           occupancy_rate_per_bed_place+
+                           establishments+
+                           hdi_code+
+                           world_region, 
+                         data = infrastructure_model_df)
+
+# predictions, residuals on fitted model
+infrastructure_model_preds <- mutate(infrastructure_model_df, 
+                             predictions = fitted(infrastructure_final_model), 
+                             resid = residuals(infrastructure_final_model))
+
+# residual plot
+ggplot(infrastructure_model_preds, aes(x = predictions, y = resid)) +
+  geom_hline(yintercept = 0, color = "red", size = 1.1) +
+  geom_point(size = 2.5, alpha = 0.5) +
+  labs(x = "Predicted ln(Tourism Income)", y = "Residual") +
+  #scale_x_continuous(limits = c(0,50000))
+  theme_minimal() +
+  theme(strip.background = element_rect(fill="gray90"),
+        strip.text = element_text(size = 18, face = "bold")) +
+  theme(axis.title = element_text(face = "bold"))
+
+## qq plot
+ggplot(infrastructure_model_preds, aes(sample = resid)) +
+  stat_qq_line(size = 1, color = "red") +
+  stat_qq(size = 3, alpha = 0.6) +
+  labs(x = "Theoretical", y = "Sample") +
+  theme_minimal() +
+  theme(strip.background = element_rect(fill="gray90"),
+        strip.text = element_text(size = 18, face = "bold")) +
+  theme(axis.title = element_text(face = "bold"))
+```
+
+### Model Training
+
+```{r, warning=FALSE}
+####################
+## model training ##
+####################
+set.seed(6021)
+
+# use trainControl() function for applying cross validation methods
+control <- trainControl(method = "repeatedcv", number = 10, repeats = 100)
+
+# train model, with control cv function
+infrastructure_trained_model <- train(log_total_inbound_tourism_expenditure~
+                                occupancy_rate_per_room+
+                                occupancy_rate_per_bed_place+
+                                establishments+
+                                hdi_code+
+                                world_region, 
+                              method = "lm", trControl = control, data = infrastructure_model_df)
+
+# model summary
+summary(infrastructure_trained_model)
+```
+
+### Predictions and Model Assessment
+
+```{r}
+set.seed(6021)
+
+# model assessment
+infrastructure_trained_model$results$RMSE
+infrastructure_trained_model$results$Rsquared
+infrastructure_trained_model$results$MAE
+
+# make predictions
+predictions <- exp(predict(infrastructure_trained_model, infrastructure_model_df))
+
+# get predictions interval into data frame
+pred_intervals <- data.frame(exp(predict(infrastructure_trained_model, 
+                                         newdata = infrastructure_model_df, 
+                                         interval = "prediction", level = 0.95)))
+colnames(pred_intervals) <- "predicted"
+
+# display outcomes
+pred_df <- infrastructure_model_df %>% 
+  dplyr::select(country, year, total_inbound_tourism_expenditure) %>% 
+  mutate(pred = pred_intervals$predicted)
+
+pred_df_view <- pred_df[sample.int(nrow(pred_df), 10),] 
+
+pred_df_view <- pred_df_view %>% 
+  rename(observed = total_inbound_tourism_expenditure)
+
+# summarize predictions results
+results <- infrastructure_model_df %>% 
+  mutate(preds = predictions,
+         observed = total_inbound_tourism_expenditure) %>% 
+  mutate(diff = observed - preds,
+         abs_diff = abs(observed - preds)) %>% 
+  mutate(pct_diff = 100 * (abs_diff / abs(observed))) 
+
+# get RMSE, MAE and MAPE on predicted values, non-log
+print(paste0("RMSE: ",round(sqrt(mean(results$diff^2)), 3)))
+print(paste0("MAE: ",round(mean(results$abs_diff),3)))
+print(paste0("MAPE: ",round(mean(results$pct_diff),3),"%"))
+```
+
+## Logistic Regression Model - Infrasturcture and Macroeconomic Growth to Predict Tourism Growth
+
+### Initial Model
+```{r}
+logit_model_df <- tourism_df %>% 
+  dplyr::select(country,
+                year,
+                tourism_grew,
+                total_arrivals_growth,
+                establishments_growth,
+                tourism_employees_growth,
+                gdp_per_capita_growth,
+                gdp_growth,
+                cpi_growth,
+                exchange_rate_growth,
+                unemployment_rate_growth,
+                hdi_growth,
+                hdi_code,
+                world_region
+                ) %>% 
+  na.omit()
+
+logit_model <- glm(tourism_grew~.-country-year
+                   , data = logit_model_df, family = "binomial")
+
+summary(logit_model)
+```
+
+### Variable Selection
+```{r}
+logit_aic <- MASS::stepAIC(logit_model, direction = "both", trace = F)
+summary(logit_aic)
+```
+
+```{r}
+car::vif(logit_aic)
+```
+
+### Model Training
+```{r}
+####################
+## model training ##
+####################
+
+set.seed(6021)
+
+# use trainControl() function for applying cross validation methods
+control <- trainControl(method = "cv", 
+                     number = 10, 
+                     summaryFunction = twoClassSummary, 
+                     classProbs = T,
+                     savePredictions = T
+                     )
+
+# train model, with control cv function
+logit_trained_model <- train(tourism_grew~
+                               total_arrivals_growth+
+                               gdp_growth+
+                               cpi_growth+
+                               exchange_rate_growth+
+                               unemployment_rate_growth,
+                               #hdi_code,
+                      data = logit_model_df, method = "glm", family = "binomial", 
+                      trControl = control, metric = "ROC")
+
+summary(logit_trained_model)
+```
+
+### Model Assumptions
+
+```{r, fig.height=6.7, fig.width = 13.3}
+# combine results
+results <- logit_model_df %>% 
+  mutate(prob = predict(logit_trained_model, logit_model_df, type = "prob")[,2]) %>% 
+  mutate(odds = log(prob / (1-prob))) %>% 
+  mutate(pred = ifelse(prob >= 0.50, 1, 0))
+
+p1 <- ggplot(results, aes(x = gdp_growth, y = odds)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  scale_x_continuous(limits = c(-0.05,0.1)) +
+  theme_minimal() +
+  labs(x = "GDP Growth", y = "Odds") +
+  theme(axis.title = element_text(face = "bold"))
+
+p2 <- ggplot(results, aes(x = cpi_growth, y = odds)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  scale_x_continuous(limits = c(-0.03,0.12)) +
+  scale_y_continuous(limits = c(-5, 5)) +
+  theme_minimal() +
+  labs(x = "CPI Growth", y = "Odds") +
+  theme(axis.title = element_text(face = "bold"))
+
+p3 <- ggplot(results, aes(x = exchange_rate_growth, y = odds)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  scale_x_continuous(limits = c(-0.25,0.25)) +
+  scale_y_continuous(limits = c(-5, 5)) +
+  theme_minimal() +
+  labs(x = "Exchange Rate Growth", y = "Odds") +
+  theme(axis.title = element_text(face = "bold"))
+
+p4 <- ggplot(results, aes(x = unemployment_rate_growth, y = odds)) +
+  geom_point(color = "navy", alpha = 0.8) + 
+  geom_smooth(method = "lm", se = F, color = "red") +
+  scale_x_continuous(limits = c(-0.3,0.4)) +
+  scale_y_continuous(limits = c(-5, 5)) +
+  theme_minimal() +
+  labs(x = "Unemployment Rate Growth", y = "Odds") +
+  theme(axis.title = element_text(face = "bold"))
+
+grid.arrange(p1,p2,p3,p4, nrow = 2)
+```
+
+### Predictions and Model Assessment
+
+#### Confusion Matrix, ROC Curve
+```{r, fig.width=7, fig.height = 6}
+
+set.seed(6021)
+
+# confusion matrix
+predictions <- logit_trained_model$pred
+table(predictions$pred, predictions$obs)
+
+roc <- roc(predictions$obs, predictions$Y)
+
+roc_dat <- data.frame(TPR = roc$sensitivities, FPR = 1 - roc$specificities)
+
+ggplot(roc_dat, aes(x = FPR, y = TPR)) +
+  geom_smooth(se = F, color = "navy") +
+  labs(x = "False Positive Rate", y = "True Positive Rate") +
+  theme_minimal() +
+  theme(axis.title = element_text(face = "bold")) +
+  annotate("text", x = 0.13, y = 0.9, size = 6, label = paste("AUC =",round(roc$auc[1],4)), fontface = "italic")
+```
+
+#### Accuracy Rates
+
+```{r}
+# accuracy rate
+print(paste0("Accuracy: ",
+             round(100*nrow(filter(predictions, pred == obs)) / nrow(predictions),2),
+             "%"))
+
+# true positive rate
+print(paste0("True Positive Rate: ", 
+             round(100*nrow(filter(predictions, pred == "Y" & obs == "Y")) /
+               nrow(filter(predictions, obs == "Y")),2),
+             "%"))
+
+# true negative rate
+print(paste0("True Negative Rate: ", 
+             round(100*nrow(filter(predictions, pred == "N" & obs == "N")) /
+               nrow(filter(predictions, obs == "N")),2),
+             "%"))
+
+# false negative rate
+print(paste0("False Negative Rate: ", 
+             round(100*nrow(filter(predictions, pred == "N" & obs == "Y")) /
+               nrow(filter(predictions, obs == "Y")),2),
+             "%"))
+
+# false positive rate
+print(paste0("False Positive Rate: ", 
+             round(100*nrow(filter(predictions, pred == "Y" & obs == "N")) /
+               nrow(filter(predictions, obs == "N")),2),
+             "%"))
+
+# f-1 score
+
+precision <- 300/(300+130)
+recall <- 300 /(300+128)
+
+2*((precision*recall)/(precision+recall))
+```
+
+# Appendix
+
+## Principle Component Regression
+
+```{r}
+####################
+## model training ##
+####################
+
+# 80% and 20% training and testing split
+train_split <- sample(x = 1:nrow(income_model_df), size = floor(0.8 * nrow(income_model_df)))
+training_data <- income_model_df[train_split,]
+testing_data <- income_model_df[-train_split,]
+
+# train regression model with cross validation
+pca_model <- pcr(log(total_inbound_tourism_expenditure)~
+                        gdp_per_capita+
+                        log(gdp)+
+                        cpi+
+                        hdi+
+                        unemployment_rate+
+                        log(gdp)*hdi_code+
+                        log(gdp)*world_region+
+                        cpi*hdi_code+
+                        cpi*world_region+
+                        hdi_code+
+                        world_region, data = training_data, scale = T, validation  = "CV")
+```
+
+```{r}
+# model summary
+summary(pca_model)
+
+# use validation plot for choosing number of components
+validationplot(pca_model, val.type = "MSE")
+```
+
+```{r}
+# make predictions on testing data
+predictions <- exp(predict(pca_model, newdata = testing_data, ncomp = 11))
+
+# mean absolute percentage error (MAPE)
+mape <- mean( 100 * abs((testing_data$total_inbound_tourism_expenditure - predictions) /
+                          testing_data$total_inbound_tourism_expenditure) )
+
+print(paste0("MAPE: ",round(mape,2),"%"))
+```
+
+## In Progress Models
+
+```{r}
+arrivals_model <- lm(total_arrivals~gdp_per_capita+gdp+exchange_rate+cpi+hdi+hdi_code, data = tourism_df)
+summary(arrivals_model)
+
+arrivals_growth_model <- lm(total_arrivals_growth~gdp_per_capita_growth+gdp_growth+exchange_rate_growth+cpi_growth+hdi_growth+hdi_code, data = tourism_df)
+summary(arrivals_growth_model)
+
+income_growth_model <- lm(inbound_tourism_expenditure_growth~gdp_per_capita_growth+gdp_growth+exchange_rate_growth+cpi_growth+hdi_growth+tourism_employees_growth, data = tourism_df)
+summary(income_growth_model)
 ```
